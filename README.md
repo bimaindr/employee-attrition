@@ -52,6 +52,12 @@ Sumber data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/emplo
 Setup environment:
 
 ```
+conda create --name penerapan-data-science python=3.9
+conda activate penerapan-data-science
+pip install numpy pandas scipy matplotlib seaborn jupyter sqlalchemy scikit-learn==1.2.2 joblib==1.3.1
+pip install psycopg2
+docker pull metabase/metabase:v0.46.4
+docker run -p 3000:3000 --name metabase metabase/metabase
 
 ```
 
