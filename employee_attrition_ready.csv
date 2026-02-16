@@ -1,0 +1,1471 @@
+employee_id,attrition,age,gender,marital_status,distance_from_home,department,job_role,job_level,over_time,total_working_years,years_at_company,job_satisfaction,work_life_balance,monthly_income,years_since_last_promotionyears_at_company,income_per_year_exp,loyal_ratio,promotion_lag,over_time_binary
+1,0,38.0,Male,Married,1.0,Human Resources,Human Resources,1,Yes,7.0,6.0,2.0,3.0,2991.0,1.0,373.875,0.75,5.0,1
+2,1,37.0,Female,Married,11.0,Research & Development,Healthcare Representative,2,No,15.0,1.0,2.0,1.0,4777.0,0.0,298.5625,0.0625,1.0,0
+3,1,51.0,Male,Married,4.0,Research & Development,Research Scientist,1,Yes,18.0,10.0,3.0,4.0,2461.0,2.0,129.52631578947367,0.5263157894736842,8.0,1
+4,0,42.0,Female,Married,26.0,Sales,Sales Executive,4,No,23.0,20.0,2.0,4.0,13525.0,4.0,563.5416666666666,0.8333333333333334,16.0,0
+5,0,40.0,Female,Married,2.0,Research & Development,Research Scientist,1,No,20.0,5.0,3.0,3.0,2001.0,0.0,95.28571428571429,0.23809523809523808,5.0,0
+6,0,29.0,Male,Married,6.0,Human Resources,Human Resources,1,No,1.0,1.0,2.0,3.0,2804.0,0.0,1402.0,0.5,1.0,0
+7,0,40.0,Male,Married,1.0,Sales,Sales Executive,2,Yes,6.0,4.0,4.0,2.0,7457.0,0.0,1065.2857142857142,0.5714285714285714,4.0,1
+8,1,55.0,Male,Married,2.0,Research & Development,Manager,5,Yes,24.0,5.0,1.0,3.0,19859.0,1.0,794.36,0.2,4.0,1
+9,0,36.0,Female,Single,18.0,Research & Development,Laboratory Technician,1,No,8.0,8.0,4.0,3.0,2153.0,1.0,239.22222222222223,0.8888888888888888,7.0,0
+10,0,32.0,Female,Single,3.0,Research & Development,Research Director,3,No,10.0,7.0,4.0,3.0,11159.0,7.0,1014.4545454545455,0.6363636363636364,0.0,0
+11,0,25.0,Male,Married,4.0,Sales,Sales Executive,2,No,5.0,5.0,1.0,4.0,4256.0,0.0,709.3333333333334,0.8333333333333334,5.0,0
+12,1,20.0,Male,Single,4.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,1.0,3.0,2973.0,0.0,1486.5,0.5,1.0,0
+13,0,47.0,Female,Married,14.0,Sales,Sales Executive,2,Yes,11.0,5.0,3.0,2.0,4591.0,1.0,382.5833333333333,0.4166666666666667,4.0,1
+14,0,42.0,Female,Single,23.0,Research & Development,Research Director,4,No,16.0,1.0,4.0,3.0,15992.0,0.0,940.7058823529412,0.058823529411764705,1.0,0
+15,0,31.0,Female,Married,12.0,Research & Development,Healthcare Representative,2,Yes,10.0,9.0,4.0,1.0,5855.0,8.0,532.2727272727273,0.8181818181818182,1.0,1
+16,0,38.0,Female,Divorced,6.0,Research & Development,Research Scientist,2,Yes,17.0,13.0,4.0,3.0,5329.0,1.0,296.05555555555554,0.7222222222222222,12.0,1
+17,0,39.0,Female,Single,2.0,Research & Development,Healthcare Representative,2,No,20.0,20.0,3.0,3.0,4553.0,11.0,216.8095238095238,0.9523809523809523,9.0,0
+18,0,54.0,Male,Married,5.0,Research & Development,Research Director,5,No,24.0,4.0,1.0,2.0,19406.0,1.0,776.24,0.16,3.0,0
+19,0,25.0,Male,Divorced,2.0,Research & Development,Manufacturing Director,2,No,7.0,7.0,3.0,3.0,5206.0,0.0,650.75,0.875,7.0,0
+20,0,49.0,Male,Married,4.0,Research & Development,Manager,5,No,23.0,1.0,3.0,4.0,18711.0,0.0,779.625,0.041666666666666664,1.0,0
+21,0,24.0,Male,Married,23.0,Research & Development,Research Scientist,1,Yes,6.0,6.0,4.0,3.0,2725.0,1.0,389.2857142857143,0.8571428571428571,5.0,1
+22,0,40.0,Female,Single,6.0,Research & Development,Manufacturing Director,4,No,22.0,20.0,3.0,3.0,13237.0,5.0,575.5217391304348,0.8695652173913043,15.0,0
+23,0,41.0,Male,Single,10.0,Sales,Sales Executive,2,No,16.0,14.0,4.0,3.0,6230.0,1.0,366.47058823529414,0.8235294117647058,13.0,0
+24,0,32.0,Female,Married,8.0,Sales,Sales Executive,2,Yes,13.0,13.0,2.0,3.0,5228.0,11.0,373.42857142857144,0.9285714285714286,2.0,1
+25,1,24.0,Male,Married,1.0,Research & Development,Research Scientist,1,Yes,6.0,2.0,4.0,2.0,2293.0,2.0,327.57142857142856,0.2857142857142857,0.0,1
+26,0,49.0,Female,Married,25.0,Research & Development,Laboratory Technician,1,No,10.0,9.0,1.0,2.0,3211.0,1.0,291.90909090909093,0.8181818181818182,8.0,0
+27,0,24.0,Male,Divorced,21.0,Research & Development,Laboratory Technician,1,No,2.0,1.0,1.0,3.0,2296.0,0.0,765.3333333333334,0.3333333333333333,1.0,0
+28,0,39.0,Female,Divorced,13.0,Research & Development,Manager,4,Yes,21.0,19.0,2.0,3.0,17123.0,15.0,778.3181818181819,0.8636363636363636,4.0,1
+29,0,59.0,Male,Married,6.0,Human Resources,Human Resources,1,No,7.0,2.0,3.0,2.0,2267.0,2.0,283.375,0.25,0.0,0
+30,0,47.0,Female,Married,26.0,Human Resources,Manager,5,No,27.0,5.0,3.0,3.0,19658.0,1.0,702.0714285714286,0.17857142857142858,4.0,0
+31,0,36.0,Male,Married,14.0,Research & Development,Healthcare Representative,2,Yes,17.0,16.0,4.0,2.0,6586.0,4.0,365.8888888888889,0.8888888888888888,12.0,1
+32,0,30.0,Male,Divorced,7.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,3.0,2.0,3491.0,8.0,317.3636363636364,0.9090909090909091,2.0,0
+33,0,38.0,Male,Married,1.0,Human Resources,Human Resources,1,No,7.0,7.0,3.0,4.0,2844.0,5.0,355.5,0.875,2.0,0
+34,1,28.0,Male,Married,1.0,Sales,Sales Representative,1,No,5.0,3.0,3.0,4.0,2909.0,1.0,484.8333333333333,0.5,2.0,0
+35,0,31.0,Male,Divorced,2.0,Research & Development,Research Scientist,1,Yes,3.0,2.0,4.0,1.0,2695.0,2.0,673.75,0.5,0.0,1
+36,0,36.0,Female,Single,1.0,Sales,Sales Executive,2,No,7.0,1.0,4.0,3.0,6653.0,0.0,831.625,0.125,1.0,0
+37,0,32.0,Male,Married,1.0,Research & Development,Manufacturing Director,2,Yes,9.0,9.0,4.0,3.0,6162.0,7.0,616.2,0.9,2.0,1
+38,0,43.0,Male,Divorced,27.0,Research & Development,Laboratory Technician,1,No,8.0,6.0,2.0,3.0,4876.0,0.0,541.7777777777778,0.6666666666666666,6.0,0
+39,0,28.0,Male,Married,4.0,Sales,Sales Executive,2,No,5.0,5.0,3.0,4.0,4221.0,0.0,703.5,0.8333333333333334,5.0,0
+40,1,31.0,Male,Married,6.0,Sales,Sales Executive,2,Yes,12.0,7.0,3.0,2.0,6172.0,7.0,474.7692307692308,0.5384615384615384,0.0,1
+41,0,50.0,Male,Married,8.0,Sales,Sales Representative,1,No,4.0,2.0,2.0,3.0,3875.0,2.0,775.0,0.4,0.0,0
+42,0,39.0,Male,Divorced,1.0,Research & Development,Healthcare Representative,3,No,19.0,18.0,4.0,2.0,9613.0,3.0,480.65,0.9,15.0,0
+43,0,35.0,Male,Married,16.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,2.0,3.0,2426.0,0.0,346.57142857142856,0.7142857142857143,5.0,0
+44,0,32.0,Male,Married,5.0,Sales,Sales Executive,2,No,10.0,10.0,2.0,3.0,6524.0,5.0,593.0909090909091,0.9090909090909091,5.0,0
+45,1,26.0,Male,Divorced,21.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,3.0,2.0,2377.0,0.0,1188.5,0.5,1.0,0
+46,0,30.0,Male,Married,2.0,Research & Development,Healthcare Representative,2,No,11.0,11.0,4.0,3.0,4152.0,10.0,346.0,0.9166666666666666,1.0,0
+47,0,38.0,Female,Married,10.0,Sales,Sales Executive,2,No,10.0,10.0,4.0,3.0,5343.0,1.0,485.72727272727275,0.9090909090909091,9.0,0
+48,0,30.0,Male,Divorced,1.0,Human Resources,Human Resources,1,No,6.0,5.0,3.0,4.0,2064.0,1.0,294.85714285714283,0.7142857142857143,4.0,0
+49,0,38.0,Male,Single,23.0,Research & Development,Manufacturing Director,3,No,10.0,9.0,3.0,3.0,9526.0,1.0,866.0,0.8181818181818182,8.0,0
+50,0,21.0,Male,Single,22.0,Sales,Sales Representative,1,No,3.0,3.0,3.0,3.0,3447.0,1.0,861.75,0.75,2.0,0
+51,0,35.0,Male,Single,7.0,Research & Development,Manufacturing Director,3,No,17.0,8.0,3.0,4.0,10221.0,1.0,567.8333333333334,0.4444444444444444,7.0,0
+52,0,50.0,Male,Married,9.0,Sales,Manager,5,Yes,27.0,1.0,3.0,3.0,19331.0,0.0,690.3928571428571,0.03571428571428571,1.0,1
+53,0,34.0,Male,Divorced,10.0,Research & Development,Manufacturing Director,2,No,9.0,9.0,4.0,3.0,4724.0,7.0,472.4,0.9,2.0,0
+54,0,26.0,Female,Divorced,1.0,Research & Development,Manufacturing Director,2,No,6.0,6.0,2.0,1.0,6397.0,1.0,913.8571428571429,0.8571428571428571,5.0,0
+55,1,31.0,Male,Married,2.0,Research & Development,Laboratory Technician,1,Yes,7.0,2.0,4.0,1.0,3722.0,2.0,465.25,0.25,0.0,1
+56,0,30.0,Male,Married,7.0,Research & Development,Research Scientist,1,No,6.0,6.0,2.0,2.0,2141.0,1.0,305.85714285714283,0.8571428571428571,5.0,0
+57,0,32.0,Female,Married,2.0,Research & Development,Laboratory Technician,1,No,8.0,8.0,2.0,3.0,2370.0,0.0,263.3333333333333,0.8888888888888888,8.0,0
+58,0,32.0,Male,Single,10.0,Sales,Sales Executive,2,No,10.0,10.0,4.0,2.0,5396.0,0.0,490.54545454545456,0.9090909090909091,10.0,0
+59,0,34.0,Male,Divorced,2.0,Research & Development,Research Scientist,1,No,14.0,7.0,3.0,3.0,2768.0,5.0,184.53333333333333,0.4666666666666667,2.0,0
+60,0,33.0,Female,Married,5.0,Research & Development,Manager,3,No,12.0,10.0,2.0,3.0,11878.0,8.0,913.6923076923077,0.7692307692307693,2.0,0
+61,0,47.0,Female,Divorced,2.0,Research & Development,Manufacturing Director,2,No,20.0,5.0,4.0,3.0,5070.0,0.0,241.42857142857142,0.23809523809523808,5.0,0
+62,0,35.0,Male,Married,7.0,Sales,Sales Representative,1,No,1.0,1.0,3.0,3.0,2404.0,0.0,1202.0,0.5,1.0,0
+63,0,30.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,7.0,2.0,3.0,3.0,3833.0,0.0,479.125,0.25,2.0,0
+64,0,58.0,Female,Married,9.0,Research & Development,Research Scientist,1,Yes,9.0,1.0,2.0,2.0,3346.0,0.0,334.6,0.1,1.0,1
+65,1,37.0,Male,Married,1.0,Sales,Sales Executive,3,No,17.0,14.0,3.0,1.0,10609.0,11.0,589.3888888888889,0.7777777777777778,3.0,0
+66,0,45.0,Female,Single,28.0,Research & Development,Research Director,4,No,21.0,21.0,2.0,3.0,16704.0,8.0,759.2727272727273,0.9545454545454546,13.0,0
+67,0,52.0,Male,Divorced,29.0,Sales,Sales Representative,1,No,16.0,9.0,4.0,2.0,3482.0,0.0,204.8235294117647,0.5294117647058824,9.0,0
+68,0,38.0,Female,Single,9.0,Research & Development,Laboratory Technician,1,No,2.0,2.0,4.0,3.0,2288.0,2.0,762.6666666666666,0.6666666666666666,0.0,0
+69,1,43.0,Female,Single,9.0,Sales,Sales Executive,2,No,7.0,4.0,3.0,2.0,5346.0,1.0,668.25,0.5,3.0,0
+70,0,27.0,Female,Married,23.0,Sales,Sales Representative,2,No,9.0,9.0,3.0,3.0,3540.0,5.0,354.0,0.9,4.0,0
+71,0,52.0,Female,Married,28.0,Research & Development,Manufacturing Director,4,Yes,24.0,5.0,3.0,2.0,13247.0,0.0,529.88,0.2,5.0,1
+72,0,49.0,Female,Married,3.0,Research & Development,Laboratory Technician,2,No,10.0,3.0,1.0,3.0,4789.0,1.0,435.3636363636364,0.2727272727272727,2.0,0
+73,0,44.0,Female,Divorced,1.0,Sales,Sales Executive,2,Yes,9.0,4.0,1.0,2.0,5454.0,1.0,545.4,0.4,3.0,1
+74,0,59.0,Male,Married,3.0,Research & Development,Research Scientist,1,No,7.0,1.0,4.0,3.0,2177.0,0.0,272.125,0.125,1.0,0
+75,0,58.0,Female,Married,21.0,Sales,Manager,4,Yes,29.0,1.0,4.0,2.0,17875.0,0.0,595.8333333333334,0.03333333333333333,1.0,1
+76,0,31.0,Female,Divorced,4.0,Research & Development,Laboratory Technician,1,No,4.0,2.0,3.0,2.0,3978.0,2.0,795.6,0.4,0.0,0
+77,0,42.0,Female,Divorced,21.0,Research & Development,Manufacturing Director,2,No,11.0,5.0,3.0,3.0,5265.0,0.0,438.75,0.4166666666666667,5.0,0
+78,0,45.0,Male,Married,2.0,Sales,Sales Executive,2,No,9.0,8.0,2.0,4.0,4805.0,3.0,480.5,0.8,5.0,0
+79,0,31.0,Female,Divorced,10.0,Sales,Sales Executive,2,Yes,8.0,5.0,4.0,3.0,6583.0,1.0,731.4444444444445,0.5555555555555556,4.0,1
+80,0,34.0,Female,Divorced,3.0,Research & Development,Research Scientist,2,No,11.0,11.0,2.0,3.0,5433.0,7.0,452.75,0.9166666666666666,4.0,0
+81,1,21.0,Female,Single,18.0,Research & Development,Research Scientist,1,No,1.0,1.0,4.0,2.0,2693.0,0.0,1346.5,0.5,1.0,0
+82,0,23.0,Male,Married,4.0,Research & Development,Research Scientist,1,No,5.0,3.0,1.0,4.0,2819.0,0.0,469.8333333333333,0.5,3.0,0
+83,0,47.0,Female,Single,9.0,Research & Development,Laboratory Technician,1,No,7.0,2.0,3.0,3.0,2105.0,2.0,263.125,0.25,0.0,0
+84,0,54.0,Female,Married,3.0,Sales,Sales Executive,2,No,16.0,6.0,1.0,3.0,5940.0,0.0,349.4117647058824,0.35294117647058826,6.0,0
+85,0,41.0,Female,Married,7.0,Research & Development,Research Scientist,1,No,10.0,10.0,3.0,3.0,3376.0,0.0,306.90909090909093,0.9090909090909091,10.0,0
+86,0,45.0,Male,Divorced,20.0,Research & Development,Healthcare Representative,3,Yes,24.0,7.0,1.0,3.0,10851.0,0.0,434.04,0.28,7.0,1
+87,0,36.0,Female,Married,11.0,Sales,Sales Executive,2,No,8.0,6.0,4.0,2.0,6652.0,0.0,739.1111111111111,0.6666666666666666,6.0,0
+88,0,45.0,Female,Single,6.0,Sales,Sales Executive,3,No,23.0,19.0,4.0,3.0,8865.0,12.0,369.375,0.7916666666666666,7.0,0
+89,0,46.0,Female,Married,10.0,Sales,Sales Executive,3,No,14.0,8.0,2.0,3.0,7314.0,0.0,487.6,0.5333333333333333,8.0,0
+90,0,42.0,Male,Divorced,12.0,Sales,Sales Executive,2,Yes,14.0,0.0,4.0,3.0,5087.0,0.0,339.1333333333333,0.0,0.0,1
+91,0,34.0,Male,Married,5.0,Research & Development,Laboratory Technician,2,No,15.0,15.0,4.0,4.0,3986.0,4.0,249.125,0.9375,11.0,0
+92,0,37.0,Male,Married,7.0,Research & Development,Research Scientist,2,Yes,16.0,5.0,1.0,3.0,4284.0,0.0,252.0,0.29411764705882354,5.0,1
+93,0,55.0,Male,Married,1.0,Sales,Sales Executive,3,No,24.0,1.0,4.0,3.0,10239.0,1.0,409.56,0.04,0.0,0
+94,0,22.0,Female,Married,26.0,Research & Development,Research Scientist,1,Yes,4.0,4.0,3.0,2.0,2814.0,1.0,562.8,0.8,3.0,1
+95,0,34.0,Male,Married,2.0,Research & Development,Manufacturing Director,2,No,10.0,10.0,3.0,2.0,9547.0,1.0,867.9090909090909,0.9090909090909091,9.0,0
+96,0,29.0,Male,Married,1.0,Research & Development,Healthcare Representative,2,No,6.0,5.0,1.0,2.0,5373.0,0.0,767.5714285714286,0.7142857142857143,5.0,0
+97,0,57.0,Male,Married,1.0,Research & Development,Research Scientist,2,No,13.0,12.0,3.0,2.0,4900.0,2.0,350.0,0.8571428571428571,10.0,0
+98,0,53.0,Male,Single,24.0,Sales,Sales Executive,3,Yes,15.0,2.0,1.0,2.0,10448.0,2.0,653.0,0.125,0.0,1
+99,0,33.0,Female,Married,4.0,Research & Development,Research Scientist,1,No,7.0,3.0,2.0,3.0,2622.0,1.0,327.75,0.375,2.0,0
+100,0,32.0,Male,Divorced,1.0,Research & Development,Laboratory Technician,1,No,4.0,3.0,4.0,3.0,2314.0,0.0,462.8,0.6,3.0,0
+101,1,21.0,Female,Single,10.0,Research & Development,Laboratory Technician,1,No,2.0,2.0,3.0,1.0,2625.0,2.0,875.0,0.6666666666666666,0.0,0
+102,1,34.0,Female,Divorced,6.0,Sales,Sales Representative,1,No,3.0,2.0,3.0,2.0,2351.0,1.0,587.75,0.5,1.0,0
+103,0,55.0,Male,Divorced,22.0,Research & Development,Research Scientist,1,No,8.0,4.0,2.0,3.0,3537.0,1.0,393.0,0.4444444444444444,3.0,0
+104,0,27.0,Female,Single,20.0,Sales,Sales Executive,2,No,7.0,7.0,3.0,3.0,9981.0,0.0,1247.625,0.875,7.0,0
+105,0,46.0,Female,Divorced,3.0,Sales,Sales Executive,4,No,25.0,19.0,1.0,3.0,13225.0,2.0,508.65384615384613,0.7307692307692307,17.0,0
+106,0,36.0,Male,Divorced,6.0,Research & Development,Laboratory Technician,1,No,7.0,7.0,3.0,3.0,2741.0,1.0,342.625,0.875,6.0,0
+107,1,41.0,Female,Married,12.0,Research & Development,Research Director,5,No,23.0,22.0,3.0,3.0,19545.0,15.0,814.375,0.9166666666666666,7.0,0
+108,0,38.0,Male,Married,1.0,Research & Development,Research Scientist,2,No,19.0,13.0,4.0,4.0,4735.0,2.0,236.75,0.65,11.0,0
+109,0,33.0,Male,Divorced,6.0,Research & Development,Healthcare Representative,2,No,15.0,13.0,4.0,1.0,7725.0,4.0,482.8125,0.8125,9.0,0
+110,1,18.0,Male,Single,8.0,Research & Development,Laboratory Technician,1,No,0.0,0.0,3.0,3.0,1904.0,0.0,1904.0,0.0,0.0,0
+111,0,27.0,Female,Single,9.0,Research & Development,Research Scientist,1,No,7.0,7.0,2.0,2.0,2279.0,0.0,284.875,0.875,7.0,0
+112,0,22.0,Male,Married,1.0,Research & Development,Manufacturing Director,2,No,4.0,2.0,4.0,1.0,4775.0,2.0,955.0,0.4,0.0,0
+113,1,33.0,Male,Married,14.0,Research & Development,Laboratory Technician,1,Yes,8.0,5.0,4.0,1.0,2436.0,0.0,270.6666666666667,0.5555555555555556,5.0,1
+114,0,42.0,Female,Married,28.0,Research & Development,Healthcare Representative,2,No,7.0,6.0,4.0,4.0,4523.0,0.0,565.375,0.75,6.0,0
+115,0,29.0,Male,Divorced,1.0,Research & Development,Research Scientist,1,No,10.0,10.0,4.0,3.0,2720.0,2.0,247.27272727272728,0.9090909090909091,8.0,0
+116,0,39.0,Male,Married,1.0,Research & Development,Laboratory Technician,2,Yes,9.0,9.0,4.0,3.0,6472.0,5.0,647.2,0.9,4.0,1
+117,0,35.0,Female,Married,1.0,Research & Development,Laboratory Technician,2,No,10.0,9.0,4.0,3.0,5363.0,0.0,487.54545454545456,0.8181818181818182,9.0,0
+118,0,30.0,Male,Married,16.0,Research & Development,Healthcare Representative,2,No,10.0,7.0,3.0,3.0,5294.0,1.0,481.27272727272725,0.6363636363636364,6.0,0
+119,0,37.0,Male,Divorced,9.0,Sales,Sales Executive,3,No,9.0,9.0,2.0,3.0,8834.0,7.0,883.4,0.9,2.0,0
+120,0,39.0,Male,Divorced,3.0,Research & Development,Laboratory Technician,2,No,11.0,10.0,3.0,3.0,3069.0,0.0,255.75,0.8333333333333334,10.0,0
+121,1,52.0,Female,Married,2.0,Sales,Manager,5,No,33.0,32.0,4.0,3.0,19845.0,6.0,583.6764705882352,0.9411764705882353,26.0,0
+122,0,31.0,Male,Married,7.0,Sales,Sales Executive,2,No,10.0,8.0,4.0,2.0,6929.0,7.0,629.9090909090909,0.7272727272727273,1.0,0
+123,0,29.0,Male,Single,10.0,Sales,Sales Representative,1,No,1.0,1.0,3.0,3.0,2642.0,0.0,1321.0,0.5,1.0,0
+124,0,28.0,Male,Married,24.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,2.0,3.0,2408.0,0.0,1204.0,0.5,1.0,1
+125,0,26.0,Male,Single,1.0,Research & Development,Laboratory Technician,1,No,8.0,7.0,1.0,2.0,2867.0,7.0,318.55555555555554,0.7777777777777778,0.0,0
+126,1,32.0,Male,Married,11.0,Sales,Sales Executive,2,No,6.0,4.0,3.0,3.0,4707.0,1.0,672.4285714285714,0.5714285714285714,3.0,0
+127,0,35.0,Male,Married,11.0,Research & Development,Healthcare Representative,3,Yes,10.0,4.0,1.0,3.0,9884.0,2.0,898.5454545454545,0.36363636363636365,2.0,1
+128,0,43.0,Male,Married,3.0,Research & Development,Research Director,5,No,25.0,8.0,4.0,3.0,19740.0,0.0,759.2307692307693,0.3076923076923077,8.0,0
+129,0,33.0,Male,Single,2.0,Research & Development,Research Scientist,1,No,4.0,3.0,4.0,4.0,2500.0,0.0,500.0,0.6,3.0,0
+130,0,44.0,Female,Married,2.0,Research & Development,Healthcare Representative,3,Yes,9.0,8.0,4.0,3.0,7879.0,6.0,787.9,0.8,2.0,1
+131,0,41.0,Male,Divorced,3.0,Sales,Sales Executive,2,No,14.0,5.0,2.0,3.0,8938.0,0.0,595.8666666666667,0.3333333333333333,5.0,0
+132,0,45.0,Male,Single,1.0,Research & Development,Healthcare Representative,2,No,12.0,4.0,3.0,3.0,5399.0,0.0,415.3076923076923,0.3076923076923077,4.0,0
+133,0,37.0,Female,Divorced,10.0,Sales,Sales Executive,2,Yes,8.0,1.0,4.0,3.0,6694.0,0.0,743.7777777777778,0.1111111111111111,1.0,1
+134,1,27.0,Female,Single,17.0,Research & Development,Research Scientist,1,Yes,8.0,8.0,3.0,3.0,2394.0,7.0,266.0,0.8888888888888888,1.0,1
+135,0,28.0,Male,Married,2.0,Research & Development,Research Scientist,1,No,6.0,5.0,2.0,1.0,3201.0,0.0,457.2857142857143,0.7142857142857143,5.0,0
+136,0,27.0,Male,Divorced,10.0,Research & Development,Manufacturing Director,3,No,9.0,9.0,1.0,2.0,8793.0,1.0,879.3,0.9,8.0,0
+137,0,37.0,Male,Divorced,16.0,Sales,Sales Executive,2,No,9.0,1.0,3.0,3.0,6334.0,0.0,633.4,0.1,1.0,0
+138,0,27.0,Male,Married,6.0,Research & Development,Research Scientist,1,No,4.0,4.0,3.0,3.0,2539.0,2.0,507.8,0.8,2.0,0
+139,0,37.0,Male,Divorced,4.0,Sales,Sales Representative,1,No,13.0,9.0,4.0,3.0,2793.0,5.0,199.5,0.6428571428571429,4.0,0
+140,0,31.0,Female,Single,24.0,Research & Development,Healthcare Representative,2,No,10.0,10.0,1.0,3.0,6812.0,1.0,619.2727272727273,0.9090909090909091,9.0,0
+141,0,48.0,Male,Single,1.0,Research & Development,Research Director,5,No,25.0,1.0,4.0,4.0,18265.0,0.0,702.5,0.038461538461538464,1.0,0
+142,0,36.0,Female,Married,1.0,Research & Development,Manufacturing Director,2,No,10.0,9.0,2.0,3.0,5228.0,0.0,475.27272727272725,0.8181818181818182,9.0,0
+143,0,37.0,Female,Married,1.0,Research & Development,Manufacturing Director,2,No,14.0,14.0,4.0,2.0,6474.0,3.0,431.6,0.9333333333333333,11.0,0
+144,0,55.0,Male,Married,4.0,Research & Development,Healthcare Representative,2,Yes,4.0,3.0,3.0,3.0,4035.0,1.0,807.0,0.6,2.0,1
+145,0,33.0,Male,Divorced,7.0,Research & Development,Healthcare Representative,2,No,9.0,9.0,3.0,3.0,5968.0,2.0,596.8,0.9,7.0,0
+146,0,38.0,Female,Single,1.0,Sales,Sales Executive,2,No,12.0,8.0,4.0,4.0,8686.0,0.0,668.1538461538462,0.6153846153846154,8.0,0
+147,0,32.0,Male,Divorced,13.0,Sales,Sales Executive,2,No,8.0,5.0,4.0,2.0,4403.0,0.0,489.22222222222223,0.5555555555555556,5.0,0
+148,0,32.0,Female,Married,5.0,Research & Development,Research Scientist,1,No,6.0,3.0,4.0,3.0,3312.0,0.0,473.14285714285717,0.42857142857142855,3.0,0
+149,0,28.0,Female,Single,10.0,Research & Development,Research Scientist,2,No,10.0,8.0,3.0,4.0,3660.0,1.0,332.72727272727275,0.7272727272727273,7.0,0
+150,0,43.0,Female,Single,28.0,Research & Development,Research Scientist,1,No,18.0,3.0,3.0,3.0,4739.0,1.0,249.42105263157896,0.15789473684210525,2.0,0
+151,0,29.0,Male,Divorced,19.0,Sales,Sales Executive,2,No,10.0,10.0,3.0,3.0,8620.0,0.0,783.6363636363636,0.9090909090909091,10.0,0
+152,0,30.0,Male,Married,1.0,Research & Development,Research Scientist,1,Yes,12.0,11.0,2.0,3.0,3579.0,5.0,275.3076923076923,0.8461538461538461,6.0,1
+153,0,33.0,Male,Single,17.0,Sales,Manager,4,No,10.0,10.0,3.0,3.0,17444.0,6.0,1585.8181818181818,0.9090909090909091,4.0,0
+154,0,43.0,Female,Divorced,8.0,Research & Development,Manufacturing Director,2,No,4.0,1.0,2.0,4.0,4765.0,0.0,953.0,0.2,1.0,0
+155,0,42.0,Female,Married,26.0,Research & Development,Research Director,3,Yes,20.0,1.0,1.0,3.0,13191.0,0.0,628.1428571428571,0.047619047619047616,1.0,1
+156,0,37.0,Female,Married,10.0,Research & Development,Laboratory Technician,1,No,17.0,5.0,1.0,3.0,3452.0,0.0,191.77777777777777,0.2777777777777778,5.0,0
+157,0,56.0,Male,Divorced,1.0,Research & Development,Healthcare Representative,2,No,13.0,13.0,3.0,2.0,6306.0,1.0,450.42857142857144,0.9285714285714286,12.0,0
+158,0,27.0,Female,Married,15.0,Research & Development,Research Scientist,1,No,8.0,7.0,1.0,2.0,4774.0,7.0,530.4444444444445,0.7777777777777778,0.0,0
+159,0,26.0,Female,Married,20.0,Human Resources,Human Resources,1,Yes,6.0,5.0,2.0,3.0,2148.0,1.0,306.85714285714283,0.7142857142857143,4.0,1
+160,0,24.0,Male,Married,24.0,Sales,Sales Representative,1,No,3.0,2.0,4.0,3.0,2400.0,2.0,600.0,0.5,0.0,0
+161,0,37.0,Female,Married,25.0,Research & Development,Research Scientist,2,Yes,15.0,13.0,3.0,3.0,4449.0,10.0,278.0625,0.8125,3.0,1
+162,0,37.0,Male,Married,2.0,Sales,Sales Executive,2,Yes,17.0,3.0,3.0,2.0,9602.0,1.0,533.4444444444445,0.16666666666666666,2.0,1
+163,0,40.0,Female,Divorced,26.0,Research & Development,Research Scientist,2,No,20.0,20.0,2.0,3.0,5605.0,2.0,266.9047619047619,0.9523809523809523,18.0,0
+164,0,34.0,Male,Married,2.0,Research & Development,Research Scientist,1,Yes,6.0,5.0,4.0,3.0,2932.0,1.0,418.85714285714283,0.7142857142857143,4.0,1
+165,1,55.0,Male,Single,2.0,Sales,Sales Executive,2,No,12.0,9.0,4.0,2.0,5160.0,7.0,396.9230769230769,0.6923076923076923,2.0,0
+166,0,34.0,Female,Single,15.0,Sales,Sales Executive,2,No,10.0,10.0,1.0,4.0,6125.0,9.0,556.8181818181819,0.9090909090909091,1.0,0
+167,0,18.0,Female,Single,10.0,Sales,Sales Representative,1,No,0.0,0.0,3.0,3.0,1200.0,0.0,1200.0,0.0,0.0,0
+168,0,41.0,Male,Single,2.0,Sales,Manager,4,No,22.0,22.0,2.0,3.0,16015.0,0.0,696.304347826087,0.9565217391304348,22.0,0
+169,0,44.0,Female,Married,1.0,Sales,Sales Executive,2,No,11.0,1.0,3.0,2.0,4768.0,0.0,397.3333333333333,0.08333333333333333,1.0,0
+170,0,42.0,Male,Married,8.0,Sales,Sales Executive,2,No,10.0,9.0,2.0,3.0,6825.0,4.0,620.4545454545455,0.8181818181818182,5.0,0
+171,0,51.0,Female,Single,3.0,Research & Development,Healthcare Representative,4,No,21.0,7.0,2.0,3.0,13734.0,1.0,624.2727272727273,0.3181818181818182,6.0,0
+172,1,32.0,Male,Single,1.0,Research & Development,Laboratory Technician,1,Yes,4.0,3.0,3.0,1.0,3730.0,1.0,746.0,0.6,2.0,1
+173,0,42.0,Male,Married,10.0,Research & Development,Research Scientist,1,No,10.0,6.0,3.0,2.0,2936.0,3.0,266.90909090909093,0.5454545454545454,3.0,0
+174,0,31.0,Male,Divorced,7.0,Sales,Manager,3,No,10.0,5.0,4.0,2.0,11557.0,0.0,1050.6363636363637,0.45454545454545453,5.0,0
+175,0,31.0,Female,Married,1.0,Research & Development,Manufacturing Director,2,No,4.0,4.0,1.0,3.0,4148.0,0.0,829.6,0.8,4.0,0
+176,1,30.0,Female,Single,5.0,Research & Development,Laboratory Technician,1,No,4.0,3.0,2.0,3.0,2422.0,1.0,484.4,0.6,2.0,0
+177,0,36.0,Female,Married,2.0,Research & Development,Research Scientist,1,No,6.0,2.0,3.0,3.0,2543.0,2.0,363.2857142857143,0.2857142857142857,0.0,0
+178,0,28.0,Male,Divorced,15.0,Research & Development,Laboratory Technician,1,No,4.0,4.0,3.0,2.0,2207.0,2.0,441.4,0.8,2.0,0
+179,0,30.0,Male,Married,20.0,Research & Development,Manufacturing Director,2,No,7.0,6.0,1.0,2.0,9957.0,0.0,1244.625,0.75,6.0,0
+180,0,35.0,Female,Married,2.0,Sales,Sales Representative,1,No,2.0,2.0,4.0,3.0,2014.0,2.0,671.3333333333334,0.6666666666666666,0.0,0
+181,0,59.0,Male,Single,18.0,Research & Development,Manufacturing Director,3,No,25.0,9.0,4.0,2.0,10512.0,5.0,404.3076923076923,0.34615384615384615,4.0,0
+182,0,39.0,Male,Married,25.0,Research & Development,Healthcare Representative,3,No,13.0,6.0,3.0,3.0,10920.0,0.0,780.0,0.42857142857142855,6.0,0
+183,0,27.0,Female,Single,8.0,Research & Development,Research Scientist,1,No,6.0,6.0,4.0,2.0,3445.0,1.0,492.14285714285717,0.8571428571428571,5.0,0
+184,0,29.0,Male,Single,2.0,Sales,Sales Executive,2,No,10.0,10.0,4.0,2.0,4554.0,0.0,414.0,0.9090909090909091,10.0,0
+185,1,34.0,Female,Divorced,23.0,Human Resources,Human Resources,3,Yes,11.0,3.0,1.0,3.0,9950.0,0.0,829.1666666666666,0.25,3.0,1
+186,0,36.0,Male,Single,3.0,Research & Development,Research Scientist,2,No,10.0,8.0,2.0,3.0,4485.0,7.0,407.72727272727275,0.7272727272727273,1.0,0
+187,0,30.0,Female,Divorced,5.0,Research & Development,Research Scientist,1,No,8.0,3.0,1.0,3.0,3204.0,2.0,356.0,0.3333333333333333,1.0,0
+188,0,34.0,Female,Married,28.0,Sales,Sales Executive,2,No,8.0,8.0,3.0,3.0,6712.0,1.0,745.7777777777778,0.8888888888888888,7.0,0
+189,0,27.0,Male,Divorced,5.0,Research & Development,Research Director,3,Yes,9.0,9.0,4.0,3.0,12808.0,0.0,1280.8,0.9,9.0,1
+190,0,43.0,Female,Married,7.0,Research & Development,Healthcare Representative,3,No,10.0,1.0,1.0,2.0,9985.0,0.0,907.7272727272727,0.09090909090909091,1.0,0
+191,0,38.0,Male,Divorced,15.0,Research & Development,Research Director,3,Yes,12.0,11.0,4.0,3.0,11510.0,2.0,885.3846153846154,0.8461538461538461,9.0,1
+192,0,36.0,Female,Married,3.0,Sales,Sales Executive,3,No,10.0,9.0,4.0,3.0,7644.0,3.0,694.9090909090909,0.8181818181818182,6.0,0
+193,0,39.0,Female,Single,4.0,Research & Development,Manufacturing Director,2,No,10.0,9.0,3.0,1.0,5042.0,3.0,458.3636363636364,0.8181818181818182,6.0,0
+194,0,31.0,Male,Married,20.0,Sales,Sales Representative,1,No,3.0,2.0,4.0,3.0,2791.0,2.0,697.75,0.5,0.0,0
+195,0,30.0,Male,Divorced,27.0,Sales,Sales Executive,2,No,10.0,8.0,4.0,2.0,5304.0,7.0,482.1818181818182,0.7272727272727273,1.0,0
+196,0,44.0,Female,Married,28.0,Sales,Sales Executive,4,Yes,23.0,12.0,4.0,3.0,13320.0,11.0,555.0,0.5,1.0,1
+197,0,23.0,Male,Married,9.0,Research & Development,Laboratory Technician,1,No,5.0,4.0,1.0,4.0,2500.0,0.0,416.6666666666667,0.6666666666666666,4.0,0
+198,0,41.0,Female,Married,8.0,Sales,Sales Executive,2,No,14.0,5.0,2.0,3.0,4393.0,1.0,292.8666666666667,0.3333333333333333,4.0,0
+199,1,21.0,Female,Single,10.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,1.0,2.0,1416.0,1.0,708.0,0.5,0.0,0
+200,0,45.0,Male,Married,1.0,Research & Development,Healthcare Representative,3,No,25.0,23.0,3.0,2.0,10748.0,14.0,413.38461538461536,0.8846153846153846,9.0,0
+201,0,40.0,Male,Married,9.0,Sales,Sales Executive,2,No,9.0,8.0,1.0,4.0,5473.0,7.0,547.3,0.8,1.0,0
+202,0,44.0,Male,Single,1.0,Research & Development,Research Scientist,1,Yes,6.0,4.0,4.0,3.0,2436.0,1.0,348.0,0.5714285714285714,3.0,1
+203,0,31.0,Male,Married,11.0,Research & Development,Research Scientist,1,Yes,8.0,6.0,4.0,3.0,2356.0,0.0,261.77777777777777,0.6666666666666666,6.0,1
+204,1,46.0,Male,Divorced,9.0,Sales,Sales Executive,3,No,28.0,7.0,4.0,4.0,10096.0,4.0,348.13793103448273,0.2413793103448276,3.0,0
+205,0,53.0,Male,Single,6.0,Research & Development,Laboratory Technician,2,No,19.0,2.0,4.0,3.0,2450.0,2.0,122.5,0.1,0.0,0
+206,0,49.0,Female,Married,1.0,Research & Development,Research Scientist,1,No,7.0,4.0,1.0,3.0,3580.0,0.0,447.5,0.5,4.0,0
+207,0,46.0,Female,Divorced,8.0,Research & Development,Research Scientist,2,Yes,19.0,16.0,1.0,3.0,4615.0,1.0,230.75,0.8,15.0,1
+208,0,31.0,Female,Married,12.0,Research & Development,Research Scientist,1,Yes,7.0,4.0,4.0,3.0,3929.0,0.0,491.125,0.5,4.0,1
+209,0,50.0,Male,Married,20.0,Research & Development,Healthcare Representative,4,Yes,32.0,30.0,3.0,3.0,11245.0,12.0,340.75757575757575,0.9090909090909091,18.0,1
+210,0,58.0,Female,Married,1.0,Research & Development,Research Director,5,Yes,32.0,9.0,1.0,3.0,19701.0,1.0,597.0,0.2727272727272727,8.0,1
+211,0,34.0,Male,Single,23.0,Sales,Sales Executive,2,No,10.0,9.0,3.0,3.0,4568.0,8.0,415.27272727272725,0.8181818181818182,1.0,0
+212,0,26.0,Male,Single,10.0,Sales,Sales Executive,2,No,5.0,5.0,4.0,3.0,4684.0,1.0,780.6666666666666,0.8333333333333334,4.0,0
+213,0,35.0,Male,Married,1.0,Research & Development,Research Scientist,1,No,5.0,3.0,1.0,2.0,2194.0,1.0,365.6666666666667,0.5,2.0,0
+214,0,32.0,Male,Divorced,5.0,Research & Development,Research Scientist,1,Yes,7.0,6.0,2.0,2.0,3298.0,0.0,412.25,0.75,6.0,1
+215,0,35.0,Male,Single,22.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,3.0,3.0,4230.0,4.0,604.2857142857143,0.7142857142857143,1.0,0
+216,0,19.0,Female,Single,25.0,Research & Development,Research Scientist,1,Yes,1.0,1.0,4.0,3.0,2994.0,0.0,1497.0,0.5,1.0,1
+217,0,28.0,Male,Single,5.0,Sales,Sales Executive,2,No,6.0,5.0,1.0,3.0,8463.0,1.0,1209.0,0.7142857142857143,4.0,0
+218,1,32.0,Male,Married,4.0,Sales,Sales Executive,3,No,14.0,14.0,4.0,2.0,10400.0,9.0,693.3333333333334,0.9333333333333333,5.0,0
+219,0,43.0,Female,Married,1.0,Research & Development,Healthcare Representative,2,No,12.0,5.0,4.0,2.0,5562.0,2.0,427.84615384615387,0.38461538461538464,3.0,0
+220,0,24.0,Male,Divorced,29.0,Research & Development,Laboratory Technician,1,No,6.0,6.0,1.0,4.0,3907.0,1.0,558.1428571428571,0.8571428571428571,5.0,0
+221,0,37.0,Female,Divorced,25.0,Research & Development,Healthcare Representative,2,No,9.0,6.0,4.0,3.0,5731.0,1.0,573.1,0.6,5.0,0
+222,0,49.0,Female,Married,22.0,Research & Development,Research Director,4,No,27.0,4.0,2.0,3.0,16413.0,1.0,586.1785714285714,0.14285714285714285,3.0,0
+223,0,38.0,Male,Married,2.0,Research & Development,Manufacturing Director,2,No,14.0,1.0,3.0,3.0,6553.0,0.0,436.8666666666667,0.06666666666666667,1.0,0
+224,0,30.0,Male,Married,9.0,Human Resources,Human Resources,2,Yes,12.0,11.0,4.0,1.0,6347.0,4.0,488.2307692307692,0.8461538461538461,7.0,1
+225,0,53.0,Male,Married,6.0,Sales,Sales Representative,2,Yes,13.0,7.0,3.0,1.0,2306.0,4.0,164.71428571428572,0.5,3.0,1
+226,0,42.0,Male,Married,1.0,Sales,Sales Executive,2,No,20.0,20.0,3.0,3.0,4907.0,11.0,233.66666666666666,0.9523809523809523,9.0,0
+227,0,30.0,Female,Divorced,3.0,Research & Development,Research Scientist,1,No,1.0,1.0,3.0,3.0,2083.0,0.0,1041.5,0.5,1.0,0
+228,0,31.0,Male,Married,1.0,Research & Development,Research Scientist,2,No,10.0,10.0,1.0,3.0,5003.0,8.0,454.8181818181818,0.9090909090909091,2.0,0
+229,1,25.0,Male,Married,19.0,Sales,Sales Representative,1,Yes,1.0,1.0,2.0,3.0,2413.0,0.0,1206.5,0.5,1.0,1
+230,0,53.0,Male,Single,2.0,Research & Development,Research Director,4,No,35.0,9.0,2.0,2.0,16598.0,8.0,461.05555555555554,0.25,1.0,0
+231,0,40.0,Female,Divorced,1.0,Research & Development,Healthcare Representative,2,No,12.0,5.0,4.0,3.0,6513.0,0.0,501.0,0.38461538461538464,5.0,0
+232,0,32.0,Female,Married,5.0,Research & Development,Research Scientist,2,No,12.0,7.0,2.0,3.0,5878.0,2.0,452.15384615384613,0.5384615384615384,5.0,0
+233,0,29.0,Male,Divorced,10.0,Sales,Sales Representative,1,No,2.0,2.0,2.0,3.0,2297.0,2.0,765.6666666666666,0.6666666666666666,0.0,0
+234,1,42.0,Male,Single,12.0,Sales,Sales Executive,4,Yes,22.0,21.0,1.0,2.0,13758.0,13.0,598.1739130434783,0.9130434782608695,8.0,1
+235,0,34.0,Female,Single,16.0,Research & Development,Research Scientist,1,No,6.0,5.0,4.0,3.0,2553.0,1.0,364.7142857142857,0.7142857142857143,4.0,0
+236,0,28.0,Male,Divorced,8.0,Human Resources,Human Resources,1,No,6.0,5.0,4.0,3.0,4936.0,0.0,705.1428571428571,0.7142857142857143,5.0,0
+237,0,43.0,Female,Married,16.0,Sales,Manager,4,Yes,22.0,17.0,4.0,3.0,16064.0,1.0,698.4347826086956,0.7391304347826086,16.0,1
+238,0,47.0,Male,Married,2.0,Sales,Sales Executive,2,No,4.0,1.0,2.0,1.0,4978.0,0.0,995.6,0.2,1.0,0
+239,0,37.0,Male,Married,6.0,Sales,Sales Executive,2,No,7.0,5.0,4.0,4.0,6502.0,0.0,812.75,0.625,5.0,0
+240,0,44.0,Female,Single,1.0,Human Resources,Human Resources,2,No,10.0,2.0,3.0,4.0,5985.0,0.0,544.0909090909091,0.18181818181818182,2.0,0
+241,0,34.0,Female,Divorced,26.0,Research & Development,Research Scientist,1,No,5.0,5.0,3.0,3.0,2029.0,0.0,338.1666666666667,0.8333333333333334,5.0,0
+242,0,34.0,Male,Married,22.0,Research & Development,Research Scientist,2,Yes,16.0,15.0,4.0,3.0,5747.0,6.0,338.05882352941177,0.8823529411764706,9.0,1
+243,0,47.0,Male,Married,14.0,Research & Development,Research Scientist,2,No,16.0,8.0,2.0,4.0,5467.0,1.0,321.5882352941176,0.47058823529411764,7.0,0
+244,0,28.0,Male,Single,9.0,Sales,Sales Executive,2,No,7.0,7.0,4.0,3.0,5253.0,0.0,656.625,0.875,7.0,0
+245,0,40.0,Male,Married,26.0,Sales,Sales Executive,2,No,8.0,7.0,1.0,2.0,8396.0,7.0,932.8888888888889,0.7777777777777778,0.0,0
+246,0,34.0,Female,Married,8.0,Sales,Sales Executive,2,No,6.0,3.0,1.0,3.0,6500.0,1.0,928.5714285714286,0.42857142857142855,2.0,0
+247,0,44.0,Male,Single,4.0,Research & Development,Healthcare Representative,2,No,10.0,5.0,2.0,2.0,5933.0,2.0,539.3636363636364,0.45454545454545453,3.0,0
+248,0,25.0,Male,Single,2.0,Research & Development,Research Scientist,1,No,6.0,4.0,1.0,2.0,3424.0,0.0,489.14285714285717,0.5714285714285714,4.0,0
+249,1,34.0,Male,Single,6.0,Research & Development,Research Scientist,1,No,8.0,4.0,1.0,3.0,2960.0,1.0,328.8888888888889,0.4444444444444444,3.0,0
+250,0,60.0,Female,Married,7.0,Research & Development,Manager,5,No,33.0,29.0,1.0,1.0,19566.0,11.0,575.4705882352941,0.8529411764705882,18.0,0
+251,0,32.0,Male,Married,7.0,Sales,Sales Executive,2,No,7.0,4.0,4.0,2.0,9204.0,0.0,1150.5,0.5,4.0,0
+252,0,28.0,Female,Single,13.0,Sales,Sales Executive,2,Yes,6.0,2.0,3.0,3.0,9854.0,2.0,1407.7142857142858,0.2857142857142857,0.0,1
+253,0,36.0,Male,Single,7.0,Research & Development,Research Scientist,1,No,8.0,6.0,4.0,3.0,4678.0,0.0,519.7777777777778,0.6666666666666666,6.0,0
+254,0,45.0,Female,Married,4.0,Human Resources,Human Resources,3,No,9.0,5.0,3.0,4.0,9756.0,0.0,975.6,0.5,5.0,0
+255,0,32.0,Female,Single,29.0,Research & Development,Laboratory Technician,1,No,10.0,8.0,3.0,3.0,4025.0,7.0,365.90909090909093,0.7272727272727273,1.0,0
+256,0,42.0,Female,Married,10.0,Human Resources,Manager,4,No,21.0,20.0,1.0,3.0,16799.0,0.0,763.5909090909091,0.9090909090909091,20.0,0
+257,0,46.0,Male,Divorced,2.0,Sales,Sales Executive,3,Yes,13.0,10.0,4.0,2.0,10368.0,0.0,740.5714285714286,0.7142857142857143,10.0,1
+258,1,40.0,Male,Married,22.0,Sales,Sales Executive,2,Yes,8.0,6.0,3.0,3.0,6380.0,1.0,708.8888888888889,0.6666666666666666,5.0,1
+259,0,39.0,Male,Divorced,19.0,Research & Development,Research Scientist,2,No,7.0,2.0,4.0,3.0,3902.0,2.0,487.75,0.25,0.0,0
+260,1,25.0,Male,Single,5.0,Sales,Sales Executive,2,Yes,6.0,6.0,3.0,3.0,5744.0,0.0,820.5714285714286,0.8571428571428571,6.0,1
+261,0,29.0,Male,Single,10.0,Sales,Sales Executive,2,No,8.0,5.0,3.0,3.0,5869.0,1.0,652.1111111111111,0.5555555555555556,4.0,0
+262,0,24.0,Male,Married,18.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,3.0,3.0,2774.0,1.0,396.2857142857143,0.7142857142857143,4.0,0
+263,0,35.0,Female,Married,21.0,Research & Development,Healthcare Representative,2,Yes,10.0,10.0,4.0,1.0,4014.0,0.0,364.90909090909093,0.9090909090909091,10.0,1
+264,0,48.0,Male,Married,2.0,Sales,Sales Executive,2,No,12.0,2.0,2.0,3.0,8120.0,2.0,624.6153846153846,0.15384615384615385,0.0,0
+265,0,50.0,Male,Divorced,1.0,Research & Development,Research Director,4,No,32.0,5.0,4.0,2.0,17399.0,1.0,527.2424242424242,0.15151515151515152,4.0,0
+266,0,54.0,Male,Married,3.0,Research & Development,Research Director,4,No,36.0,10.0,4.0,3.0,17779.0,0.0,480.5135135135135,0.2702702702702703,10.0,0
+267,0,30.0,Male,Married,2.0,Sales,Sales Representative,1,No,1.0,1.0,2.0,3.0,2476.0,0.0,1238.0,0.5,1.0,0
+268,1,31.0,Female,Married,20.0,Sales,Sales Executive,2,Yes,4.0,2.0,3.0,3.0,4559.0,2.0,911.8,0.4,0.0,1
+269,1,39.0,Female,Married,3.0,Sales,Sales Executive,2,Yes,12.0,1.0,3.0,2.0,5238.0,0.0,402.9230769230769,0.07692307692307693,1.0,1
+270,1,51.0,Male,Single,8.0,Research & Development,Manufacturing Director,3,No,18.0,4.0,4.0,3.0,10650.0,0.0,560.5263157894736,0.21052631578947367,4.0,0
+271,0,44.0,Male,Single,5.0,Research & Development,Laboratory Technician,1,No,7.0,5.0,3.0,3.0,3162.0,0.0,395.25,0.625,5.0,0
+272,0,50.0,Female,Divorced,7.0,Research & Development,Research Director,5,Yes,29.0,27.0,3.0,2.0,18740.0,13.0,624.6666666666666,0.9,14.0,1
+273,0,23.0,Male,Single,20.0,Research & Development,Laboratory Technician,2,No,5.0,4.0,3.0,3.0,2272.0,1.0,378.6666666666667,0.6666666666666666,3.0,0
+274,0,32.0,Male,Married,1.0,Research & Development,Research Scientist,2,No,10.0,10.0,2.0,3.0,6220.0,0.0,565.4545454545455,0.9090909090909091,10.0,0
+275,0,44.0,Male,Divorced,4.0,Research & Development,Manager,5,No,26.0,25.0,1.0,2.0,19190.0,14.0,710.7407407407408,0.9259259259259259,11.0,0
+276,0,40.0,Male,Single,2.0,Research & Development,Research Scientist,1,No,8.0,2.0,3.0,3.0,2809.0,2.0,312.1111111111111,0.2222222222222222,0.0,0
+277,0,53.0,Female,Married,2.0,Sales,Manager,4,No,31.0,25.0,4.0,3.0,15427.0,3.0,482.09375,0.78125,22.0,0
+278,0,55.0,Male,Married,2.0,Research & Development,Research Scientist,1,No,19.0,5.0,4.0,4.0,2662.0,0.0,133.1,0.25,5.0,0
+279,0,55.0,Female,Single,18.0,Sales,Manager,4,No,37.0,10.0,2.0,3.0,16835.0,7.0,443.0263157894737,0.2631578947368421,3.0,0
+280,0,38.0,Female,Single,10.0,Sales,Sales Executive,2,Yes,6.0,5.0,4.0,3.0,5666.0,1.0,809.4285714285714,0.7142857142857143,4.0,1
+281,1,34.0,Female,Married,9.0,Human Resources,Human Resources,1,No,2.0,2.0,3.0,3.0,2742.0,2.0,914.0,0.6666666666666666,0.0,0
+282,0,36.0,Female,Single,12.0,Research & Development,Manufacturing Director,3,No,15.0,14.0,4.0,2.0,8858.0,7.0,553.625,0.875,7.0,0
+283,0,57.0,Male,Divorced,24.0,Research & Development,Healthcare Representative,3,Yes,12.0,5.0,4.0,1.0,9439.0,1.0,726.0769230769231,0.38461538461538464,4.0,1
+284,0,32.0,Male,Single,10.0,Sales,Sales Executive,2,No,4.0,0.0,4.0,4.0,4648.0,0.0,929.6,0.0,0.0,0
+285,0,36.0,Male,Single,4.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,4.0,2.0,5810.0,1.0,528.1818181818181,0.9090909090909091,9.0,0
+286,1,28.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,5.0,0.0,3.0,1.0,3485.0,0.0,580.8333333333334,0.0,0.0,0
+287,0,35.0,Male,Single,25.0,Research & Development,Laboratory Technician,2,No,9.0,3.0,4.0,3.0,3681.0,0.0,368.1,0.3,3.0,0
+288,0,27.0,Female,Divorced,3.0,Sales,Sales Executive,2,Yes,6.0,6.0,4.0,3.0,4647.0,0.0,663.8571428571429,0.8571428571428571,6.0,1
+289,0,31.0,Male,Married,18.0,Human Resources,Human Resources,1,No,2.0,1.0,1.0,3.0,2956.0,0.0,985.3333333333334,0.3333333333333333,1.0,0
+290,1,37.0,Male,Divorced,6.0,Human Resources,Human Resources,1,Yes,7.0,3.0,1.0,3.0,2073.0,0.0,259.125,0.375,3.0,1
+291,0,46.0,Male,Single,13.0,Research & Development,Healthcare Representative,2,No,19.0,10.0,2.0,3.0,5562.0,0.0,278.1,0.5,10.0,0
+292,1,50.0,Male,Married,3.0,Sales,Sales Representative,1,Yes,3.0,3.0,3.0,3.0,2683.0,0.0,670.75,0.75,3.0,1
+293,0,45.0,Male,Married,2.0,Research & Development,Manager,4,No,22.0,20.0,4.0,3.0,16792.0,11.0,730.0869565217391,0.8695652173913043,9.0,0
+294,0,27.0,Male,Married,8.0,Sales,Sales Executive,2,No,5.0,4.0,4.0,3.0,4342.0,1.0,723.6666666666666,0.6666666666666666,3.0,0
+295,0,41.0,Female,Married,2.0,Sales,Manager,4,No,22.0,18.0,1.0,3.0,16595.0,11.0,721.5217391304348,0.782608695652174,7.0,0
+296,0,30.0,Female,Single,2.0,Research & Development,Laboratory Technician,1,No,12.0,11.0,4.0,2.0,2564.0,6.0,197.23076923076923,0.8461538461538461,5.0,0
+297,0,32.0,Female,Divorced,2.0,Sales,Sales Representative,1,No,1.0,1.0,1.0,3.0,2827.0,0.0,1413.5,0.5,1.0,0
+298,0,55.0,Male,Single,14.0,Research & Development,Research Director,5,No,36.0,24.0,2.0,3.0,18722.0,2.0,506.0,0.6486486486486487,22.0,0
+299,1,32.0,Male,Married,7.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,3.0,3.0,4883.0,1.0,443.90909090909093,0.9090909090909091,9.0,0
+300,0,54.0,Female,Divorced,1.0,Research & Development,Manufacturing Director,3,No,33.0,5.0,3.0,1.0,10502.0,1.0,308.88235294117646,0.14705882352941177,4.0,0
+301,1,44.0,Male,Single,10.0,Research & Development,Research Scientist,1,Yes,6.0,6.0,3.0,3.0,2936.0,0.0,419.42857142857144,0.8571428571428571,6.0,1
+302,0,32.0,Female,Married,9.0,Research & Development,Research Scientist,2,Yes,6.0,6.0,4.0,2.0,6322.0,0.0,903.1428571428571,0.8571428571428571,6.0,1
+303,0,25.0,Female,Divorced,8.0,Sales,Sales Executive,2,Yes,6.0,5.0,3.0,2.0,4907.0,0.0,701.0,0.7142857142857143,5.0,1
+304,0,33.0,Female,Single,8.0,Sales,Sales Representative,1,No,3.0,2.0,4.0,2.0,2342.0,2.0,585.5,0.5,0.0,0
+305,0,28.0,Male,Divorced,17.0,Research & Development,Laboratory Technician,1,No,6.0,4.0,4.0,2.0,2367.0,0.0,338.14285714285717,0.5714285714285714,4.0,0
+306,0,27.0,Male,Divorced,9.0,Research & Development,Research Scientist,1,No,6.0,2.0,2.0,1.0,2024.0,2.0,289.14285714285717,0.2857142857142857,0.0,0
+307,0,33.0,Male,Single,1.0,Research & Development,Research Scientist,1,Yes,6.0,3.0,1.0,3.0,2799.0,0.0,399.85714285714283,0.42857142857142855,3.0,1
+308,1,47.0,Male,Married,29.0,Research & Development,Manager,3,Yes,10.0,10.0,2.0,2.0,11849.0,9.0,1077.1818181818182,0.9090909090909091,1.0,1
+309,1,19.0,Female,Single,10.0,Research & Development,Research Scientist,1,Yes,1.0,1.0,2.0,4.0,1859.0,0.0,929.5,0.5,1.0,1
+310,0,37.0,Male,Divorced,2.0,Research & Development,Healthcare Representative,2,No,17.0,1.0,4.0,4.0,5163.0,0.0,286.8333333333333,0.05555555555555555,1.0,0
+311,0,56.0,Male,Married,23.0,Research & Development,Manufacturing Director,4,Yes,33.0,19.0,2.0,3.0,13402.0,15.0,394.1764705882353,0.5588235294117647,4.0,1
+312,0,28.0,Female,Married,1.0,Research & Development,Research Scientist,1,No,3.0,3.0,1.0,3.0,3591.0,1.0,897.75,0.75,2.0,0
+313,0,34.0,Female,Married,19.0,Research & Development,Research Scientist,1,No,10.0,10.0,4.0,3.0,2929.0,8.0,266.27272727272725,0.9090909090909091,2.0,0
+314,0,37.0,Male,Married,9.0,Sales,Sales Executive,2,No,5.0,5.0,2.0,3.0,4189.0,0.0,698.1666666666666,0.8333333333333334,5.0,0
+315,0,29.0,Female,Single,15.0,Research & Development,Laboratory Technician,2,Yes,10.0,9.0,3.0,3.0,4193.0,0.0,381.1818181818182,0.8181818181818182,9.0,1
+316,0,38.0,Female,Married,25.0,Research & Development,Research Director,3,No,19.0,10.0,2.0,3.0,12061.0,0.0,603.05,0.5,10.0,0
+317,0,42.0,Male,Single,2.0,Research & Development,Healthcare Representative,2,No,14.0,1.0,4.0,3.0,6781.0,0.0,452.06666666666666,0.06666666666666667,1.0,0
+318,0,39.0,Male,Married,9.0,Research & Development,Manufacturing Director,2,No,10.0,10.0,1.0,3.0,5151.0,7.0,468.27272727272725,0.9090909090909091,3.0,0
+319,0,36.0,Female,Married,5.0,Research & Development,Healthcare Representative,3,No,9.0,3.0,1.0,3.0,8008.0,0.0,800.8,0.3,3.0,0
+320,0,54.0,Female,Married,17.0,Research & Development,Manufacturing Director,3,No,22.0,10.0,3.0,3.0,10739.0,0.0,466.9130434782609,0.43478260869565216,10.0,0
+321,0,29.0,Male,Married,2.0,Research & Development,Research Scientist,1,No,6.0,5.0,2.0,3.0,2703.0,0.0,386.14285714285717,0.7142857142857143,5.0,0
+322,0,26.0,Male,Single,1.0,Sales,Sales Executive,2,No,7.0,7.0,1.0,3.0,4294.0,0.0,536.75,0.875,7.0,0
+323,0,37.0,Male,Single,19.0,Sales,Sales Executive,3,Yes,10.0,10.0,2.0,3.0,7642.0,0.0,694.7272727272727,0.9090909090909091,10.0,1
+324,0,26.0,Female,Single,5.0,Sales,Sales Representative,1,No,5.0,4.0,3.0,3.0,2966.0,0.0,494.3333333333333,0.6666666666666666,4.0,0
+325,0,31.0,Male,Divorced,7.0,Research & Development,Laboratory Technician,2,No,10.0,7.0,4.0,2.0,5915.0,1.0,537.7272727272727,0.6363636363636364,6.0,0
+326,0,41.0,Male,Single,5.0,Research & Development,Healthcare Representative,2,No,11.0,3.0,2.0,1.0,6870.0,1.0,572.5,0.25,2.0,0
+327,1,45.0,Female,Married,26.0,Sales,Sales Executive,2,No,5.0,1.0,1.0,3.0,4286.0,0.0,714.3333333333334,0.16666666666666666,1.0,0
+328,0,43.0,Male,Married,14.0,Research & Development,Research Director,4,No,22.0,4.0,1.0,3.0,17159.0,1.0,746.0434782608696,0.17391304347826086,3.0,0
+329,0,29.0,Male,Married,3.0,Research & Development,Research Director,3,No,10.0,10.0,3.0,3.0,11935.0,0.0,1085.0,0.9090909090909091,10.0,0
+330,0,30.0,Male,Divorced,8.0,Sales,Sales Executive,3,No,10.0,8.0,3.0,4.0,7264.0,7.0,660.3636363636364,0.7272727272727273,1.0,0
+331,0,40.0,Male,Married,1.0,Research & Development,Healthcare Representative,4,No,22.0,22.0,2.0,2.0,13503.0,11.0,587.0869565217391,0.9565217391304348,11.0,0
+332,0,30.0,Female,Single,10.0,Research & Development,Manufacturing Director,3,No,9.0,7.0,3.0,3.0,9667.0,0.0,966.7,0.7,7.0,0
+333,0,34.0,Male,Married,8.0,Research & Development,Laboratory Technician,2,No,6.0,4.0,3.0,4.0,4404.0,1.0,629.1428571428571,0.5714285714285714,3.0,0
+334,0,56.0,Female,Married,6.0,Sales,Sales Executive,4,No,36.0,7.0,1.0,2.0,13212.0,7.0,357.0810810810811,0.1891891891891892,0.0,0
+335,0,25.0,Male,Married,18.0,Sales,Sales Executive,2,No,6.0,3.0,3.0,2.0,6232.0,1.0,890.2857142857143,0.42857142857142855,2.0,0
+336,0,42.0,Male,Married,2.0,Human Resources,Human Resources,2,No,10.0,4.0,1.0,4.0,6272.0,0.0,570.1818181818181,0.36363636363636365,4.0,0
+337,0,32.0,Female,Single,8.0,Sales,Sales Executive,3,No,9.0,9.0,4.0,3.0,8998.0,3.0,899.8,0.9,6.0,0
+338,0,32.0,Male,Married,24.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,4.0,3.0,5309.0,4.0,482.6363636363636,0.9090909090909091,6.0,0
+339,0,55.0,Male,Married,20.0,Research & Development,Laboratory Technician,2,Yes,12.0,10.0,4.0,3.0,5415.0,0.0,416.53846153846155,0.7692307692307693,10.0,1
+340,0,39.0,Male,Married,10.0,Research & Development,Manufacturing Director,2,No,10.0,7.0,1.0,3.0,5377.0,7.0,488.8181818181818,0.6363636363636364,0.0,0
+341,0,44.0,Male,Single,2.0,Research & Development,Manufacturing Director,3,Yes,16.0,2.0,3.0,2.0,10209.0,2.0,600.5294117647059,0.11764705882352941,0.0,1
+342,0,41.0,Male,Married,4.0,Human Resources,Human Resources,2,No,10.0,3.0,2.0,3.0,6430.0,1.0,584.5454545454545,0.2727272727272727,2.0,0
+343,0,27.0,Male,Married,8.0,Research & Development,Laboratory Technician,1,No,3.0,3.0,3.0,3.0,4621.0,1.0,1155.25,0.75,2.0,0
+344,0,38.0,Male,Married,3.0,Research & Development,Research Scientist,1,No,8.0,2.0,3.0,3.0,2821.0,2.0,313.44444444444446,0.2222222222222222,0.0,0
+345,0,37.0,Female,Married,21.0,Sales,Sales Representative,1,No,10.0,5.0,4.0,3.0,2973.0,0.0,270.27272727272725,0.45454545454545453,5.0,0
+346,0,36.0,Male,Single,2.0,Human Resources,Human Resources,2,No,10.0,10.0,4.0,2.0,3886.0,0.0,353.27272727272725,0.9090909090909091,10.0,0
+347,0,26.0,Male,Married,11.0,Research & Development,Healthcare Representative,2,Yes,5.0,5.0,1.0,3.0,4741.0,3.0,790.1666666666666,0.8333333333333334,2.0,1
+348,0,37.0,Male,Married,19.0,Research & Development,Manufacturing Director,2,No,9.0,4.0,3.0,2.0,5768.0,0.0,576.8,0.4,4.0,0
+349,0,45.0,Male,Married,1.0,Research & Development,Manager,5,No,25.0,24.0,4.0,3.0,19202.0,1.0,738.5384615384615,0.9230769230769231,23.0,0
+350,0,26.0,Female,Married,23.0,Sales,Sales Executive,2,Yes,5.0,2.0,4.0,2.0,4157.0,0.0,692.8333333333334,0.3333333333333333,2.0,1
+351,0,41.0,Male,Divorced,9.0,Sales,Sales Executive,3,Yes,12.0,9.0,3.0,3.0,8189.0,0.0,629.9230769230769,0.6923076923076923,9.0,1
+352,0,19.0,Male,Single,9.0,Research & Development,Research Scientist,1,No,1.0,1.0,1.0,3.0,2552.0,0.0,1276.0,0.5,1.0,0
+353,0,40.0,Male,Married,4.0,Sales,Sales Executive,3,No,15.0,12.0,4.0,2.0,10855.0,2.0,678.4375,0.75,10.0,0
+354,0,26.0,Male,Married,6.0,Research & Development,Laboratory Technician,1,No,8.0,7.0,4.0,3.0,2544.0,7.0,282.6666666666667,0.7777777777777778,0.0,0
+355,0,43.0,Female,Divorced,10.0,Research & Development,Laboratory Technician,2,No,9.0,9.0,3.0,4.0,5257.0,0.0,525.7,0.9,9.0,0
+356,0,35.0,Male,Married,3.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,3.0,3.0,1281.0,0.0,640.5,0.5,1.0,0
+357,0,52.0,Male,Married,3.0,Sales,Manager,4,No,34.0,34.0,1.0,4.0,16856.0,1.0,481.6,0.9714285714285714,33.0,0
+358,0,49.0,Female,Married,20.0,Research & Development,Manufacturing Director,2,No,16.0,15.0,1.0,2.0,6567.0,5.0,386.29411764705884,0.8823529411764706,10.0,0
+359,0,37.0,Male,Single,5.0,Research & Development,Laboratory Technician,1,No,7.0,6.0,3.0,1.0,3500.0,1.0,437.5,0.75,5.0,0
+360,0,43.0,Male,Married,21.0,Research & Development,Laboratory Technician,1,No,8.0,3.0,4.0,3.0,2258.0,1.0,250.88888888888889,0.3333333333333333,2.0,0
+361,0,22.0,Male,Single,1.0,Research & Development,Research Scientist,1,No,4.0,3.0,3.0,4.0,3375.0,1.0,675.0,0.6,2.0,0
+362,0,23.0,Male,Divorced,2.0,Sales,Sales Representative,1,No,3.0,0.0,1.0,3.0,2322.0,0.0,580.5,0.0,0.0,0
+363,0,55.0,Female,Divorced,8.0,Research & Development,Manager,4,Yes,21.0,5.0,3.0,3.0,14756.0,0.0,670.7272727272727,0.22727272727272727,5.0,1
+364,0,53.0,Female,Single,23.0,Research & Development,Research Director,4,No,33.0,12.0,4.0,3.0,14275.0,3.0,419.8529411764706,0.35294117647058826,9.0,0
+365,0,34.0,Male,Single,1.0,Research & Development,Healthcare Representative,2,No,14.0,13.0,1.0,3.0,5343.0,4.0,356.2,0.8666666666666667,9.0,0
+366,1,58.0,Male,Single,2.0,Research & Development,Research Scientist,1,No,7.0,1.0,3.0,3.0,2479.0,0.0,309.875,0.125,1.0,0
+367,0,34.0,Male,Single,3.0,Research & Development,Healthcare Representative,2,No,7.0,6.0,4.0,2.0,7756.0,0.0,969.5,0.75,6.0,0
+368,0,30.0,Male,Single,1.0,Research & Development,Manufacturing Director,3,No,12.0,11.0,3.0,3.0,8474.0,5.0,651.8461538461538,0.8461538461538461,6.0,0
+369,0,32.0,Male,Single,6.0,Research & Development,Research Scientist,1,No,8.0,5.0,3.0,3.0,3038.0,1.0,337.55555555555554,0.5555555555555556,4.0,0
+370,0,36.0,Male,Single,5.0,Research & Development,Laboratory Technician,2,No,16.0,13.0,2.0,4.0,5914.0,3.0,347.88235294117646,0.7647058823529411,10.0,0
+371,0,42.0,Male,Single,8.0,Research & Development,Laboratory Technician,1,No,8.0,0.0,3.0,3.0,3968.0,0.0,440.8888888888889,0.0,0.0,0
+372,0,47.0,Female,Married,1.0,Research & Development,Research Director,3,No,14.0,13.0,2.0,1.0,11957.0,5.0,797.1333333333333,0.8666666666666667,8.0,0
+373,0,40.0,Male,Married,2.0,Sales,Sales Executive,2,No,5.0,0.0,2.0,3.0,4327.0,0.0,721.1666666666666,0.0,0.0,0
+374,0,36.0,Female,Married,24.0,Research & Development,Laboratory Technician,2,No,11.0,9.0,2.0,3.0,5674.0,0.0,472.8333333333333,0.75,9.0,0
+375,0,21.0,Male,Single,15.0,Research & Development,Research Scientist,1,No,0.0,0.0,4.0,3.0,1232.0,0.0,1232.0,0.0,0.0,0
+376,0,36.0,Male,Divorced,15.0,Sales,Sales Executive,2,No,15.0,15.0,4.0,2.0,5406.0,11.0,337.875,0.9375,4.0,0
+377,0,34.0,Female,Divorced,14.0,Sales,Sales Representative,1,Yes,8.0,8.0,3.0,3.0,2579.0,0.0,286.55555555555554,0.8888888888888888,8.0,1
+378,0,42.0,Male,Divorced,18.0,Research & Development,Research Scientist,2,Yes,9.0,4.0,1.0,2.0,5410.0,1.0,541.0,0.4,3.0,1
+379,0,34.0,Female,Single,6.0,Research & Development,Research Scientist,2,No,16.0,16.0,3.0,3.0,4809.0,2.0,282.88235294117646,0.9411764705882353,14.0,0
+380,0,60.0,Male,Divorced,1.0,Research & Development,Healthcare Representative,3,No,19.0,1.0,4.0,4.0,10883.0,0.0,544.15,0.05,1.0,0
+381,0,39.0,Female,Married,2.0,Human Resources,Human Resources,2,No,13.0,5.0,4.0,3.0,5204.0,0.0,371.7142857142857,0.35714285714285715,5.0,0
+382,0,45.0,Male,Married,8.0,Research & Development,Research Scientist,2,No,12.0,10.0,4.0,3.0,3697.0,9.0,284.38461538461536,0.7692307692307693,1.0,0
+383,0,26.0,Male,Single,7.0,Research & Development,Laboratory Technician,1,No,7.0,7.0,4.0,3.0,2570.0,5.0,321.25,0.875,2.0,0
+384,0,56.0,Female,Married,11.0,Sales,Sales Executive,2,No,6.0,0.0,1.0,3.0,5380.0,0.0,768.5714285714286,0.0,0.0,0
+385,1,31.0,Male,Single,29.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,2.0,4.0,3479.0,1.0,497.0,0.7142857142857143,4.0,0
+386,0,38.0,Male,Single,3.0,Sales,Sales Executive,2,Yes,19.0,1.0,4.0,3.0,6861.0,0.0,343.05,0.05,1.0,1
+387,0,35.0,Male,Married,28.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,3.0,2.0,3407.0,6.0,309.72727272727275,0.9090909090909091,4.0,0
+388,0,31.0,Male,Divorced,3.0,Research & Development,Research Director,3,No,9.0,2.0,3.0,3.0,13675.0,2.0,1367.5,0.2,0.0,0
+389,0,26.0,Female,Married,6.0,Research & Development,Laboratory Technician,1,Yes,3.0,3.0,4.0,3.0,2659.0,0.0,664.75,0.75,3.0,1
+390,0,38.0,Female,Married,2.0,Sales,Sales Representative,2,Yes,20.0,4.0,4.0,2.0,5405.0,0.0,257.3809523809524,0.19047619047619047,4.0,1
+391,0,30.0,Female,Married,6.0,Research & Development,Laboratory Technician,2,No,10.0,9.0,4.0,3.0,4627.0,6.0,420.6363636363636,0.8181818181818182,3.0,0
+392,0,41.0,Female,Divorced,4.0,Sales,Sales Executive,3,Yes,23.0,22.0,3.0,4.0,10447.0,13.0,435.2916666666667,0.9166666666666666,9.0,1
+393,0,34.0,Male,Divorced,9.0,Research & Development,Healthcare Representative,3,No,10.0,9.0,4.0,2.0,8500.0,1.0,772.7272727272727,0.8181818181818182,8.0,0
+394,0,35.0,Male,Married,6.0,Research & Development,Research Scientist,1,Yes,4.0,3.0,3.0,3.0,3506.0,2.0,701.2,0.6,1.0,1
+395,0,27.0,Female,Divorced,2.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,1.0,3.0,2341.0,0.0,1170.5,0.5,1.0,0
+396,0,39.0,Female,Married,24.0,Sales,Sales Executive,4,No,21.0,20.0,4.0,2.0,12031.0,9.0,546.8636363636364,0.9090909090909091,11.0,0
+397,0,56.0,Male,Single,24.0,Research & Development,Laboratory Technician,1,No,5.0,4.0,4.0,3.0,2587.0,1.0,431.1666666666667,0.6666666666666666,3.0,0
+398,0,32.0,Male,Single,5.0,Research & Development,Manufacturing Director,2,No,8.0,1.0,4.0,3.0,9679.0,0.0,1075.4444444444443,0.1111111111111111,1.0,0
+399,0,31.0,Male,Married,5.0,Research & Development,Research Scientist,1,Yes,6.0,5.0,4.0,3.0,4821.0,0.0,688.7142857142857,0.7142857142857143,5.0,1
+400,0,39.0,Female,Married,8.0,Research & Development,Laboratory Technician,1,No,8.0,8.0,3.0,3.0,3755.0,0.0,417.22222222222223,0.8888888888888888,8.0,0
+401,0,29.0,Male,Married,23.0,Research & Development,Research Scientist,1,No,10.0,10.0,3.0,3.0,2700.0,0.0,245.45454545454547,0.9090909090909091,10.0,0
+402,0,33.0,Male,Divorced,4.0,Research & Development,Research Scientist,2,No,11.0,9.0,2.0,2.0,3055.0,1.0,254.58333333333334,0.75,8.0,0
+403,1,29.0,Female,Married,27.0,Sales,Sales Executive,3,No,10.0,10.0,4.0,2.0,7639.0,1.0,694.4545454545455,0.9090909090909091,9.0,0
+404,1,44.0,Male,Married,3.0,Research & Development,Laboratory Technician,1,No,10.0,3.0,1.0,4.0,2362.0,1.0,214.72727272727272,0.2727272727272727,2.0,0
+405,0,26.0,Female,Married,6.0,Research & Development,Research Scientist,1,No,5.0,5.0,2.0,2.0,2368.0,4.0,394.6666666666667,0.8333333333333334,1.0,0
+406,0,48.0,Female,Married,2.0,Sales,Sales Executive,2,No,14.0,9.0,4.0,3.0,4051.0,6.0,270.06666666666666,0.6,3.0,0
+407,0,38.0,Female,Single,3.0,Research & Development,Research Scientist,2,Yes,19.0,3.0,3.0,3.0,4317.0,2.0,215.85,0.15,1.0,1
+408,0,36.0,Male,Married,17.0,Sales,Sales Executive,2,No,12.0,4.0,2.0,1.0,5507.0,1.0,423.61538461538464,0.3076923076923077,3.0,0
+409,1,23.0,Male,Married,6.0,Research & Development,Laboratory Technician,1,Yes,1.0,0.0,1.0,3.0,1601.0,0.0,800.5,0.0,0.0,1
+410,0,29.0,Male,Married,13.0,Research & Development,Laboratory Technician,2,Yes,10.0,4.0,2.0,3.0,4025.0,0.0,365.90909090909093,0.36363636363636365,4.0,1
+411,0,50.0,Male,Married,24.0,Research & Development,Manufacturing Director,4,Yes,22.0,12.0,3.0,3.0,13973.0,1.0,607.5217391304348,0.5217391304347826,11.0,1
+412,0,37.0,Male,Single,3.0,Sales,Sales Executive,3,No,12.0,5.0,4.0,3.0,7428.0,1.0,571.3846153846154,0.38461538461538464,4.0,0
+413,0,24.0,Male,Single,1.0,Research & Development,Healthcare Representative,2,No,4.0,4.0,3.0,2.0,4617.0,1.0,923.4,0.8,3.0,0
+414,0,31.0,Female,Single,8.0,Human Resources,Human Resources,1,No,8.0,3.0,2.0,3.0,2109.0,0.0,234.33333333333334,0.3333333333333333,3.0,0
+415,1,49.0,Female,Married,11.0,Sales,Sales Executive,3,No,9.0,9.0,4.0,4.0,7654.0,7.0,765.4,0.9,2.0,0
+416,0,34.0,Female,Divorced,19.0,Research & Development,Laboratory Technician,2,No,15.0,11.0,2.0,4.0,4444.0,5.0,277.75,0.6875,6.0,0
+417,1,41.0,Female,Single,1.0,Sales,Sales Executive,2,Yes,8.0,6.0,4.0,1.0,5993.0,0.0,665.8888888888889,0.6666666666666666,6.0,1
+418,0,34.0,Female,Single,8.0,Research & Development,Healthcare Representative,2,No,10.0,5.0,3.0,3.0,6142.0,4.0,558.3636363636364,0.45454545454545453,1.0,0
+419,0,39.0,Female,Single,2.0,Research & Development,Healthcare Representative,3,No,20.0,19.0,3.0,3.0,10938.0,11.0,520.8571428571429,0.9047619047619048,8.0,0
+420,1,32.0,Female,Single,16.0,Research & Development,Research Scientist,1,Yes,10.0,10.0,1.0,3.0,3919.0,6.0,356.27272727272725,0.9090909090909091,4.0,1
+421,0,37.0,Male,Married,9.0,Research & Development,Research Scientist,1,Yes,4.0,4.0,4.0,2.0,2326.0,1.0,465.2,0.8,3.0,1
+422,1,30.0,Female,Married,22.0,Research & Development,Research Scientist,1,Yes,7.0,5.0,3.0,3.0,2132.0,0.0,266.5,0.625,5.0,1
+423,0,47.0,Female,Divorced,4.0,Research & Development,Manufacturing Director,3,Yes,28.0,22.0,2.0,3.0,10333.0,14.0,356.3103448275862,0.7586206896551724,8.0,1
+424,0,55.0,Male,Single,1.0,Research & Development,Manager,5,Yes,37.0,36.0,1.0,3.0,19045.0,4.0,501.1842105263158,0.9473684210526315,32.0,1
+425,0,37.0,Male,Single,10.0,Research & Development,Research Scientist,1,No,4.0,1.0,4.0,3.0,4680.0,0.0,936.0,0.2,1.0,0
+426,0,35.0,Male,Married,1.0,Sales,Sales Executive,2,No,15.0,11.0,3.0,3.0,4717.0,6.0,294.8125,0.6875,5.0,0
+427,0,46.0,Male,Married,1.0,Research & Development,Healthcare Representative,3,Yes,21.0,10.0,1.0,2.0,10673.0,9.0,485.1363636363636,0.45454545454545453,1.0,1
+428,0,29.0,Female,Married,9.0,Research & Development,Laboratory Technician,1,No,9.0,5.0,3.0,3.0,2974.0,1.0,297.4,0.5,4.0,0
+429,0,36.0,Female,Divorced,3.0,Research & Development,Laboratory Technician,1,No,7.0,1.0,4.0,3.0,2835.0,0.0,354.375,0.125,1.0,0
+430,0,24.0,Male,Married,4.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,4.0,2.0,3162.0,3.0,451.7142857142857,0.7142857142857143,2.0,0
+431,0,50.0,Male,Married,2.0,Research & Development,Research Director,5,Yes,29.0,8.0,3.0,2.0,19237.0,7.0,641.2333333333333,0.26666666666666666,1.0,1
+432,0,32.0,Female,Married,1.0,Research & Development,Laboratory Technician,1,No,5.0,3.0,2.0,3.0,2332.0,0.0,388.6666666666667,0.5,3.0,0
+433,0,34.0,Female,Single,2.0,Research & Development,Research Scientist,1,No,6.0,6.0,1.0,3.0,4381.0,1.0,625.8571428571429,0.8571428571428571,5.0,0
+434,0,26.0,Male,Single,7.0,Research & Development,Laboratory Technician,1,No,8.0,7.0,1.0,3.0,3578.0,0.0,397.55555555555554,0.7777777777777778,7.0,0
+435,0,33.0,Female,Married,1.0,Sales,Sales Executive,2,No,10.0,5.0,1.0,3.0,5376.0,1.0,488.72727272727275,0.45454545454545453,4.0,0
+436,0,48.0,Female,Married,15.0,Research & Development,Research Scientist,1,No,10.0,8.0,1.0,2.0,2367.0,7.0,215.1818181818182,0.7272727272727273,1.0,0
+437,0,35.0,Male,Married,18.0,Research & Development,Healthcare Representative,2,Yes,10.0,10.0,3.0,4.0,5689.0,0.0,517.1818181818181,0.9090909090909091,10.0,1
+438,0,38.0,Male,Married,10.0,Research & Development,Research Scientist,1,No,3.0,2.0,3.0,2.0,2684.0,0.0,671.0,0.5,2.0,0
+439,0,37.0,Female,Single,11.0,Research & Development,Laboratory Technician,1,No,8.0,3.0,3.0,3.0,3629.0,0.0,403.22222222222223,0.3333333333333333,3.0,0
+440,0,35.0,Male,Married,16.0,Research & Development,Healthcare Representative,3,Yes,10.0,8.0,3.0,3.0,7632.0,0.0,693.8181818181819,0.7272727272727273,8.0,1
+441,0,32.0,Male,Single,2.0,Research & Development,Laboratory Technician,2,No,9.0,6.0,1.0,3.0,2176.0,0.0,217.6,0.6,6.0,0
+442,0,38.0,Female,Single,2.0,Research & Development,Manufacturing Director,2,Yes,17.0,15.0,1.0,3.0,5980.0,4.0,332.22222222222223,0.8333333333333334,11.0,1
+443,0,39.0,Male,Married,10.0,Research & Development,Manager,4,Yes,21.0,21.0,1.0,3.0,17068.0,11.0,775.8181818181819,0.9545454545454546,10.0,1
+444,0,33.0,Male,Married,9.0,Research & Development,Research Scientist,1,No,15.0,14.0,4.0,3.0,2781.0,4.0,173.8125,0.875,10.0,0
+445,0,34.0,Female,Single,3.0,Sales,Sales Executive,2,No,6.0,2.0,4.0,3.0,6029.0,2.0,861.2857142857143,0.2857142857142857,0.0,0
+446,0,59.0,Female,Single,3.0,Sales,Sales Executive,2,No,13.0,6.0,4.0,3.0,5171.0,0.0,369.35714285714283,0.42857142857142855,6.0,0
+447,0,36.0,Male,Married,1.0,Sales,Sales Executive,2,Yes,18.0,18.0,4.0,2.0,6201.0,4.0,326.36842105263156,0.9473684210526315,14.0,1
+448,0,37.0,Male,Divorced,11.0,Research & Development,Research Director,3,Yes,10.0,10.0,4.0,3.0,12185.0,0.0,1107.7272727272727,0.9090909090909091,10.0,1
+449,0,31.0,Male,Married,16.0,Sales,Sales Executive,3,No,10.0,1.0,3.0,3.0,8161.0,0.0,741.9090909090909,0.09090909090909091,1.0,0
+450,0,28.0,Female,Single,8.0,Research & Development,Research Scientist,1,No,5.0,5.0,4.0,3.0,3310.0,0.0,551.6666666666666,0.8333333333333334,5.0,0
+451,0,49.0,Male,Divorced,18.0,Research & Development,Research Director,5,Yes,31.0,31.0,3.0,3.0,19502.0,0.0,609.4375,0.96875,31.0,1
+452,0,34.0,Male,Married,1.0,Research & Development,Research Scientist,1,Yes,6.0,6.0,4.0,3.0,3622.0,1.0,517.4285714285714,0.8571428571428571,5.0,1
+453,0,36.0,Female,Married,1.0,Research & Development,Manufacturing Director,2,No,4.0,3.0,3.0,3.0,4374.0,1.0,874.8,0.6,2.0,0
+454,0,53.0,Male,Married,24.0,Research & Development,Healthcare Representative,3,No,11.0,4.0,4.0,3.0,7005.0,1.0,583.75,0.3333333333333333,3.0,0
+455,0,48.0,Female,Married,7.0,Sales,Sales Representative,1,Yes,19.0,9.0,3.0,3.0,2655.0,7.0,132.75,0.45,2.0,1
+456,1,35.0,Male,Single,4.0,Sales,Sales Executive,3,Yes,9.0,8.0,1.0,3.0,9582.0,4.0,958.2,0.8,4.0,1
+457,0,27.0,Male,Single,8.0,Sales,Sales Executive,3,No,9.0,9.0,3.0,3.0,8726.0,1.0,872.6,0.9,8.0,0
+458,0,48.0,Male,Single,4.0,Research & Development,Healthcare Representative,3,No,27.0,15.0,3.0,3.0,10999.0,4.0,392.82142857142856,0.5357142857142857,11.0,0
+459,0,41.0,Male,Married,9.0,Research & Development,Laboratory Technician,1,No,7.0,5.0,1.0,3.0,2238.0,1.0,279.75,0.625,4.0,0
+460,0,36.0,Male,Married,3.0,Research & Development,Research Scientist,1,No,12.0,11.0,2.0,2.0,3692.0,0.0,284.0,0.8461538461538461,11.0,0
+461,0,40.0,Male,Married,9.0,Research & Development,Healthcare Representative,2,No,5.0,3.0,4.0,1.0,4876.0,0.0,812.6666666666666,0.5,3.0,0
+462,0,49.0,Female,Divorced,16.0,Research & Development,Laboratory Technician,1,Yes,17.0,2.0,1.0,2.0,2587.0,2.0,143.72222222222223,0.1111111111111111,0.0,1
+463,0,31.0,Female,Single,8.0,Research & Development,Manufacturing Director,2,No,11.0,11.0,4.0,3.0,4424.0,1.0,368.6666666666667,0.9166666666666666,10.0,0
+464,1,20.0,Male,Single,10.0,Research & Development,Research Scientist,1,Yes,1.0,1.0,3.0,3.0,1009.0,1.0,504.5,0.5,0.0,1
+465,0,37.0,Male,Single,10.0,Research & Development,Manufacturing Director,2,No,10.0,10.0,1.0,1.0,4213.0,0.0,383.0,0.9090909090909091,10.0,0
+466,1,36.0,Male,Married,9.0,Research & Development,Research Scientist,1,Yes,2.0,1.0,3.0,2.0,3388.0,0.0,1129.3333333333333,0.3333333333333333,1.0,1
+467,0,40.0,Female,Married,8.0,Research & Development,Manufacturing Director,2,Yes,18.0,1.0,1.0,3.0,6516.0,0.0,342.94736842105266,0.05263157894736842,1.0,1
+468,0,35.0,Female,Single,1.0,Sales,Sales Executive,3,No,10.0,10.0,3.0,4.0,8789.0,0.0,799.0,0.9090909090909091,10.0,0
+469,0,24.0,Female,Divorced,17.0,Research & Development,Manufacturing Director,2,No,5.0,4.0,3.0,3.0,4377.0,3.0,729.5,0.6666666666666666,1.0,0
+470,0,23.0,Male,Married,1.0,Research & Development,Research Scientist,1,No,1.0,1.0,3.0,3.0,1223.0,0.0,611.5,0.5,1.0,0
+471,0,28.0,Male,Single,16.0,Research & Development,Healthcare Representative,2,No,9.0,8.0,1.0,3.0,5661.0,0.0,566.1,0.8,8.0,0
+472,0,60.0,Male,Single,16.0,Sales,Sales Executive,2,No,10.0,2.0,1.0,3.0,5405.0,2.0,491.3636363636364,0.18181818181818182,0.0,0
+473,0,47.0,Male,Divorced,16.0,Research & Development,Manufacturing Director,2,Yes,20.0,19.0,3.0,4.0,5067.0,2.0,241.28571428571428,0.9047619047619048,17.0,1
+474,0,41.0,Male,Divorced,10.0,Human Resources,Manager,5,No,23.0,21.0,4.0,2.0,19141.0,12.0,797.5416666666666,0.875,9.0,0
+475,0,24.0,Male,Single,24.0,Research & Development,Laboratory Technician,1,No,6.0,4.0,2.0,3.0,3597.0,1.0,513.8571428571429,0.5714285714285714,3.0,0
+476,0,29.0,Female,Divorced,7.0,Research & Development,Laboratory Technician,1,No,8.0,4.0,4.0,3.0,2532.0,0.0,281.3333333333333,0.4444444444444444,4.0,0
+477,1,37.0,Male,Divorced,10.0,Research & Development,Manufacturing Director,3,No,17.0,1.0,3.0,3.0,10048.0,0.0,558.2222222222222,0.05555555555555555,1.0,0
+478,0,35.0,Male,Married,10.0,Sales,Sales Executive,3,No,15.0,13.0,1.0,3.0,10306.0,6.0,644.125,0.8125,7.0,0
+479,0,29.0,Female,Single,28.0,Research & Development,Research Scientist,1,No,5.0,5.0,1.0,1.0,3785.0,0.0,630.8333333333334,0.8333333333333334,5.0,0
+480,0,55.0,Male,Married,18.0,Research & Development,Healthcare Representative,2,Yes,17.0,8.0,2.0,3.0,6385.0,6.0,354.72222222222223,0.4444444444444444,2.0,1
+481,0,30.0,Male,Married,1.0,Research & Development,Laboratory Technician,2,Yes,10.0,10.0,4.0,2.0,5126.0,3.0,466.0,0.9090909090909091,7.0,1
+482,0,42.0,Male,Married,13.0,Research & Development,Healthcare Representative,2,No,10.0,0.0,1.0,2.0,5538.0,0.0,503.45454545454544,0.0,0.0,0
+483,0,29.0,Female,Married,8.0,Research & Development,Healthcare Representative,2,No,9.0,7.0,1.0,3.0,9715.0,0.0,971.5,0.7,7.0,0
+484,0,26.0,Male,Married,28.0,Sales,Sales Executive,2,No,6.0,5.0,2.0,4.0,6272.0,1.0,896.0,0.7142857142857143,4.0,0
+485,1,29.0,Male,Married,8.0,Research & Development,Laboratory Technician,1,Yes,7.0,7.0,1.0,2.0,2119.0,0.0,264.875,0.875,7.0,1
+486,1,25.0,Male,Married,3.0,Research & Development,Laboratory Technician,1,No,6.0,2.0,1.0,3.0,4031.0,0.0,575.8571428571429,0.2857142857142857,2.0,0
+487,0,38.0,Female,Married,4.0,Research & Development,Laboratory Technician,1,No,7.0,0.0,3.0,2.0,3306.0,0.0,413.25,0.0,0.0,0
+488,0,37.0,Female,Divorced,14.0,Research & Development,Laboratory Technician,1,No,18.0,18.0,1.0,2.0,3034.0,12.0,159.68421052631578,0.9473684210526315,6.0,0
+489,0,36.0,Male,Married,8.0,Human Resources,Human Resources,1,No,6.0,5.0,1.0,3.0,2342.0,0.0,334.57142857142856,0.7142857142857143,5.0,0
+490,1,41.0,Male,Divorced,5.0,Research & Development,Research Scientist,1,No,5.0,1.0,1.0,1.0,2107.0,0.0,351.1666666666667,0.16666666666666666,1.0,0
+491,0,36.0,Female,Single,3.0,Sales,Sales Executive,2,Yes,15.0,5.0,2.0,3.0,9278.0,0.0,579.875,0.3125,5.0,1
+492,0,38.0,Female,Married,1.0,Research & Development,Research Director,3,No,15.0,15.0,1.0,3.0,13582.0,5.0,848.875,0.9375,10.0,0
+493,0,49.0,Female,Married,6.0,Research & Development,Healthcare Representative,4,Yes,30.0,15.0,3.0,3.0,13966.0,2.0,450.51612903225805,0.4838709677419355,13.0,1
+494,0,38.0,Female,Single,1.0,Research & Development,Research Scientist,1,No,8.0,0.0,1.0,2.0,2619.0,0.0,291.0,0.0,0.0,0
+495,0,51.0,Female,Married,26.0,Sales,Manager,4,No,29.0,20.0,3.0,2.0,16307.0,4.0,543.5666666666667,0.6666666666666666,16.0,0
+496,0,37.0,Male,Divorced,6.0,Research & Development,Research Scientist,2,Yes,13.0,7.0,1.0,3.0,5974.0,6.0,426.7142857142857,0.5,1.0,1
+497,1,20.0,Female,Single,6.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,4.0,3.0,2926.0,1.0,1463.0,0.5,0.0,1
+498,0,45.0,Female,Divorced,1.0,Research & Development,Laboratory Technician,1,No,8.0,5.0,4.0,3.0,2270.0,0.0,252.22222222222223,0.5555555555555556,5.0,0
+499,1,24.0,Female,Married,17.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,2.0,1.0,2210.0,0.0,1105.0,0.5,1.0,0
+500,0,52.0,Male,Divorced,6.0,Research & Development,Research Scientist,2,Yes,18.0,10.0,1.0,3.0,5577.0,6.0,293.5263157894737,0.5263157894736842,4.0,1
+501,0,49.0,Male,Single,7.0,Research & Development,Healthcare Representative,3,No,26.0,5.0,3.0,3.0,10965.0,0.0,406.1111111111111,0.18518518518518517,5.0,0
+502,0,23.0,Male,Single,8.0,Research & Development,Laboratory Technician,1,Yes,5.0,5.0,3.0,3.0,3989.0,1.0,664.8333333333334,0.8333333333333334,4.0,1
+503,0,34.0,Male,Divorced,10.0,Sales,Sales Executive,2,Yes,15.0,15.0,3.0,3.0,4001.0,0.0,250.0625,0.9375,15.0,1
+504,0,28.0,Male,Divorced,1.0,Research & Development,Research Scientist,1,No,1.0,1.0,3.0,1.0,1563.0,0.0,781.5,0.5,1.0,0
+505,1,19.0,Male,Single,22.0,Sales,Sales Representative,1,Yes,0.0,0.0,3.0,2.0,1675.0,0.0,1675.0,0.0,0.0,1
+506,0,46.0,Male,Divorced,2.0,Research & Development,Research Director,5,Yes,24.0,2.0,4.0,3.0,19328.0,2.0,773.12,0.08,0.0,1
+507,0,24.0,Female,Divorced,11.0,Research & Development,Manufacturing Director,2,No,5.0,4.0,3.0,2.0,4011.0,1.0,668.5,0.6666666666666666,3.0,0
+508,0,22.0,Male,Married,6.0,Research & Development,Research Scientist,1,No,3.0,2.0,3.0,3.0,2773.0,2.0,693.25,0.5,0.0,0
+509,0,43.0,Male,Single,2.0,Human Resources,Human Resources,1,No,10.0,9.0,4.0,3.0,3539.0,1.0,321.72727272727275,0.8181818181818182,8.0,0
+510,0,42.0,Male,Divorced,8.0,Research & Development,Manager,5,No,24.0,24.0,4.0,2.0,18430.0,14.0,737.2,0.96,10.0,0
+511,0,33.0,Female,Married,3.0,Research & Development,Research Scientist,1,Yes,8.0,8.0,3.0,3.0,2909.0,3.0,323.22222222222223,0.8888888888888888,5.0,1
+512,0,37.0,Male,Divorced,1.0,Research & Development,Manufacturing Director,2,No,7.0,7.0,3.0,4.0,5993.0,0.0,749.125,0.875,7.0,0
+513,0,39.0,Male,Divorced,1.0,Research & Development,Manager,5,Yes,21.0,21.0,3.0,3.0,19197.0,1.0,872.5909090909091,0.9545454545454546,20.0,1
+514,0,36.0,Female,Married,7.0,Sales,Sales Executive,2,No,17.0,15.0,1.0,2.0,4639.0,6.0,257.72222222222223,0.8333333333333334,9.0,0
+515,0,50.0,Male,Single,10.0,Research & Development,Healthcare Representative,3,No,20.0,4.0,4.0,3.0,10496.0,1.0,499.8095238095238,0.19047619047619047,3.0,0
+516,0,33.0,Male,Married,7.0,Research & Development,Research Director,3,No,14.0,13.0,3.0,4.0,11691.0,3.0,779.4,0.8666666666666667,10.0,0
+517,0,43.0,Male,Divorced,9.0,Research & Development,Laboratory Technician,2,Yes,10.0,8.0,3.0,3.0,5679.0,4.0,516.2727272727273,0.7272727272727273,4.0,1
+518,0,31.0,Female,Single,3.0,Research & Development,Research Scientist,1,No,7.0,7.0,3.0,1.0,4084.0,7.0,510.5,0.875,0.0,0
+519,0,30.0,Female,Married,28.0,Research & Development,Research Scientist,2,No,11.0,10.0,4.0,3.0,5775.0,1.0,481.25,0.8333333333333334,9.0,0
+520,0,35.0,Male,Single,12.0,Sales,Sales Executive,2,Yes,13.0,11.0,4.0,4.0,4581.0,6.0,327.2142857142857,0.7857142857142857,5.0,1
+521,1,36.0,Male,Single,9.0,Sales,Sales Representative,1,No,10.0,5.0,1.0,3.0,3407.0,0.0,309.72727272727275,0.45454545454545453,5.0,0
+522,0,53.0,Female,Married,2.0,Research & Development,Manufacturing Director,3,No,34.0,33.0,4.0,3.0,10169.0,1.0,290.54285714285714,0.9428571428571428,32.0,0
+523,0,54.0,Female,Single,10.0,Research & Development,Manufacturing Director,2,Yes,9.0,5.0,1.0,3.0,4440.0,1.0,444.0,0.5,4.0,1
+524,0,40.0,Male,Single,9.0,Research & Development,Laboratory Technician,1,No,15.0,5.0,1.0,1.0,2018.0,1.0,126.125,0.3125,4.0,0
+525,0,27.0,Female,Married,2.0,Research & Development,Manufacturing Director,2,No,4.0,3.0,4.0,3.0,4227.0,2.0,845.4,0.6,1.0,0
+526,0,42.0,Male,Married,2.0,Research & Development,Manager,4,No,23.0,22.0,1.0,3.0,17665.0,13.0,736.0416666666666,0.9166666666666666,9.0,0
+527,1,36.0,Male,Divorced,15.0,Research & Development,Laboratory Technician,2,No,9.0,1.0,3.0,2.0,4834.0,0.0,483.4,0.1,1.0,0
+528,0,29.0,Male,Divorced,7.0,Research & Development,Healthcare Representative,2,Yes,6.0,6.0,4.0,3.0,6623.0,1.0,946.1428571428571,0.8571428571428571,5.0,1
+529,0,37.0,Male,Married,3.0,Research & Development,Manufacturing Director,3,No,10.0,10.0,3.0,3.0,9434.0,7.0,857.6363636363636,0.9090909090909091,3.0,0
+530,0,32.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,2.0,3.0,1393.0,0.0,696.5,0.5,1.0,0
+531,0,40.0,Male,Divorced,2.0,Research & Development,Research Director,5,No,22.0,21.0,3.0,3.0,19436.0,3.0,845.0434782608696,0.9130434782608695,18.0,0
+532,1,58.0,Male,Single,2.0,Research & Development,Research Director,5,Yes,40.0,31.0,2.0,3.0,19246.0,13.0,469.4146341463415,0.7560975609756098,18.0,1
+533,0,38.0,Female,Married,2.0,Research & Development,Laboratory Technician,1,No,9.0,6.0,2.0,2.0,2468.0,0.0,246.8,0.6,6.0,0
+534,0,40.0,Male,Single,14.0,Research & Development,Research Director,5,No,21.0,20.0,3.0,4.0,19626.0,4.0,892.0909090909091,0.9090909090909091,16.0,0
+535,0,38.0,Female,Married,2.0,Research & Development,Manufacturing Director,3,Yes,10.0,5.0,3.0,4.0,7756.0,0.0,705.0909090909091,0.45454545454545453,5.0,1
+536,0,30.0,Female,Married,5.0,Sales,Sales Executive,3,No,12.0,10.0,4.0,3.0,9419.0,7.0,724.5384615384615,0.7692307692307693,3.0,0
+537,1,33.0,Female,Single,16.0,Sales,Sales Executive,2,No,6.0,3.0,1.0,3.0,5324.0,0.0,760.5714285714286,0.42857142857142855,3.0,0
+538,0,35.0,Male,Married,18.0,Research & Development,Research Scientist,2,No,16.0,16.0,1.0,3.0,5208.0,1.0,306.3529411764706,0.9411764705882353,15.0,0
+539,0,31.0,Male,Married,1.0,Research & Development,Manufacturing Director,2,No,6.0,5.0,3.0,3.0,4345.0,1.0,620.7142857142857,0.7142857142857143,4.0,0
+540,0,30.0,Female,Single,9.0,Research & Development,Manufacturing Director,2,Yes,10.0,8.0,3.0,3.0,4695.0,1.0,426.8181818181818,0.7272727272727273,7.0,1
+541,0,32.0,Male,Single,1.0,Sales,Sales Executive,2,No,10.0,0.0,2.0,3.0,6735.0,0.0,612.2727272727273,0.0,0.0,0
+542,0,41.0,Male,Divorced,9.0,Research & Development,Laboratory Technician,1,No,5.0,5.0,1.0,3.0,2289.0,0.0,381.5,0.8333333333333334,5.0,0
+543,0,59.0,Female,Married,3.0,Research & Development,Laboratory Technician,1,Yes,12.0,1.0,1.0,2.0,2670.0,0.0,205.3846153846154,0.07692307692307693,1.0,1
+544,1,49.0,Male,Single,28.0,Research & Development,Laboratory Technician,2,No,20.0,4.0,1.0,3.0,4284.0,1.0,204.0,0.19047619047619047,3.0,0
+545,0,33.0,Male,Single,8.0,Research & Development,Healthcare Representative,2,Yes,14.0,0.0,3.0,3.0,6388.0,0.0,425.8666666666667,0.0,0.0,1
+546,0,28.0,Male,Married,26.0,Sales,Sales Executive,2,No,5.0,5.0,1.0,3.0,4724.0,0.0,787.3333333333334,0.8333333333333334,5.0,0
+547,0,36.0,Female,Married,10.0,Research & Development,Healthcare Representative,3,No,10.0,7.0,3.0,3.0,7094.0,1.0,644.9090909090909,0.6363636363636364,6.0,0
+548,0,50.0,Male,Divorced,28.0,Sales,Sales Executive,3,Yes,20.0,3.0,1.0,3.0,10854.0,2.0,516.8571428571429,0.14285714285714285,1.0,1
+549,1,28.0,Male,Single,24.0,Research & Development,Laboratory Technician,1,Yes,6.0,4.0,3.0,3.0,2028.0,0.0,289.7142857142857,0.5714285714285714,4.0,1
+550,1,26.0,Male,Single,3.0,Research & Development,Research Scientist,1,No,7.0,6.0,1.0,3.0,3102.0,0.0,387.75,0.75,6.0,0
+551,0,31.0,Female,Married,20.0,Sales,Sales Executive,2,No,9.0,9.0,3.0,2.0,6932.0,0.0,693.2,0.9,9.0,0
+552,0,40.0,Male,Divorced,28.0,Sales,Sales Executive,3,No,20.0,1.0,1.0,3.0,10932.0,0.0,520.5714285714286,0.047619047619047616,1.0,0
+553,0,27.0,Female,Married,16.0,Research & Development,Laboratory Technician,1,No,4.0,2.0,2.0,3.0,2811.0,2.0,562.2,0.4,0.0,0
+554,0,50.0,Female,Married,1.0,Research & Development,Research Director,5,Yes,28.0,8.0,2.0,2.0,18172.0,0.0,626.6206896551724,0.27586206896551724,8.0,1
+555,0,32.0,Male,Divorced,2.0,Research & Development,Research Scientist,2,No,10.0,9.0,2.0,2.0,5470.0,1.0,497.27272727272725,0.8181818181818182,8.0,0
+556,1,33.0,Male,Married,15.0,Research & Development,Manager,3,Yes,15.0,7.0,3.0,4.0,13610.0,7.0,850.625,0.4375,0.0,1
+557,0,46.0,Female,Married,18.0,Research & Development,Healthcare Representative,3,No,28.0,2.0,3.0,2.0,10527.0,1.0,363.0,0.06896551724137931,1.0,0
+558,1,33.0,Male,Single,25.0,Research & Development,Research Scientist,1,Yes,5.0,2.0,2.0,3.0,2313.0,2.0,385.5,0.3333333333333333,0.0,1
+559,0,37.0,Male,Single,7.0,Research & Development,Research Director,3,No,16.0,5.0,3.0,4.0,13664.0,0.0,803.7647058823529,0.29411764705882354,5.0,0
+560,0,23.0,Male,Married,10.0,Research & Development,Research Scientist,1,No,4.0,2.0,3.0,3.0,2073.0,2.0,414.6,0.4,0.0,0
+561,0,26.0,Male,Divorced,29.0,Sales,Sales Executive,2,No,8.0,0.0,3.0,3.0,4306.0,0.0,478.44444444444446,0.0,0.0,0
+562,0,25.0,Male,Divorced,2.0,Research & Development,Laboratory Technician,1,Yes,7.0,2.0,3.0,2.0,3977.0,0.0,497.125,0.25,2.0,1
+563,0,50.0,Female,Divorced,1.0,Sales,Manager,5,No,32.0,7.0,4.0,2.0,19517.0,0.0,591.4242424242424,0.21212121212121213,7.0,0
+564,0,38.0,Male,Married,14.0,Sales,Sales Executive,2,No,10.0,9.0,2.0,3.0,9924.0,7.0,902.1818181818181,0.8181818181818182,2.0,0
+565,1,58.0,Female,Married,7.0,Research & Development,Manufacturing Director,3,Yes,31.0,10.0,1.0,2.0,10008.0,5.0,312.75,0.3125,5.0,1
+566,0,31.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,4.0,4.0,1.0,3.0,2218.0,3.0,443.6,0.8,1.0,0
+567,0,26.0,Female,Divorced,1.0,Research & Development,Research Scientist,1,No,5.0,5.0,3.0,3.0,2007.0,1.0,334.5,0.8333333333333334,4.0,0
+568,1,30.0,Male,Single,4.0,Research & Development,Research Scientist,1,Yes,3.0,1.0,4.0,3.0,2285.0,0.0,571.25,0.25,1.0,1
+569,0,56.0,Male,Married,7.0,Research & Development,Laboratory Technician,1,No,14.0,10.0,3.0,1.0,2339.0,9.0,155.93333333333334,0.6666666666666666,1.0,0
+570,0,33.0,Male,Married,7.0,Sales,Sales Executive,2,No,5.0,4.0,1.0,3.0,4373.0,0.0,728.8333333333334,0.6666666666666666,4.0,0
+571,0,46.0,Female,Married,21.0,Research & Development,Healthcare Representative,2,No,13.0,9.0,2.0,4.0,8926.0,3.0,637.5714285714286,0.6428571428571429,6.0,0
+572,0,59.0,Male,Married,1.0,Sales,Manager,3,Yes,14.0,6.0,4.0,1.0,11904.0,0.0,793.6,0.4,6.0,1
+573,0,45.0,Male,Married,20.0,Research & Development,Healthcare Representative,4,Yes,21.0,20.0,4.0,3.0,13496.0,4.0,613.4545454545455,0.9090909090909091,16.0,1
+574,0,29.0,Male,Married,20.0,Research & Development,Laboratory Technician,1,No,11.0,11.0,4.0,4.0,3812.0,3.0,317.6666666666667,0.9166666666666666,8.0,0
+575,0,32.0,Female,Married,1.0,Sales,Sales Executive,3,No,14.0,14.0,4.0,3.0,10422.0,5.0,694.8,0.9333333333333333,9.0,0
+576,0,58.0,Female,Divorced,5.0,Research & Development,Healthcare Representative,3,Yes,24.0,6.0,2.0,3.0,10552.0,0.0,422.08,0.24,6.0,1
+577,0,28.0,Male,Married,21.0,Research & Development,Research Scientist,1,No,5.0,5.0,4.0,1.0,2713.0,0.0,452.1666666666667,0.8333333333333334,5.0,0
+578,0,30.0,Male,Married,10.0,Sales,Sales Executive,2,No,10.0,10.0,3.0,3.0,6578.0,1.0,598.0,0.9090909090909091,9.0,0
+579,0,46.0,Male,Single,5.0,Sales,Sales Executive,2,Yes,14.0,9.0,4.0,3.0,5772.0,0.0,384.8,0.6,9.0,1
+580,1,31.0,Female,Single,1.0,Sales,Sales Representative,1,Yes,3.0,3.0,2.0,4.0,2302.0,2.0,575.5,0.75,1.0,1
+581,1,31.0,Female,Single,8.0,Research & Development,Research Scientist,1,No,1.0,1.0,2.0,4.0,1261.0,0.0,630.5,0.5,1.0,0
+582,0,22.0,Male,Married,19.0,Research & Development,Research Scientist,1,No,2.0,2.0,4.0,3.0,2323.0,2.0,774.3333333333334,0.6666666666666666,0.0,0
+583,0,22.0,Male,Divorced,16.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,4.0,2.0,2935.0,0.0,1467.5,0.5,1.0,1
+584,0,36.0,Female,Married,5.0,Research & Development,Research Scientist,1,Yes,6.0,1.0,1.0,4.0,3419.0,0.0,488.42857142857144,0.14285714285714285,1.0,1
+585,0,43.0,Female,Single,10.0,Research & Development,Laboratory Technician,1,No,9.0,8.0,4.0,3.0,2455.0,1.0,245.5,0.8,7.0,0
+586,1,35.0,Female,Divorced,25.0,Research & Development,Research Scientist,1,Yes,10.0,10.0,2.0,2.0,2022.0,7.0,183.8181818181818,0.9090909090909091,3.0,1
+587,0,60.0,Female,Married,28.0,Sales,Sales Executive,3,No,22.0,18.0,1.0,4.0,10266.0,13.0,446.3478260869565,0.782608695652174,5.0,0
+588,0,34.0,Female,Single,2.0,Sales,Sales Executive,2,Yes,4.0,3.0,1.0,3.0,4538.0,0.0,907.6,0.6,3.0,1
+589,1,39.0,Male,Married,6.0,Research & Development,Laboratory Technician,1,Yes,8.0,2.0,1.0,1.0,2404.0,2.0,267.1111111111111,0.2222222222222222,0.0,1
+590,0,38.0,Male,Divorced,10.0,Sales,Sales Executive,3,Yes,9.0,8.0,3.0,3.0,8740.0,2.0,874.0,0.8,6.0,1
+591,0,31.0,Male,Married,2.0,Sales,Sales Representative,1,No,3.0,2.0,3.0,3.0,3067.0,1.0,766.75,0.5,1.0,0
+592,0,43.0,Male,Married,11.0,Research & Development,Healthcare Representative,3,No,10.0,10.0,3.0,3.0,7510.0,0.0,682.7272727272727,0.9090909090909091,10.0,0
+593,1,33.0,Male,Divorced,10.0,Research & Development,Laboratory Technician,1,No,8.0,4.0,4.0,3.0,3408.0,1.0,378.6666666666667,0.4444444444444444,3.0,0
+594,0,25.0,Female,Single,4.0,Sales,Sales Executive,2,Yes,5.0,5.0,4.0,3.0,4487.0,1.0,747.8333333333334,0.8333333333333334,4.0,1
+595,0,49.0,Male,Married,5.0,Research & Development,Healthcare Representative,2,No,20.0,3.0,3.0,2.0,6651.0,1.0,316.7142857142857,0.14285714285714285,2.0,0
+596,0,33.0,Male,Divorced,1.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,3.0,2.0,2008.0,0.0,1004.0,0.5,1.0,0
+597,0,45.0,Male,Single,24.0,Human Resources,Human Resources,1,No,6.0,6.0,2.0,3.0,2177.0,0.0,311.0,0.8571428571428571,6.0,0
+598,0,43.0,Male,Divorced,12.0,Research & Development,Research Director,4,No,25.0,25.0,2.0,3.0,14336.0,3.0,551.3846153846154,0.9615384615384616,22.0,0
+599,0,34.0,Male,Divorced,15.0,Research & Development,Research Director,4,No,16.0,14.0,1.0,2.0,17007.0,6.0,1000.4117647058823,0.8235294117647058,8.0,0
+600,0,35.0,Female,Single,10.0,Research & Development,Healthcare Representative,2,Yes,10.0,5.0,3.0,3.0,6142.0,0.0,558.3636363636364,0.45454545454545453,5.0,1
+601,0,34.0,Female,Married,10.0,Sales,Sales Representative,1,Yes,1.0,1.0,3.0,3.0,2220.0,0.0,1110.0,0.5,1.0,1
+602,0,23.0,Male,Single,10.0,Research & Development,Research Scientist,1,No,2.0,2.0,3.0,3.0,3505.0,0.0,1168.3333333333333,0.6666666666666666,2.0,0
+603,0,37.0,Female,Divorced,10.0,Research & Development,Research Scientist,1,Yes,6.0,5.0,1.0,2.0,2782.0,4.0,397.42857142857144,0.7142857142857143,1.0,1
+604,0,35.0,Female,Married,8.0,Sales,Sales Representative,1,No,3.0,3.0,4.0,2.0,2572.0,0.0,643.0,0.75,3.0,0
+605,1,36.0,Male,Married,3.0,Sales,Sales Executive,3,Yes,16.0,16.0,4.0,3.0,10325.0,3.0,607.3529411764706,0.9411764705882353,13.0,1
+606,0,23.0,Male,Divorced,26.0,Research & Development,Research Scientist,1,No,4.0,4.0,4.0,2.0,2904.0,0.0,580.8,0.8,4.0,0
+607,0,25.0,Female,Single,26.0,Sales,Sales Executive,2,No,6.0,6.0,4.0,2.0,6180.0,1.0,882.8571428571429,0.8571428571428571,5.0,0
+608,0,40.0,Male,Single,7.0,Sales,Manager,5,No,21.0,21.0,2.0,2.0,19833.0,12.0,901.5,0.9545454545454546,9.0,0
+609,0,43.0,Male,Divorced,7.0,Research & Development,Research Scientist,1,No,7.0,5.0,4.0,4.0,2089.0,2.0,261.125,0.625,3.0,0
+610,1,41.0,Female,Divorced,2.0,Research & Development,Laboratory Technician,1,Yes,10.0,7.0,4.0,2.0,2778.0,1.0,252.54545454545453,0.6363636363636364,6.0,1
+611,0,25.0,Male,Single,10.0,Sales,Sales Executive,2,No,5.0,4.0,4.0,3.0,4950.0,1.0,825.0,0.6666666666666666,3.0,0
+612,0,34.0,Male,Single,7.0,Research & Development,Research Scientist,1,No,1.0,1.0,4.0,1.0,2972.0,0.0,1486.0,0.5,1.0,0
+613,0,52.0,Female,Married,4.0,Research & Development,Manager,4,No,31.0,5.0,4.0,1.0,16555.0,1.0,517.34375,0.15625,4.0,0
+614,0,36.0,Male,Married,3.0,Sales,Sales Executive,3,No,16.0,13.0,4.0,3.0,9699.0,1.0,570.5294117647059,0.7647058823529411,12.0,0
+615,0,45.0,Female,Married,25.0,Research & Development,Manufacturing Director,2,No,10.0,9.0,4.0,2.0,5906.0,3.0,536.9090909090909,0.8181818181818182,6.0,0
+616,0,28.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,8.0,0.0,1.0,2.0,2561.0,0.0,284.55555555555554,0.0,0.0,0
+617,0,26.0,Male,Married,2.0,Research & Development,Manufacturing Director,2,No,8.0,8.0,4.0,3.0,5472.0,1.0,608.0,0.8888888888888888,7.0,0
+618,0,56.0,Female,Married,9.0,Research & Development,Research Scientist,1,No,18.0,5.0,3.0,3.0,2942.0,0.0,154.8421052631579,0.2631578947368421,5.0,0
+619,0,34.0,Male,Divorced,10.0,Research & Development,Research Scientist,1,Yes,5.0,5.0,3.0,4.0,3815.0,2.0,635.8333333333334,0.8333333333333334,3.0,1
+620,0,38.0,Male,Married,9.0,Sales,Sales Representative,1,No,3.0,2.0,2.0,3.0,2899.0,1.0,724.75,0.5,1.0,0
+621,0,36.0,Male,Married,6.0,Research & Development,Laboratory Technician,1,No,16.0,15.0,4.0,3.0,3210.0,10.0,188.8235294117647,0.8823529411764706,5.0,0
+622,0,39.0,Male,Single,24.0,Research & Development,Research Scientist,2,No,18.0,7.0,4.0,3.0,4108.0,1.0,216.21052631578948,0.3684210526315789,6.0,0
+623,0,26.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,1.0,3.0,3955.0,1.0,565.0,0.7142857142857143,4.0,0
+624,0,43.0,Male,Single,9.0,Research & Development,Research Scientist,1,No,7.0,3.0,3.0,2.0,2438.0,1.0,304.75,0.375,2.0,0
+625,0,23.0,Male,Single,12.0,Research & Development,Laboratory Technician,1,No,5.0,5.0,4.0,4.0,2647.0,1.0,441.1666666666667,0.8333333333333334,4.0,0
+626,1,29.0,Female,Married,23.0,Sales,Sales Executive,3,No,11.0,11.0,1.0,1.0,7336.0,3.0,611.3333333333334,0.9166666666666666,8.0,0
+627,0,27.0,Male,Married,17.0,Research & Development,Research Scientist,1,Yes,6.0,5.0,2.0,2.0,3058.0,1.0,436.85714285714283,0.7142857142857143,4.0,1
+628,1,31.0,Female,Single,1.0,Sales,Sales Representative,1,No,1.0,1.0,3.0,3.0,1359.0,0.0,679.5,0.5,1.0,0
+629,0,43.0,Male,Married,15.0,Sales,Sales Executive,2,No,7.0,2.0,4.0,3.0,6804.0,2.0,850.5,0.25,0.0,0
+630,0,45.0,Female,Married,2.0,Sales,Sales Executive,2,No,10.0,8.0,3.0,4.0,5154.0,5.0,468.54545454545456,0.7272727272727273,3.0,0
+631,0,36.0,Male,Single,8.0,Sales,Sales Executive,3,No,10.0,10.0,1.0,3.0,7587.0,0.0,689.7272727272727,0.9090909090909091,10.0,0
+632,0,40.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,7.0,4.0,2.0,3.0,2387.0,0.0,298.375,0.5,4.0,0
+633,0,22.0,Male,Married,2.0,Research & Development,Laboratory Technician,1,No,3.0,2.0,4.0,3.0,2523.0,2.0,630.75,0.5,0.0,0
+634,0,26.0,Male,Married,3.0,Research & Development,Laboratory Technician,1,No,8.0,8.0,4.0,3.0,4420.0,0.0,491.1111111111111,0.8888888888888888,8.0,0
+635,0,31.0,Female,Single,7.0,Research & Development,Manufacturing Director,3,Yes,11.0,11.0,4.0,2.0,7143.0,4.0,595.25,0.9166666666666666,7.0,1
+636,0,28.0,Male,Divorced,1.0,Human Resources,Human Resources,1,No,3.0,3.0,4.0,3.0,2706.0,2.0,676.5,0.75,1.0,0
+637,1,52.0,Male,Single,5.0,Sales,Sales Executive,3,Yes,10.0,8.0,2.0,2.0,8446.0,7.0,767.8181818181819,0.7272727272727273,1.0,1
+638,0,28.0,Male,Married,9.0,Research & Development,Research Scientist,1,No,5.0,5.0,4.0,2.0,2070.0,0.0,345.0,0.8333333333333334,5.0,0
+639,0,37.0,Male,Married,4.0,Research & Development,Research Scientist,1,Yes,8.0,6.0,3.0,3.0,2996.0,1.0,332.8888888888889,0.6666666666666666,5.0,1
+640,0,36.0,Female,Single,1.0,Sales,Sales Executive,2,No,15.0,1.0,3.0,3.0,6815.0,0.0,425.9375,0.0625,1.0,0
+641,0,24.0,Male,Married,22.0,Human Resources,Human Resources,1,No,1.0,1.0,3.0,3.0,1555.0,0.0,777.5,0.5,1.0,0
+642,0,41.0,Male,Married,1.0,Research & Development,Research Scientist,1,No,12.0,5.0,4.0,3.0,2782.0,1.0,214.0,0.38461538461538464,4.0,0
+643,0,35.0,Male,Married,11.0,Research & Development,Laboratory Technician,1,Yes,5.0,2.0,3.0,3.0,2660.0,2.0,443.3333333333333,0.3333333333333333,0.0,1
+644,0,36.0,Male,Married,23.0,Research & Development,Laboratory Technician,2,No,17.0,5.0,4.0,3.0,2571.0,0.0,142.83333333333334,0.2777777777777778,5.0,0
+645,0,42.0,Male,Single,29.0,Research & Development,Laboratory Technician,2,No,16.0,1.0,4.0,3.0,4272.0,0.0,251.2941176470588,0.058823529411764705,1.0,0
+646,0,44.0,Male,Single,17.0,Research & Development,Research Scientist,1,No,6.0,0.0,3.0,3.0,2290.0,0.0,327.14285714285717,0.0,0.0,0
+647,0,28.0,Male,Married,10.0,Sales,Sales Representative,1,No,1.0,1.0,2.0,3.0,1052.0,0.0,526.0,0.5,1.0,0
+648,0,33.0,Female,Married,4.0,Research & Development,Laboratory Technician,1,No,8.0,5.0,2.0,3.0,3838.0,0.0,426.44444444444446,0.5555555555555556,5.0,0
+649,0,31.0,Male,Married,11.0,Research & Development,Healthcare Representative,2,Yes,6.0,6.0,1.0,2.0,6833.0,0.0,976.1428571428571,0.8571428571428571,6.0,1
+650,0,29.0,Male,Single,3.0,Research & Development,Laboratory Technician,1,Yes,10.0,10.0,1.0,3.0,4723.0,1.0,429.3636363636364,0.9090909090909091,9.0,1
+651,1,19.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,4.0,2.0,1102.0,1.0,551.0,0.5,0.0,0
+652,1,37.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,Yes,7.0,0.0,3.0,3.0,2090.0,0.0,261.25,0.0,0.0,1
+653,0,45.0,Female,Single,2.0,Research & Development,Research Scientist,1,No,1.0,1.0,3.0,3.0,2274.0,0.0,1137.0,0.5,1.0,0
+654,0,50.0,Male,Married,9.0,Research & Development,Laboratory Technician,1,No,8.0,1.0,4.0,3.0,2380.0,0.0,264.44444444444446,0.1111111111111111,1.0,0
+655,0,51.0,Female,Single,1.0,Research & Development,Healthcare Representative,3,No,23.0,13.0,1.0,2.0,7484.0,12.0,311.8333333333333,0.5416666666666666,1.0,0
+656,0,42.0,Female,Married,7.0,Research & Development,Research Scientist,2,Yes,18.0,1.0,2.0,3.0,2372.0,0.0,124.84210526315789,0.05263157894736842,1.0,1
+657,0,32.0,Male,Single,6.0,Sales,Sales Executive,2,No,12.0,11.0,3.0,3.0,5010.0,5.0,385.38461538461536,0.8461538461538461,6.0,0
+658,0,32.0,Male,Divorced,9.0,Sales,Sales Executive,2,No,9.0,8.0,4.0,4.0,4668.0,0.0,466.8,0.8,8.0,0
+659,0,32.0,Male,Single,1.0,Research & Development,Research Scientist,1,No,1.0,1.0,1.0,3.0,2956.0,0.0,1478.0,0.5,1.0,0
+660,0,35.0,Female,Divorced,2.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,1.0,3.0,2074.0,0.0,1037.0,0.5,1.0,1
+661,0,33.0,Male,Divorced,10.0,Sales,Sales Executive,3,Yes,10.0,9.0,3.0,3.0,8380.0,0.0,761.8181818181819,0.8181818181818182,9.0,1
+662,0,47.0,Female,Single,4.0,Sales,Sales Executive,2,Yes,9.0,9.0,4.0,3.0,4163.0,0.0,416.3,0.9,9.0,1
+663,0,31.0,Male,Married,2.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,3.0,4.0,3477.0,0.0,496.7142857142857,0.7142857142857143,5.0,0
+664,1,20.0,Female,Single,11.0,Research & Development,Research Scientist,1,Yes,1.0,1.0,1.0,3.0,2600.0,0.0,1300.0,0.5,1.0,1
+665,1,29.0,Female,Married,25.0,Research & Development,Research Scientist,1,No,6.0,2.0,2.0,4.0,2546.0,1.0,363.7142857142857,0.2857142857142857,1.0,0
+666,0,35.0,Male,Divorced,11.0,Sales,Sales Executive,2,No,5.0,5.0,4.0,3.0,4968.0,0.0,828.0,0.8333333333333334,5.0,0
+667,0,29.0,Male,Single,23.0,Research & Development,Research Scientist,1,No,6.0,3.0,4.0,3.0,2201.0,1.0,314.42857142857144,0.42857142857142855,2.0,0
+668,1,24.0,Female,Single,3.0,Sales,Sales Executive,2,No,4.0,2.0,3.0,3.0,4577.0,2.0,915.4,0.4,0.0,0
+669,0,32.0,Female,Married,4.0,Sales,Sales Representative,1,No,6.0,4.0,2.0,3.0,3931.0,1.0,561.5714285714286,0.5714285714285714,3.0,0
+670,0,28.0,Female,Married,1.0,Research & Development,Laboratory Technician,2,No,10.0,9.0,4.0,3.0,6674.0,7.0,606.7272727272727,0.8181818181818182,2.0,0
+671,0,27.0,Male,Single,2.0,Research & Development,Research Scientist,1,No,6.0,4.0,4.0,2.0,2580.0,1.0,368.57142857142856,0.5714285714285714,3.0,0
+672,0,35.0,Female,Divorced,22.0,Research & Development,Manager,3,No,10.0,7.0,2.0,2.0,11996.0,6.0,1090.5454545454545,0.6363636363636364,1.0,0
+673,0,34.0,Female,Divorced,8.0,Research & Development,Manufacturing Director,2,No,7.0,0.0,1.0,3.0,5121.0,0.0,640.125,0.0,0.0,0
+674,0,36.0,Male,Divorced,9.0,Research & Development,Manufacturing Director,2,Yes,13.0,3.0,2.0,3.0,8847.0,0.0,631.9285714285714,0.21428571428571427,3.0,1
+675,0,52.0,Male,Married,1.0,Research & Development,Manager,5,No,34.0,33.0,3.0,3.0,19999.0,11.0,571.4,0.9428571428571428,22.0,0
+676,0,38.0,Male,Married,1.0,Sales,Sales Executive,2,No,16.0,15.0,2.0,3.0,4440.0,5.0,261.1764705882353,0.8823529411764706,10.0,0
+677,0,35.0,Female,Single,2.0,Research & Development,Laboratory Technician,2,No,10.0,6.0,2.0,3.0,4425.0,1.0,402.27272727272725,0.5454545454545454,5.0,0
+678,0,44.0,Male,Married,10.0,Research & Development,Healthcare Representative,2,Yes,9.0,4.0,4.0,4.0,6465.0,1.0,646.5,0.4,3.0,1
+679,0,46.0,Female,Married,3.0,Sales,Manager,4,No,23.0,13.0,2.0,4.0,16606.0,5.0,691.9166666666666,0.5416666666666666,8.0,0
+680,1,22.0,Female,Married,3.0,Research & Development,Manufacturing Director,2,Yes,4.0,3.0,3.0,4.0,4171.0,0.0,834.2,0.6,3.0,1
+681,0,40.0,Female,Single,2.0,Research & Development,Research Scientist,1,Yes,5.0,4.0,4.0,2.0,2342.0,2.0,390.3333333333333,0.6666666666666666,2.0,1
+682,1,33.0,Female,Single,9.0,Sales,Sales Executive,2,Yes,6.0,5.0,1.0,3.0,8224.0,0.0,1174.857142857143,0.7142857142857143,5.0,1
+683,0,50.0,Male,Married,3.0,Human Resources,Manager,5,No,32.0,32.0,2.0,3.0,18200.0,10.0,551.5151515151515,0.9696969696969697,22.0,0
+684,0,50.0,Female,Married,2.0,Research & Development,Manager,4,No,32.0,2.0,1.0,3.0,17856.0,2.0,541.0909090909091,0.06060606060606061,0.0,0
+685,0,57.0,Male,Married,1.0,Research & Development,Healthcare Representative,2,No,15.0,3.0,3.0,3.0,6755.0,1.0,422.1875,0.1875,2.0,0
+686,0,37.0,Female,Married,10.0,Research & Development,Research Director,3,Yes,16.0,16.0,4.0,3.0,13744.0,6.0,808.4705882352941,0.9411764705882353,10.0,1
+687,1,35.0,Female,Married,18.0,Sales,Sales Executive,2,Yes,5.0,4.0,3.0,2.0,4614.0,3.0,769.0,0.6666666666666666,1.0,1
+688,0,41.0,Female,Married,28.0,Research & Development,Manufacturing Director,4,No,21.0,20.0,2.0,3.0,13570.0,0.0,616.8181818181819,0.9090909090909091,20.0,0
+689,0,30.0,Female,Married,17.0,Research & Development,Manager,3,Yes,9.0,9.0,1.0,3.0,11916.0,0.0,1191.6,0.9,9.0,1
+690,0,37.0,Male,Divorced,1.0,Sales,Sales Executive,2,No,6.0,6.0,4.0,2.0,9525.0,1.0,1360.7142857142858,0.8571428571428571,5.0,0
+691,0,31.0,Male,Divorced,6.0,Sales,Sales Executive,2,No,13.0,7.0,4.0,4.0,5460.0,5.0,390.0,0.5,2.0,0
+692,0,52.0,Male,Single,2.0,Sales,Manager,5,Yes,33.0,33.0,3.0,4.0,19068.0,15.0,560.8235294117648,0.9705882352941176,18.0,1
+693,0,31.0,Male,Married,5.0,Sales,Sales Executive,2,No,6.0,5.0,3.0,3.0,8346.0,0.0,1192.2857142857142,0.7142857142857143,5.0,0
+694,0,33.0,Female,Single,1.0,Research & Development,Healthcare Representative,2,No,6.0,5.0,4.0,3.0,6949.0,1.0,992.7142857142857,0.7142857142857143,4.0,0
+695,0,44.0,Female,Divorced,7.0,Research & Development,Research Director,5,Yes,23.0,22.0,4.0,2.0,19049.0,1.0,793.7083333333334,0.9166666666666666,21.0,1
+696,0,33.0,Male,Married,22.0,Sales,Sales Executive,2,No,8.0,7.0,2.0,4.0,6146.0,0.0,682.8888888888889,0.7777777777777778,7.0,0
+697,0,34.0,Male,Married,29.0,Research & Development,Laboratory Technician,2,No,10.0,8.0,3.0,3.0,5429.0,7.0,493.54545454545456,0.7272727272727273,1.0,0
+698,0,18.0,Female,Single,3.0,Sales,Sales Representative,1,Yes,0.0,0.0,4.0,4.0,1569.0,0.0,1569.0,0.0,0.0,1
+699,0,51.0,Male,Married,9.0,Research & Development,Laboratory Technician,1,No,10.0,4.0,4.0,3.0,2075.0,0.0,188.63636363636363,0.36363636363636365,4.0,0
+700,0,50.0,Male,Divorced,4.0,Research & Development,Research Director,5,No,28.0,10.0,2.0,2.0,19144.0,1.0,660.1379310344828,0.3448275862068966,9.0,0
+701,0,29.0,Female,Married,2.0,Research & Development,Laboratory Technician,1,No,4.0,3.0,2.0,3.0,3180.0,0.0,636.0,0.6,3.0,0
+702,0,46.0,Female,Married,4.0,Sales,Manager,5,No,26.0,11.0,2.0,3.0,18789.0,0.0,695.8888888888889,0.4074074074074074,11.0,0
+703,0,22.0,Male,Married,8.0,Research & Development,Laboratory Technician,1,No,4.0,4.0,1.0,2.0,2451.0,1.0,490.2,0.8,3.0,0
+704,0,29.0,Female,Married,1.0,Sales,Sales Executive,3,No,11.0,11.0,4.0,3.0,7918.0,4.0,659.8333333333334,0.9166666666666666,7.0,0
+705,0,22.0,Male,Divorced,5.0,Research & Development,Research Scientist,1,Yes,4.0,4.0,2.0,2.0,2328.0,2.0,465.6,0.8,2.0,1
+706,0,45.0,Female,Single,20.0,Sales,Sales Executive,2,No,8.0,5.0,3.0,3.0,4850.0,0.0,538.8888888888889,0.5555555555555556,5.0,0
+707,0,25.0,Female,Married,2.0,Human Resources,Human Resources,1,No,6.0,2.0,2.0,3.0,2187.0,1.0,312.42857142857144,0.2857142857142857,1.0,0
+708,0,46.0,Female,Married,2.0,Sales,Manager,4,No,28.0,26.0,1.0,3.0,17048.0,15.0,587.8620689655172,0.896551724137931,11.0,0
+709,0,35.0,Male,Married,7.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,4.0,2.0,2690.0,0.0,1345.0,0.5,1.0,0
+710,0,29.0,Male,Single,17.0,Human Resources,Human Resources,3,No,10.0,10.0,1.0,2.0,7988.0,0.0,726.1818181818181,0.9090909090909091,10.0,0
+711,0,46.0,Male,Single,1.0,Sales,Manager,4,No,27.0,26.0,1.0,1.0,17567.0,0.0,627.3928571428571,0.9285714285714286,26.0,0
+712,0,38.0,Female,Single,29.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,4.0,3.0,2406.0,9.0,218.72727272727272,0.9090909090909091,1.0,0
+713,0,41.0,Male,Divorced,14.0,Research & Development,Research Scientist,1,No,13.0,9.0,3.0,3.0,2451.0,1.0,175.07142857142858,0.6428571428571429,8.0,0
+714,0,27.0,Female,Married,22.0,Human Resources,Human Resources,1,No,1.0,1.0,2.0,3.0,2863.0,0.0,1431.5,0.5,1.0,0
+715,0,40.0,Male,Divorced,9.0,Research & Development,Laboratory Technician,2,No,11.0,8.0,3.0,4.0,3975.0,0.0,331.25,0.6666666666666666,8.0,0
+716,0,37.0,Male,Married,13.0,Research & Development,Research Scientist,2,No,10.0,10.0,4.0,3.0,4285.0,3.0,389.54545454545456,0.9090909090909091,7.0,0
+717,0,39.0,Female,Married,21.0,Sales,Sales Executive,2,No,10.0,3.0,3.0,3.0,5736.0,1.0,521.4545454545455,0.2727272727272727,2.0,0
+718,0,31.0,Female,Divorced,2.0,Sales,Sales Executive,3,Yes,10.0,10.0,3.0,2.0,9852.0,9.0,895.6363636363636,0.9090909090909091,1.0,1
+719,0,34.0,Male,Married,1.0,Sales,Sales Executive,3,Yes,10.0,10.0,3.0,3.0,7083.0,8.0,643.9090909090909,0.9090909090909091,2.0,1
+720,0,50.0,Female,Single,12.0,Sales,Sales Executive,3,No,16.0,2.0,4.0,3.0,9208.0,2.0,541.6470588235294,0.11764705882352941,0.0,0
+721,0,51.0,Male,Divorced,5.0,Human Resources,Manager,4,Yes,33.0,33.0,2.0,3.0,14026.0,0.0,412.52941176470586,0.9705882352941176,33.0,1
+722,0,31.0,Female,Married,7.0,Research & Development,Manufacturing Director,3,No,10.0,10.0,3.0,3.0,8943.0,8.0,813.0,0.9090909090909091,2.0,0
+723,0,45.0,Male,Divorced,9.0,Research & Development,Laboratory Technician,2,No,20.0,17.0,2.0,1.0,2348.0,0.0,111.80952380952381,0.8095238095238095,17.0,0
+724,0,52.0,Male,Married,19.0,Research & Development,Research Scientist,1,No,5.0,4.0,4.0,3.0,4258.0,1.0,709.6666666666666,0.6666666666666666,3.0,0
+725,1,58.0,Female,Married,23.0,Research & Development,Healthcare Representative,3,No,40.0,40.0,4.0,2.0,10312.0,15.0,251.5121951219512,0.975609756097561,25.0,0
+726,1,30.0,Female,Single,3.0,Research & Development,Research Scientist,1,Yes,8.0,5.0,1.0,3.0,2657.0,0.0,295.22222222222223,0.5555555555555556,5.0,1
+727,0,39.0,Female,Single,6.0,Research & Development,Manufacturing Director,3,No,9.0,2.0,2.0,3.0,8376.0,2.0,837.6,0.2,0.0,0
+728,0,29.0,Male,Married,2.0,Sales,Sales Executive,2,No,10.0,0.0,2.0,3.0,6644.0,0.0,604.0,0.0,0.0,0
+729,0,44.0,Female,Married,7.0,Research & Development,Healthcare Representative,3,No,24.0,22.0,4.0,3.0,10248.0,5.0,409.92,0.88,17.0,0
+730,0,36.0,Male,Single,11.0,Research & Development,Manufacturing Director,2,No,6.0,6.0,2.0,3.0,6499.0,0.0,928.4285714285714,0.8571428571428571,6.0,0
+731,0,34.0,Female,Single,24.0,Sales,Sales Executive,2,Yes,16.0,15.0,2.0,4.0,4599.0,10.0,270.52941176470586,0.8823529411764706,5.0,1
+732,0,31.0,Female,Single,24.0,Research & Development,Manufacturing Director,2,No,9.0,5.0,4.0,2.0,5238.0,1.0,523.8,0.5,4.0,0
+733,0,31.0,Male,Single,9.0,Research & Development,Research Scientist,1,Yes,3.0,2.0,2.0,3.0,2657.0,2.0,664.25,0.5,0.0,1
+734,0,21.0,Female,Single,1.0,Research & Development,Research Scientist,1,Yes,2.0,2.0,2.0,4.0,2070.0,2.0,690.0,0.6666666666666666,0.0,1
+735,0,36.0,Female,Married,11.0,Sales,Sales Executive,3,No,10.0,9.0,4.0,3.0,9738.0,2.0,885.2727272727273,0.8181818181818182,7.0,0
+736,0,25.0,Female,Married,1.0,Research & Development,Manufacturing Director,2,No,5.0,4.0,3.0,3.0,4898.0,1.0,816.3333333333334,0.6666666666666666,3.0,0
+737,0,46.0,Female,Married,7.0,Research & Development,Manufacturing Director,2,No,7.0,1.0,3.0,4.0,5258.0,0.0,657.25,0.125,1.0,0
+738,0,29.0,Male,Single,9.0,Research & Development,Laboratory Technician,1,No,4.0,3.0,4.0,3.0,3983.0,2.0,796.6,0.6,1.0,0
+739,1,44.0,Male,Divorced,24.0,Research & Development,Laboratory Technician,1,Yes,19.0,1.0,3.0,1.0,3161.0,0.0,158.05,0.05,1.0,1
+740,0,26.0,Male,Married,1.0,Sales,Sales Executive,2,No,8.0,8.0,3.0,3.0,5296.0,7.0,588.4444444444445,0.8888888888888888,1.0,0
+741,0,55.0,Male,Single,2.0,Research & Development,Manager,4,No,31.0,9.0,1.0,4.0,16756.0,6.0,523.625,0.28125,3.0,0
+742,0,47.0,Male,Married,9.0,Sales,Sales Executive,4,No,25.0,23.0,3.0,1.0,12936.0,14.0,497.53846153846155,0.8846153846153846,9.0,0
+743,0,35.0,Male,Divorced,4.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,4.0,3.0,1951.0,0.0,975.5,0.5,1.0,0
+744,0,29.0,Male,Married,1.0,Research & Development,Research Scientist,1,Yes,4.0,2.0,4.0,4.0,4787.0,2.0,957.4,0.4,0.0,1
+745,1,29.0,Female,Single,14.0,Research & Development,Healthcare Representative,3,Yes,9.0,8.0,4.0,3.0,7553.0,7.0,755.3,0.8,1.0,1
+746,0,34.0,Male,Married,4.0,Sales,Sales Executive,3,Yes,9.0,5.0,4.0,3.0,9713.0,1.0,971.3,0.5,4.0,1
+747,0,32.0,Female,Married,3.0,Research & Development,Manufacturing Director,2,No,8.0,8.0,1.0,4.0,6725.0,6.0,747.2222222222222,0.8888888888888888,2.0,0
+748,1,41.0,Female,Single,20.0,Sales,Sales Representative,1,Yes,4.0,4.0,2.0,2.0,3140.0,0.0,628.0,0.8,4.0,1
+749,1,28.0,Male,Single,2.0,Research & Development,Research Scientist,1,No,5.0,2.0,3.0,2.0,4382.0,2.0,730.3333333333334,0.3333333333333333,0.0,0
+750,0,35.0,Male,Single,4.0,Research & Development,Research Scientist,2,Yes,9.0,9.0,3.0,3.0,4249.0,1.0,424.9,0.9,8.0,1
+751,0,29.0,Male,Divorced,2.0,Research & Development,Healthcare Representative,2,No,6.0,6.0,4.0,4.0,8853.0,1.0,1264.7142857142858,0.8571428571428571,5.0,0
+752,0,28.0,Male,Single,1.0,Research & Development,Laboratory Technician,1,Yes,5.0,4.0,3.0,2.0,2154.0,0.0,359.0,0.6666666666666666,4.0,1
+753,0,45.0,Male,Married,7.0,Research & Development,Manufacturing Director,2,No,9.0,3.0,3.0,3.0,6434.0,0.0,643.4,0.3,3.0,0
+754,0,42.0,Male,Married,29.0,Research & Development,Manufacturing Director,2,No,10.0,9.0,2.0,2.0,4434.0,7.0,403.09090909090907,0.8181818181818182,2.0,0
+755,0,29.0,Male,Married,2.0,Sales,Sales Executive,2,No,4.0,4.0,3.0,2.0,4649.0,0.0,929.8,0.8,4.0,0
+756,0,26.0,Male,Single,4.0,Research & Development,Research Scientist,1,Yes,8.0,8.0,4.0,2.0,2875.0,2.0,319.44444444444446,0.8888888888888888,6.0,1
+757,0,59.0,Female,Single,25.0,Sales,Sales Executive,3,No,28.0,21.0,1.0,2.0,7637.0,7.0,263.3448275862069,0.7241379310344828,14.0,0
+758,0,31.0,Male,Divorced,26.0,Research & Development,Research Scientist,1,No,5.0,5.0,3.0,2.0,2911.0,4.0,485.1666666666667,0.8333333333333334,1.0,0
+759,0,18.0,Female,Single,14.0,Research & Development,Research Scientist,1,No,0.0,0.0,3.0,1.0,1514.0,0.0,1514.0,0.0,0.0,0
+760,0,52.0,Male,Married,3.0,Research & Development,Manufacturing Director,3,Yes,28.0,5.0,3.0,3.0,7969.0,0.0,274.7931034482759,0.1724137931034483,5.0,1
+761,0,44.0,Male,Married,1.0,Research & Development,Healthcare Representative,2,No,10.0,2.0,1.0,3.0,5033.0,2.0,457.54545454545456,0.18181818181818182,0.0,0
+762,0,38.0,Female,Married,17.0,Research & Development,Healthcare Representative,3,No,20.0,19.0,3.0,2.0,8823.0,1.0,420.14285714285717,0.9047619047619048,18.0,0
+763,0,30.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,4.0,3.0,2720.0,1.0,388.57142857142856,0.7142857142857143,4.0,0
+764,1,39.0,Male,Divorced,2.0,Research & Development,Healthcare Representative,4,No,21.0,18.0,4.0,3.0,12169.0,11.0,553.1363636363636,0.8181818181818182,7.0,0
+765,0,35.0,Male,Single,2.0,Research & Development,Research Scientist,1,Yes,6.0,5.0,4.0,4.0,4930.0,1.0,704.2857142857143,0.7142857142857143,4.0,1
+766,0,35.0,Female,Single,16.0,Research & Development,Healthcare Representative,3,No,11.0,11.0,2.0,1.0,8606.0,3.0,717.1666666666666,0.9166666666666666,8.0,0
+767,0,34.0,Male,Married,3.0,Research & Development,Research Scientist,1,No,6.0,0.0,4.0,3.0,2979.0,0.0,425.57142857142856,0.0,0.0,0
+768,0,40.0,Female,Divorced,12.0,Research & Development,Healthcare Representative,2,No,15.0,7.0,1.0,3.0,4448.0,7.0,278.0,0.4375,0.0,0
+769,0,45.0,Female,Divorced,2.0,Research & Development,Manufacturing Director,2,No,10.0,10.0,4.0,3.0,5770.0,3.0,524.5454545454545,0.9090909090909091,7.0,0
+770,0,48.0,Female,Divorced,16.0,Sales,Sales Executive,2,No,18.0,8.0,3.0,3.0,6439.0,7.0,338.89473684210526,0.42105263157894735,1.0,0
+771,0,41.0,Male,Divorced,19.0,Research & Development,Research Scientist,2,No,17.0,1.0,1.0,2.0,3072.0,0.0,170.66666666666666,0.05555555555555555,1.0,0
+772,0,36.0,Male,Single,7.0,Research & Development,Laboratory Technician,1,No,15.0,4.0,2.0,3.0,2013.0,1.0,125.8125,0.25,3.0,0
+773,0,42.0,Male,Married,2.0,Research & Development,Manager,5,No,24.0,22.0,3.0,2.0,18880.0,4.0,755.2,0.88,18.0,0
+774,1,26.0,Male,Single,24.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,4.0,1.0,2340.0,0.0,1170.0,0.5,1.0,1
+775,0,28.0,Female,Divorced,27.0,Research & Development,Manufacturing Director,2,No,6.0,5.0,1.0,2.0,4877.0,0.0,696.7142857142857,0.7142857142857143,5.0,0
+776,0,42.0,Male,Single,2.0,Research & Development,Research Scientist,1,Yes,8.0,2.0,4.0,3.0,2515.0,2.0,279.44444444444446,0.2222222222222222,0.0,1
+777,0,41.0,Male,Married,1.0,Human Resources,Manager,5,No,22.0,22.0,3.0,3.0,19189.0,2.0,834.304347826087,0.9565217391304348,20.0,0
+778,0,30.0,Male,Married,16.0,Sales,Sales Executive,2,No,4.0,2.0,3.0,2.0,5301.0,2.0,1060.2,0.4,0.0,0
+779,0,30.0,Male,Divorced,9.0,Research & Development,Laboratory Technician,2,No,12.0,12.0,1.0,3.0,3072.0,6.0,236.30769230769232,0.9230769230769231,6.0,0
+780,1,19.0,Male,Single,21.0,Sales,Sales Representative,1,Yes,1.0,1.0,2.0,4.0,2121.0,0.0,1060.5,0.5,1.0,1
+781,0,33.0,Male,Single,25.0,Research & Development,Manufacturing Director,2,No,5.0,5.0,2.0,3.0,4320.0,0.0,720.0,0.8333333333333334,5.0,0
+782,0,27.0,Female,Single,4.0,Research & Development,Research Scientist,1,No,1.0,1.0,3.0,3.0,2318.0,0.0,1159.0,0.5,1.0,0
+783,0,38.0,Male,Divorced,3.0,Sales,Sales Executive,3,No,17.0,16.0,3.0,2.0,10609.0,5.0,589.3888888888889,0.8888888888888888,11.0,0
+784,0,36.0,Male,Divorced,8.0,Sales,Sales Executive,2,No,12.0,7.0,4.0,3.0,5079.0,0.0,390.6923076923077,0.5384615384615384,7.0,0
+785,0,38.0,Female,Married,6.0,Research & Development,Laboratory Technician,1,No,5.0,5.0,3.0,3.0,3702.0,0.0,617.0,0.8333333333333334,5.0,0
+786,1,32.0,Female,Single,9.0,Research & Development,Laboratory Technician,1,No,10.0,5.0,1.0,4.0,4200.0,0.0,381.8181818181818,0.45454545454545453,5.0,0
+787,0,39.0,Female,Married,4.0,Sales,Sales Executive,2,No,17.0,15.0,3.0,4.0,5902.0,5.0,327.8888888888889,0.8333333333333334,10.0,0
+788,1,33.0,Male,Single,3.0,Research & Development,Research Scientist,1,Yes,10.0,10.0,1.0,3.0,3348.0,9.0,304.3636363636364,0.9090909090909091,1.0,1
+789,0,46.0,Female,Divorced,18.0,Research & Development,Manufacturing Director,2,No,19.0,10.0,3.0,2.0,4810.0,0.0,240.5,0.5,10.0,0
+790,0,46.0,Female,Married,10.0,Sales,Sales Executive,3,Yes,15.0,3.0,4.0,3.0,9071.0,1.0,566.9375,0.1875,2.0,1
+791,0,41.0,Male,Single,6.0,Research & Development,Laboratory Technician,1,Yes,20.0,18.0,1.0,3.0,4721.0,2.0,224.8095238095238,0.8571428571428571,16.0,1
+792,0,21.0,Male,Single,5.0,Sales,Sales Representative,1,Yes,2.0,2.0,1.0,3.0,2380.0,1.0,793.3333333333334,0.6666666666666666,1.0,1
+793,0,39.0,Female,Married,3.0,Human Resources,Human Resources,2,No,12.0,8.0,2.0,1.0,6389.0,3.0,491.46153846153845,0.6153846153846154,5.0,0
+794,0,44.0,Male,Married,1.0,Human Resources,Human Resources,2,Yes,14.0,10.0,4.0,3.0,5743.0,0.0,382.8666666666667,0.6666666666666666,10.0,1
+795,1,34.0,Male,Single,19.0,Sales,Sales Executive,2,Yes,9.0,5.0,4.0,2.0,5304.0,0.0,530.4,0.5,5.0,1
+796,0,34.0,Female,Single,7.0,Research & Development,Research Director,3,No,13.0,12.0,2.0,3.0,11994.0,2.0,856.7142857142857,0.8571428571428571,10.0,0
+797,0,39.0,Male,Single,15.0,Sales,Sales Executive,4,No,21.0,20.0,1.0,3.0,13341.0,11.0,606.4090909090909,0.9090909090909091,9.0,0
+798,0,29.0,Female,Divorced,10.0,Sales,Sales Executive,2,Yes,7.0,7.0,2.0,3.0,8268.0,1.0,1033.5,0.875,6.0,1
+799,0,37.0,Male,Married,21.0,Research & Development,Research Scientist,1,Yes,8.0,8.0,1.0,2.0,3564.0,1.0,396.0,0.8888888888888888,7.0,1
+800,0,35.0,Male,Married,8.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,4.0,3.0,2269.0,0.0,1134.5,0.5,1.0,0
+801,0,46.0,Male,Divorced,1.0,Research & Development,Healthcare Representative,3,No,17.0,4.0,1.0,3.0,9396.0,0.0,522.0,0.2222222222222222,4.0,0
+802,1,47.0,Female,Single,27.0,Sales,Sales Executive,2,Yes,8.0,5.0,3.0,3.0,6397.0,1.0,710.7777777777778,0.5555555555555556,4.0,1
+803,0,30.0,Male,Divorced,5.0,Research & Development,Research Scientist,1,No,10.0,5.0,4.0,2.0,3761.0,0.0,341.90909090909093,0.45454545454545453,5.0,0
+804,0,29.0,Female,Divorced,28.0,Research & Development,Research Scientist,1,No,11.0,7.0,4.0,3.0,2514.0,1.0,209.5,0.5833333333333334,6.0,0
+805,0,50.0,Male,Married,28.0,Research & Development,Laboratory Technician,1,Yes,20.0,20.0,3.0,3.0,3221.0,3.0,153.38095238095238,0.9523809523809523,17.0,1
+806,0,34.0,Female,Married,9.0,Sales,Sales Executive,2,No,6.0,6.0,3.0,2.0,5714.0,1.0,816.2857142857143,0.8571428571428571,5.0,0
+807,1,31.0,Male,Married,22.0,Research & Development,Manufacturing Director,2,Yes,10.0,10.0,3.0,2.0,6179.0,6.0,561.7272727272727,0.9090909090909091,4.0,1
+808,0,48.0,Male,Single,6.0,Research & Development,Healthcare Representative,2,No,19.0,2.0,3.0,3.0,4240.0,2.0,212.0,0.1,0.0,0
+809,0,31.0,Male,Single,2.0,Sales,Sales Executive,2,No,10.0,5.0,1.0,3.0,5332.0,0.0,484.72727272727275,0.45454545454545453,5.0,0
+810,0,49.0,Male,Single,1.0,Research & Development,Manager,4,No,23.0,8.0,3.0,3.0,15379.0,0.0,640.7916666666666,0.3333333333333333,8.0,0
+811,0,43.0,Female,Divorced,8.0,Research & Development,Healthcare Representative,2,Yes,8.0,5.0,3.0,3.0,4522.0,0.0,502.44444444444446,0.5555555555555556,5.0,1
+812,0,34.0,Male,Single,21.0,Sales,Sales Executive,2,No,10.0,10.0,4.0,3.0,5337.0,5.0,485.1818181818182,0.9090909090909091,5.0,0
+813,0,60.0,Male,Divorced,7.0,Sales,Sales Executive,2,Yes,12.0,11.0,4.0,3.0,5220.0,1.0,401.53846153846155,0.8461538461538461,10.0,1
+814,0,52.0,Female,Married,8.0,Research & Development,Laboratory Technician,1,No,12.0,5.0,1.0,1.0,2950.0,0.0,226.92307692307693,0.38461538461538464,5.0,0
+815,0,25.0,Male,Married,7.0,Research & Development,Research Scientist,1,No,2.0,2.0,4.0,3.0,2889.0,2.0,963.0,0.6666666666666666,0.0,0
+816,0,46.0,Female,Single,2.0,Sales,Manager,5,No,22.0,2.0,1.0,2.0,18947.0,2.0,823.7826086956521,0.08695652173913043,0.0,0
+817,0,24.0,Female,Married,13.0,Sales,Sales Representative,1,No,1.0,1.0,2.0,3.0,2033.0,0.0,1016.5,0.5,1.0,0
+818,0,29.0,Female,Divorced,1.0,Research & Development,Research Scientist,1,No,3.0,3.0,4.0,3.0,3760.0,1.0,940.0,0.75,2.0,0
+819,1,41.0,Male,Single,4.0,Sales,Sales Executive,2,No,8.0,8.0,2.0,3.0,9355.0,7.0,1039.4444444444443,0.8888888888888888,1.0,0
+820,0,45.0,Male,Married,10.0,Research & Development,Research Scientist,1,No,8.0,2.0,4.0,2.0,2654.0,0.0,294.8888888888889,0.2222222222222222,2.0,0
+821,0,30.0,Female,Divorced,7.0,Sales,Sales Executive,2,No,8.0,3.0,1.0,3.0,4779.0,0.0,531.0,0.3333333333333333,3.0,0
+822,0,33.0,Female,Married,25.0,Sales,Sales Executive,2,No,10.0,10.0,3.0,2.0,4539.0,0.0,412.6363636363636,0.9090909090909091,10.0,0
+823,0,33.0,Male,Married,2.0,Human Resources,Human Resources,1,No,5.0,5.0,3.0,3.0,3600.0,1.0,600.0,0.8333333333333334,4.0,0
+824,0,42.0,Female,Single,9.0,Research & Development,Laboratory Technician,1,No,12.0,12.0,4.0,3.0,3673.0,5.0,282.53846153846155,0.9230769230769231,7.0,0
+825,0,43.0,Female,Single,4.0,Sales,Sales Executive,3,No,23.0,21.0,4.0,4.0,10231.0,15.0,426.2916666666667,0.875,6.0,0
+826,0,39.0,Female,Married,1.0,Research & Development,Manufacturing Director,4,No,21.0,21.0,4.0,3.0,12742.0,11.0,579.1818181818181,0.9545454545454546,10.0,0
+827,0,39.0,Female,Divorced,1.0,Research & Development,Laboratory Technician,1,No,7.0,3.0,3.0,3.0,2232.0,1.0,279.0,0.375,2.0,0
+828,0,35.0,Female,Married,8.0,Sales,Sales Executive,3,Yes,16.0,13.0,4.0,2.0,10377.0,4.0,610.4117647058823,0.7647058823529411,9.0,1
+829,0,40.0,Female,Single,16.0,Research & Development,Manufacturing Director,3,Yes,18.0,4.0,4.0,2.0,7945.0,3.0,418.1578947368421,0.21052631578947367,1.0,1
+830,1,26.0,Male,Divorced,16.0,Research & Development,Laboratory Technician,1,Yes,5.0,3.0,2.0,3.0,2373.0,0.0,395.5,0.5,3.0,1
+831,0,40.0,Female,Married,15.0,Research & Development,Manufacturing Director,3,No,18.0,18.0,3.0,3.0,10435.0,14.0,549.2105263157895,0.9473684210526315,4.0,0
+832,0,51.0,Female,Married,14.0,Sales,Sales Executive,2,No,18.0,7.0,4.0,2.0,4936.0,0.0,259.7894736842105,0.3684210526315789,7.0,0
+833,0,45.0,Male,Divorced,1.0,Research & Development,Healthcare Representative,3,No,10.0,10.0,2.0,3.0,7441.0,7.0,676.4545454545455,0.9090909090909091,3.0,0
+834,0,40.0,Female,Divorced,2.0,Research & Development,Healthcare Representative,2,No,15.0,12.0,3.0,3.0,6377.0,11.0,398.5625,0.75,1.0,0
+835,0,32.0,Male,Married,8.0,Sales,Sales Executive,2,No,10.0,10.0,4.0,4.0,6209.0,0.0,564.4545454545455,0.9090909090909091,10.0,0
+836,0,28.0,Female,Divorced,9.0,Research & Development,Research Scientist,1,No,6.0,2.0,3.0,3.0,2377.0,2.0,339.57142857142856,0.2857142857142857,0.0,0
+837,0,31.0,Female,Married,7.0,Sales,Sales Executive,3,No,9.0,3.0,1.0,3.0,9637.0,2.0,963.7,0.3,1.0,0
+838,0,58.0,Male,Married,15.0,Research & Development,Research Director,4,Yes,23.0,2.0,3.0,3.0,15787.0,2.0,657.7916666666666,0.08333333333333333,0.0,1
+839,0,40.0,Female,Married,2.0,Sales,Manager,5,No,21.0,20.0,3.0,3.0,18041.0,1.0,820.0454545454545,0.9090909090909091,19.0,0
+840,0,45.0,Male,Divorced,7.0,Research & Development,Laboratory Technician,3,No,24.0,24.0,1.0,3.0,5210.0,9.0,208.4,0.96,15.0,0
+841,0,44.0,Male,Married,3.0,Research & Development,Manager,5,Yes,26.0,2.0,4.0,4.0,19513.0,0.0,722.7037037037037,0.07407407407407407,2.0,1
+842,0,50.0,Female,Married,28.0,Research & Development,Research Director,4,Yes,25.0,3.0,1.0,3.0,16880.0,1.0,649.2307692307693,0.11538461538461539,2.0,1
+843,0,45.0,Male,Married,23.0,Research & Development,Laboratory Technician,2,Yes,9.0,9.0,1.0,3.0,3633.0,0.0,363.3,0.9,9.0,1
+844,0,35.0,Male,Married,18.0,Sales,Sales Executive,3,No,9.0,9.0,1.0,2.0,9069.0,1.0,906.9,0.9,8.0,0
+845,0,48.0,Male,Single,4.0,Research & Development,Manufacturing Director,3,No,11.0,10.0,4.0,3.0,7898.0,0.0,658.1666666666666,0.8333333333333334,10.0,0
+846,0,40.0,Male,Divorced,24.0,Research & Development,Research Scientist,2,No,9.0,9.0,4.0,3.0,3319.0,4.0,331.9,0.9,5.0,0
+847,0,42.0,Male,Divorced,2.0,Human Resources,Human Resources,1,Yes,4.0,3.0,3.0,3.0,2696.0,1.0,539.2,0.6,2.0,1
+848,0,48.0,Female,Divorced,22.0,Research & Development,Manager,4,No,24.0,22.0,4.0,3.0,17174.0,4.0,686.96,0.88,18.0,0
+849,0,21.0,Male,Single,3.0,Research & Development,Research Scientist,1,No,3.0,3.0,3.0,4.0,3230.0,1.0,807.5,0.75,2.0,0
+850,0,38.0,Male,Married,2.0,Research & Development,Research Scientist,1,Yes,6.0,1.0,3.0,1.0,3057.0,0.0,436.7142857142857,0.14285714285714285,1.0,1
+851,0,35.0,Female,Married,23.0,Research & Development,Laboratory Technician,1,Yes,4.0,2.0,1.0,3.0,4014.0,2.0,802.8,0.4,0.0,1
+852,1,28.0,Male,Married,2.0,Research & Development,Research Scientist,1,Yes,5.0,3.0,4.0,2.0,3464.0,2.0,577.3333333333334,0.5,1.0,1
+853,0,23.0,Male,Married,9.0,Sales,Sales Representative,1,No,1.0,1.0,1.0,2.0,1790.0,1.0,895.0,0.5,0.0,0
+854,0,53.0,Male,Divorced,2.0,Sales,Manager,4,No,22.0,17.0,3.0,4.0,14852.0,15.0,645.7391304347826,0.7391304347826086,2.0,0
+855,0,35.0,Male,Single,18.0,Research & Development,Manufacturing Director,3,No,10.0,2.0,4.0,3.0,9362.0,2.0,851.0909090909091,0.18181818181818182,0.0,0
+856,0,36.0,Male,Single,3.0,Research & Development,Laboratory Technician,1,No,13.0,8.0,2.0,2.0,2088.0,7.0,149.14285714285714,0.5714285714285714,1.0,0
+857,0,36.0,Female,Divorced,8.0,Research & Development,Healthcare Representative,3,No,17.0,17.0,3.0,3.0,10096.0,12.0,560.8888888888889,0.9444444444444444,5.0,0
+858,0,59.0,Female,Single,2.0,Research & Development,Manufacturing Director,4,Yes,30.0,5.0,4.0,3.0,13726.0,4.0,442.7741935483871,0.16129032258064516,1.0,1
+859,0,33.0,Male,Divorced,2.0,Sales,Sales Executive,2,No,6.0,6.0,4.0,3.0,5505.0,0.0,786.4285714285714,0.8571428571428571,6.0,0
+860,0,40.0,Female,Married,2.0,Research & Development,Laboratory Technician,1,No,7.0,4.0,1.0,2.0,3377.0,0.0,422.125,0.5,4.0,0
+861,0,45.0,Female,Single,5.0,Research & Development,Laboratory Technician,2,Yes,10.0,10.0,1.0,3.0,5769.0,1.0,524.4545454545455,0.9090909090909091,9.0,1
+862,0,32.0,Male,Single,2.0,Research & Development,Research Scientist,1,No,4.0,4.0,1.0,3.0,2439.0,1.0,487.8,0.8,3.0,0
+863,0,49.0,Male,Married,8.0,Sales,Sales Executive,4,No,22.0,9.0,2.0,3.0,13120.0,2.0,570.4347826086956,0.391304347826087,7.0,0
+864,0,36.0,Female,Married,6.0,Research & Development,Laboratory Technician,1,No,5.0,1.0,4.0,3.0,3038.0,0.0,506.3333333333333,0.16666666666666666,1.0,0
+865,0,23.0,Male,Divorced,7.0,Sales,Sales Representative,1,Yes,3.0,3.0,4.0,3.0,2275.0,0.0,568.75,0.75,3.0,1
+866,0,30.0,Female,Single,2.0,Research & Development,Research Scientist,1,No,10.0,9.0,1.0,3.0,4968.0,0.0,451.6363636363636,0.8181818181818182,9.0,0
+867,0,53.0,Male,Married,7.0,Research & Development,Research Director,4,No,32.0,5.0,3.0,3.0,14814.0,1.0,448.90909090909093,0.15151515151515152,4.0,0
+868,0,53.0,Male,Married,8.0,Sales,Sales Executive,4,No,28.0,2.0,4.0,3.0,11836.0,2.0,408.13793103448273,0.06896551724137931,0.0,0
+869,0,58.0,Male,Divorced,2.0,Sales,Manager,4,No,37.0,16.0,2.0,2.0,16291.0,14.0,428.7105263157895,0.42105263157894735,2.0,0
+870,0,44.0,Female,Divorced,1.0,Human Resources,Human Resources,1,Yes,8.0,2.0,4.0,3.0,3195.0,2.0,355.0,0.2222222222222222,0.0,1
+871,0,37.0,Female,Married,10.0,Research & Development,Research Scientist,1,No,8.0,8.0,2.0,1.0,3936.0,7.0,437.3333333333333,0.8888888888888888,1.0,0
+872,1,31.0,Female,Single,1.0,Research & Development,Manufacturing Director,3,No,10.0,10.0,2.0,3.0,7446.0,4.0,676.9090909090909,0.9090909090909091,6.0,0
+873,0,34.0,Male,Married,16.0,Research & Development,Research Scientist,1,Yes,5.0,5.0,1.0,3.0,2307.0,3.0,384.5,0.8333333333333334,2.0,1
+874,0,29.0,Female,Divorced,21.0,Research & Development,Manufacturing Director,3,No,10.0,10.0,1.0,3.0,9980.0,8.0,907.2727272727273,0.9090909090909091,2.0,0
+875,0,35.0,Female,Married,1.0,Research & Development,Research Scientist,1,No,4.0,4.0,4.0,3.0,2977.0,1.0,595.4,0.8,3.0,0
+876,1,26.0,Male,Married,2.0,Research & Development,Research Scientist,1,Yes,6.0,3.0,1.0,3.0,2042.0,1.0,291.7142857142857,0.42857142857142855,2.0,1
+877,1,20.0,Female,Single,2.0,Sales,Sales Representative,1,No,2.0,2.0,3.0,2.0,2044.0,0.0,681.3333333333334,0.6666666666666666,2.0,0
+878,0,31.0,Male,Single,2.0,Sales,Sales Executive,2,Yes,10.0,6.0,4.0,4.0,6582.0,0.0,598.3636363636364,0.5454545454545454,6.0,1
+879,0,33.0,Male,Divorced,3.0,Human Resources,Human Resources,1,Yes,7.0,4.0,2.0,4.0,2277.0,0.0,284.625,0.5,4.0,1
+880,0,25.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,7.0,3.0,4.0,2.0,3229.0,0.0,403.625,0.375,3.0,0
+881,0,34.0,Female,Single,9.0,Research & Development,Healthcare Representative,3,No,9.0,8.0,2.0,4.0,8621.0,7.0,862.1,0.8,1.0,0
+882,0,32.0,Male,Married,19.0,Sales,Sales Executive,3,No,10.0,4.0,3.0,1.0,9610.0,0.0,873.6363636363636,0.36363636363636365,4.0,0
+883,0,33.0,Female,Single,1.0,Research & Development,Research Director,3,Yes,15.0,15.0,4.0,3.0,13458.0,8.0,841.125,0.9375,7.0,1
+884,0,45.0,Male,Married,29.0,Research & Development,Manufacturing Director,3,Yes,10.0,3.0,4.0,4.0,9380.0,1.0,852.7272727272727,0.2727272727272727,2.0,1
+885,0,40.0,Female,Married,26.0,Research & Development,Research Scientist,2,Yes,16.0,1.0,4.0,1.0,4422.0,0.0,260.11764705882354,0.058823529411764705,1.0,1
+886,0,31.0,Male,Single,5.0,Research & Development,Manufacturing Director,2,No,10.0,9.0,1.0,3.0,9936.0,1.0,903.2727272727273,0.8181818181818182,8.0,0
+887,0,22.0,Female,Married,11.0,Research & Development,Research Scientist,1,No,2.0,2.0,2.0,3.0,2244.0,1.0,748.0,0.6666666666666666,1.0,0
+888,1,38.0,Male,Married,29.0,Research & Development,Healthcare Representative,2,Yes,17.0,1.0,1.0,3.0,6673.0,0.0,370.72222222222223,0.05555555555555555,1.0,1
+889,0,35.0,Male,Single,9.0,Research & Development,Research Scientist,2,No,10.0,10.0,3.0,3.0,5098.0,0.0,463.45454545454544,0.9090909090909091,10.0,0
+890,0,43.0,Male,Divorced,6.0,Research & Development,Research Director,4,Yes,21.0,1.0,4.0,2.0,16627.0,0.0,755.7727272727273,0.045454545454545456,1.0,1
+891,0,29.0,Male,Married,9.0,Research & Development,Research Scientist,1,No,5.0,1.0,3.0,2.0,2451.0,0.0,408.5,0.16666666666666666,1.0,0
+892,0,48.0,Female,Married,29.0,Sales,Manager,3,No,15.0,0.0,3.0,1.0,12504.0,0.0,781.5,0.0,0.0,0
+893,0,18.0,Male,Single,5.0,Research & Development,Research Scientist,1,No,0.0,0.0,4.0,3.0,1051.0,0.0,1051.0,0.0,0.0,0
+894,0,36.0,Male,Divorced,3.0,Research & Development,Healthcare Representative,2,No,13.0,5.0,1.0,3.0,6842.0,0.0,488.7142857142857,0.35714285714285715,5.0,0
+895,0,35.0,Male,Single,5.0,Research & Development,Manufacturing Director,3,No,17.0,16.0,2.0,3.0,8095.0,0.0,449.72222222222223,0.8888888888888888,16.0,0
+896,0,28.0,Male,Married,2.0,Research & Development,Laboratory Technician,1,Yes,2.0,2.0,4.0,3.0,3867.0,2.0,1289.0,0.6666666666666666,0.0,1
+897,0,23.0,Female,Single,4.0,Research & Development,Laboratory Technician,1,No,3.0,3.0,2.0,1.0,3295.0,1.0,823.75,0.75,2.0,0
+898,0,29.0,Male,Single,7.0,Research & Development,Laboratory Technician,1,No,11.0,3.0,1.0,3.0,2062.0,1.0,171.83333333333334,0.25,2.0,0
+899,0,48.0,Female,Married,1.0,Research & Development,Manager,4,No,21.0,3.0,1.0,1.0,15402.0,0.0,700.0909090909091,0.13636363636363635,3.0,0
+900,0,29.0,Male,Divorced,13.0,Human Resources,Human Resources,1,Yes,4.0,2.0,1.0,3.0,2335.0,2.0,467.0,0.4,0.0,1
+901,0,40.0,Female,Married,4.0,Research & Development,Manager,5,No,21.0,20.0,3.0,3.0,19033.0,9.0,865.1363636363636,0.9090909090909091,11.0,0
+902,0,35.0,Female,Married,16.0,Research & Development,Manufacturing Director,2,Yes,4.0,3.0,2.0,3.0,4788.0,0.0,957.6,0.6,3.0,1
+903,0,26.0,Male,Married,17.0,Research & Development,Laboratory Technician,1,No,3.0,3.0,3.0,4.0,2305.0,0.0,576.25,0.75,3.0,0
+904,0,54.0,Female,Married,22.0,Research & Development,Manager,4,No,36.0,10.0,3.0,3.0,17426.0,4.0,470.97297297297297,0.2702702702702703,6.0,0
+905,0,25.0,Male,Married,3.0,Sales,Sales Executive,2,Yes,5.0,5.0,1.0,3.0,4194.0,0.0,699.0,0.8333333333333334,5.0,1
+906,1,29.0,Female,Divorced,7.0,Research & Development,Laboratory Technician,1,Yes,10.0,7.0,3.0,3.0,3339.0,7.0,303.54545454545456,0.6363636363636364,0.0,1
+907,0,55.0,Male,Married,2.0,Research & Development,Manufacturing Director,3,No,23.0,3.0,2.0,3.0,10976.0,1.0,457.3333333333333,0.125,2.0,0
+908,0,35.0,Male,Single,27.0,Sales,Sales Executive,2,Yes,10.0,10.0,4.0,3.0,5813.0,7.0,528.4545454545455,0.9090909090909091,3.0,1
+909,0,31.0,Male,Divorced,9.0,Research & Development,Manufacturing Director,3,No,13.0,13.0,2.0,4.0,10648.0,0.0,760.5714285714286,0.9285714285714286,13.0,0
+910,0,40.0,Female,Married,2.0,Sales,Sales Executive,2,No,15.0,11.0,2.0,3.0,5677.0,5.0,354.8125,0.6875,6.0,0
+911,0,38.0,Male,Single,1.0,Sales,Sales Representative,1,No,20.0,1.0,1.0,2.0,2858.0,0.0,136.0952380952381,0.047619047619047616,1.0,0
+912,0,36.0,Male,Divorced,6.0,Research & Development,Manufacturing Director,2,No,7.0,3.0,2.0,3.0,4941.0,0.0,617.625,0.375,3.0,0
+913,0,36.0,Female,Divorced,4.0,Research & Development,Manufacturing Director,2,No,18.0,4.0,2.0,3.0,5131.0,0.0,270.05263157894734,0.21052631578947367,4.0,0
+914,0,38.0,Female,Divorced,2.0,Sales,Sales Executive,2,No,11.0,7.0,1.0,3.0,6893.0,1.0,574.4166666666666,0.5833333333333334,6.0,0
+915,0,56.0,Female,Divorced,8.0,Research & Development,Research Scientist,1,Yes,19.0,2.0,1.0,3.0,4257.0,2.0,212.85,0.1,0.0,1
+916,0,59.0,Female,Single,1.0,Sales,Sales Executive,2,No,20.0,4.0,3.0,2.0,5473.0,1.0,260.6190476190476,0.19047619047619047,3.0,0
+917,0,33.0,Male,Married,28.0,Research & Development,Laboratory Technician,2,Yes,15.0,15.0,3.0,3.0,5207.0,5.0,325.4375,0.9375,10.0,1
+918,0,27.0,Female,Single,5.0,Research & Development,Research Scientist,1,Yes,4.0,4.0,2.0,2.0,2478.0,1.0,495.6,0.8,3.0,1
+919,0,35.0,Male,Divorced,3.0,Sales,Sales Executive,3,No,12.0,10.0,4.0,3.0,7823.0,0.0,601.7692307692307,0.7692307692307693,10.0,0
+920,0,28.0,Male,Single,7.0,Sales,Sales Executive,2,No,5.0,4.0,1.0,3.0,4898.0,1.0,816.3333333333334,0.6666666666666666,3.0,0
+921,0,29.0,Male,Single,1.0,Research & Development,Research Scientist,1,No,11.0,9.0,1.0,1.0,2362.0,0.0,196.83333333333334,0.75,9.0,0
+922,0,34.0,Male,Divorced,10.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,2.0,3.0,2008.0,1.0,1004.0,0.5,0.0,0
+923,0,42.0,Male,Single,9.0,Research & Development,Manager,5,No,24.0,1.0,4.0,3.0,19613.0,0.0,784.52,0.04,1.0,0
+924,0,42.0,Female,Single,17.0,Research & Development,Research Scientist,2,Yes,10.0,3.0,1.0,3.0,6545.0,0.0,595.0,0.2727272727272727,3.0,1
+925,0,46.0,Male,Divorced,2.0,Research & Development,Manufacturing Director,3,No,12.0,9.0,4.0,2.0,8578.0,4.0,659.8461538461538,0.6923076923076923,5.0,0
+926,0,34.0,Female,Divorced,6.0,Research & Development,Research Scientist,2,No,12.0,1.0,2.0,3.0,4505.0,0.0,346.53846153846155,0.07692307692307693,1.0,0
+927,0,41.0,Male,Married,1.0,Sales,Sales Executive,3,No,10.0,10.0,1.0,3.0,8392.0,0.0,762.9090909090909,0.9090909090909091,10.0,0
+928,1,26.0,Female,Divorced,17.0,Human Resources,Human Resources,1,Yes,8.0,7.0,3.0,2.0,2741.0,1.0,304.55555555555554,0.7777777777777778,6.0,1
+929,0,31.0,Male,Divorced,3.0,Research & Development,Research Scientist,1,Yes,4.0,4.0,1.0,4.0,3065.0,2.0,613.0,0.8,2.0,1
+930,0,21.0,Male,Single,7.0,Sales,Sales Representative,1,No,1.0,1.0,2.0,3.0,2679.0,1.0,1339.5,0.5,0.0,0
+931,1,31.0,Male,Married,15.0,Research & Development,Laboratory Technician,1,No,2.0,2.0,3.0,2.0,2610.0,2.0,870.0,0.6666666666666666,0.0,0
+932,1,19.0,Male,Single,2.0,Human Resources,Human Resources,1,No,1.0,1.0,4.0,4.0,2564.0,0.0,1282.0,0.5,1.0,0
+933,0,32.0,Female,Married,8.0,Research & Development,Research Scientist,2,No,9.0,5.0,3.0,2.0,5175.0,1.0,517.5,0.5,4.0,0
+934,0,50.0,Female,Married,1.0,Sales,Sales Executive,2,No,19.0,18.0,3.0,3.0,6347.0,0.0,317.35,0.9,18.0,0
+935,0,36.0,Male,Single,18.0,Research & Development,Manufacturing Director,2,No,18.0,11.0,4.0,3.0,7779.0,0.0,409.42105263157896,0.5789473684210527,11.0,0
+936,0,44.0,Male,Married,5.0,Sales,Manager,5,No,26.0,22.0,2.0,3.0,18213.0,3.0,674.5555555555555,0.8148148148148148,19.0,0
+937,0,25.0,Male,Married,8.0,Sales,Sales Executive,2,No,4.0,3.0,2.0,3.0,4851.0,1.0,970.2,0.6,2.0,0
+938,0,33.0,Female,Single,13.0,Research & Development,Research Scientist,1,No,5.0,3.0,4.0,3.0,3452.0,0.0,575.3333333333334,0.5,3.0,0
+939,0,27.0,Male,Married,14.0,Research & Development,Research Scientist,1,Yes,9.0,9.0,1.0,2.0,2235.0,6.0,223.5,0.9,3.0,1
+940,0,29.0,Male,Married,8.0,Research & Development,Manufacturing Director,2,Yes,10.0,10.0,4.0,2.0,5056.0,1.0,459.6363636363636,0.9090909090909091,9.0,1
+941,0,50.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,5.0,3.0,3.0,2.0,3690.0,0.0,615.0,0.5,3.0,0
+942,0,25.0,Female,Single,1.0,Research & Development,Research Scientist,1,No,2.0,2.0,2.0,2.0,2096.0,2.0,698.6666666666666,0.6666666666666666,0.0,0
+943,0,35.0,Male,Single,8.0,Human Resources,Human Resources,1,No,6.0,5.0,3.0,1.0,4323.0,1.0,617.5714285714286,0.7142857142857143,4.0,0
+944,0,40.0,Female,Married,14.0,Sales,Sales Executive,2,No,5.0,5.0,1.0,3.0,4639.0,1.0,773.1666666666666,0.8333333333333334,4.0,0
+945,1,33.0,Female,Single,5.0,Sales,Sales Representative,1,Yes,1.0,1.0,3.0,3.0,2851.0,0.0,1425.5,0.5,1.0,1
+946,0,31.0,Female,Married,5.0,Sales,Sales Executive,2,No,10.0,10.0,4.0,3.0,5476.0,0.0,497.8181818181818,0.9090909090909091,10.0,0
+947,0,57.0,Male,Divorced,29.0,Sales,Manager,4,No,32.0,1.0,4.0,2.0,14118.0,0.0,427.8181818181818,0.030303030303030304,1.0,0
+948,1,39.0,Male,Married,5.0,Sales,Sales Representative,2,No,19.0,1.0,4.0,4.0,2086.0,0.0,104.3,0.05,1.0,0
+949,0,24.0,Male,Single,9.0,Research & Development,Laboratory Technician,1,Yes,4.0,0.0,1.0,2.0,3172.0,0.0,634.4,0.0,0.0,1
+950,0,33.0,Male,Married,8.0,Research & Development,Research Scientist,1,No,14.0,10.0,1.0,3.0,3143.0,7.0,209.53333333333333,0.6666666666666666,3.0,0
+951,1,20.0,Female,Single,9.0,Sales,Sales Representative,1,Yes,2.0,2.0,4.0,3.0,2323.0,0.0,774.3333333333334,0.6666666666666666,2.0,1
+952,0,58.0,Male,Divorced,1.0,Research & Development,Healthcare Representative,2,Yes,12.0,5.0,3.0,3.0,5660.0,1.0,435.38461538461536,0.38461538461538464,4.0,1
+953,0,28.0,Female,Married,3.0,Sales,Sales Representative,1,No,1.0,1.0,2.0,3.0,2856.0,0.0,1428.0,0.5,1.0,0
+954,0,38.0,Female,Married,10.0,Research & Development,Research Director,3,No,20.0,18.0,3.0,3.0,13206.0,1.0,628.8571428571429,0.8571428571428571,17.0,0
+955,0,51.0,Male,Divorced,2.0,Research & Development,Manufacturing Director,2,No,13.0,4.0,2.0,3.0,5482.0,1.0,391.57142857142856,0.2857142857142857,3.0,0
+956,0,33.0,Female,Divorced,1.0,Research & Development,Research Director,4,No,10.0,6.0,3.0,3.0,16184.0,0.0,1471.2727272727273,0.5454545454545454,6.0,0
+957,0,29.0,Male,Divorced,5.0,Sales,Sales Executive,2,Yes,10.0,10.0,2.0,2.0,4187.0,0.0,380.6363636363636,0.9090909090909091,10.0,1
+958,0,30.0,Male,Married,16.0,Research & Development,Research Scientist,1,No,10.0,10.0,4.0,2.0,2862.0,0.0,260.1818181818182,0.9090909090909091,10.0,0
+959,0,38.0,Male,Single,2.0,Sales,Sales Executive,3,No,10.0,1.0,2.0,3.0,7351.0,0.0,668.2727272727273,0.09090909090909091,1.0,0
+960,0,39.0,Male,Divorced,20.0,Sales,Sales Executive,2,No,7.0,2.0,4.0,3.0,4127.0,2.0,515.875,0.25,0.0,0
+961,0,37.0,Female,Divorced,1.0,Research & Development,Research Director,3,Yes,15.0,5.0,4.0,3.0,13603.0,0.0,850.1875,0.3125,5.0,1
+962,0,37.0,Male,Married,19.0,Research & Development,Research Scientist,1,No,8.0,1.0,2.0,3.0,3022.0,0.0,335.77777777777777,0.1111111111111111,1.0,0
+963,1,33.0,Female,Married,2.0,Research & Development,Laboratory Technician,1,No,13.0,9.0,1.0,4.0,2707.0,1.0,193.35714285714286,0.6428571428571429,8.0,0
+964,0,39.0,Male,Single,18.0,Research & Development,Manufacturing Director,2,No,9.0,8.0,3.0,3.0,4534.0,1.0,453.4,0.8,7.0,0
+965,1,22.0,Male,Single,4.0,Research & Development,Laboratory Technician,1,No,4.0,2.0,3.0,3.0,3894.0,1.0,778.8,0.4,1.0,0
+966,0,30.0,Female,Divorced,8.0,Human Resources,Human Resources,1,No,6.0,4.0,4.0,2.0,2180.0,1.0,311.42857142857144,0.5714285714285714,3.0,0
+967,0,28.0,Male,Married,1.0,Sales,Sales Executive,2,Yes,7.0,7.0,4.0,3.0,6834.0,0.0,854.25,0.875,7.0,1
+968,0,52.0,Female,Married,11.0,Research & Development,Laboratory Technician,2,No,9.0,5.0,3.0,3.0,3149.0,1.0,314.9,0.5,4.0,0
+969,0,40.0,Male,Married,20.0,Research & Development,Healthcare Representative,3,No,14.0,11.0,4.0,3.0,10322.0,11.0,688.1333333333333,0.7333333333333333,0.0,0
+970,0,24.0,Male,Married,9.0,Research & Development,Research Scientist,1,No,5.0,5.0,3.0,3.0,4401.0,0.0,733.5,0.8333333333333334,5.0,0
+971,0,35.0,Female,Married,18.0,Sales,Sales Executive,2,No,5.0,5.0,3.0,3.0,4601.0,1.0,766.8333333333334,0.8333333333333334,4.0,0
+972,0,47.0,Female,Single,2.0,Sales,Sales Representative,1,Yes,3.0,3.0,4.0,2.0,3294.0,1.0,823.5,0.75,2.0,1
+973,0,54.0,Female,Single,26.0,Human Resources,Manager,4,Yes,23.0,5.0,4.0,3.0,17328.0,4.0,722.0,0.20833333333333334,1.0,1
+974,0,36.0,Male,Single,2.0,Sales,Sales Representative,1,Yes,7.0,3.0,4.0,2.0,2644.0,1.0,330.5,0.375,2.0,1
+975,0,40.0,Female,Married,11.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,3.0,4.0,6323.0,9.0,574.8181818181819,0.9090909090909091,1.0,0
+976,1,32.0,Male,Single,25.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,4.0,1.0,2795.0,0.0,1397.5,0.5,1.0,1
+977,0,29.0,Male,Married,1.0,Research & Development,Manufacturing Director,2,No,10.0,10.0,3.0,3.0,4319.0,0.0,392.6363636363636,0.9090909090909091,10.0,0
+978,0,34.0,Male,Married,8.0,Sales,Sales Executive,2,No,10.0,10.0,3.0,3.0,6799.0,4.0,618.0909090909091,0.9090909090909091,6.0,0
+979,0,28.0,Male,Single,1.0,Research & Development,Research Scientist,1,No,5.0,3.0,1.0,2.0,2080.0,1.0,346.6666666666667,0.5,2.0,0
+980,0,37.0,Male,Divorced,8.0,Human Resources,Human Resources,2,No,19.0,10.0,2.0,2.0,4071.0,4.0,203.55,0.5,6.0,0
+981,0,36.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,16.0,11.0,3.0,3.0,2519.0,3.0,148.1764705882353,0.6470588235294118,8.0,0
+982,0,20.0,Female,Single,2.0,Sales,Sales Representative,1,No,2.0,2.0,3.0,3.0,2783.0,2.0,927.6666666666666,0.6666666666666666,0.0,0
+983,0,34.0,Male,Married,11.0,Human Resources,Human Resources,2,No,14.0,10.0,2.0,4.0,4490.0,1.0,299.3333333333333,0.6666666666666666,9.0,0
+984,0,43.0,Female,Married,6.0,Research & Development,Manager,5,No,21.0,16.0,3.0,3.0,19392.0,6.0,881.4545454545455,0.7272727272727273,10.0,0
+985,0,39.0,Male,Married,7.0,Research & Development,Manager,5,No,21.0,21.0,4.0,3.0,19272.0,13.0,876.0,0.9545454545454546,8.0,0
+986,0,32.0,Female,Divorced,15.0,Research & Development,Healthcare Representative,2,No,9.0,5.0,4.0,3.0,6667.0,1.0,666.7,0.5,4.0,0
+987,1,56.0,Female,Married,14.0,Research & Development,Research Scientist,1,Yes,7.0,5.0,2.0,3.0,4963.0,4.0,620.375,0.625,1.0,1
+988,0,44.0,Female,Married,2.0,Research & Development,Research Scientist,1,No,10.0,10.0,4.0,3.0,2011.0,7.0,182.8181818181818,0.9090909090909091,3.0,0
+989,0,49.0,Female,Married,8.0,Research & Development,Laboratory Technician,3,No,29.0,26.0,2.0,2.0,7403.0,1.0,246.76666666666668,0.8666666666666667,25.0,0
+990,1,42.0,Male,Divorced,19.0,Research & Development,Research Scientist,1,Yes,7.0,2.0,3.0,3.0,2759.0,2.0,344.875,0.25,0.0,1
+991,0,30.0,Male,Divorced,29.0,Sales,Sales Executive,2,No,8.0,4.0,1.0,3.0,4115.0,0.0,457.22222222222223,0.4444444444444444,4.0,0
+992,0,36.0,Female,Married,10.0,Sales,Sales Executive,2,Yes,10.0,10.0,3.0,3.0,5673.0,1.0,515.7272727272727,0.9090909090909091,9.0,1
+993,0,40.0,Male,Divorced,8.0,Research & Development,Research Director,3,No,16.0,9.0,2.0,3.0,13757.0,4.0,809.2352941176471,0.5294117647058824,5.0,0
+994,0,29.0,Male,Divorced,29.0,Research & Development,Healthcare Representative,2,No,11.0,7.0,3.0,3.0,6384.0,1.0,532.0,0.5833333333333334,6.0,0
+995,0,44.0,Male,Single,24.0,Research & Development,Laboratory Technician,1,No,9.0,5.0,3.0,3.0,3708.0,1.0,370.8,0.5,4.0,0
+996,0,52.0,Female,Married,25.0,Research & Development,Manufacturing Director,4,No,31.0,9.0,4.0,3.0,13826.0,0.0,432.0625,0.28125,9.0,0
+997,0,54.0,Female,Single,1.0,Research & Development,Research Director,4,No,29.0,20.0,4.0,2.0,17328.0,12.0,577.6,0.6666666666666666,8.0,0
+998,1,25.0,Male,Married,4.0,Research & Development,Laboratory Technician,1,Yes,7.0,7.0,4.0,4.0,3691.0,5.0,461.375,0.875,2.0,1
+999,0,35.0,Female,Divorced,2.0,Research & Development,Healthcare Representative,2,No,16.0,1.0,1.0,4.0,5093.0,0.0,299.5882352941176,0.058823529411764705,1.0,0
+1000,0,27.0,Male,Divorced,19.0,Research & Development,Laboratory Technician,1,No,7.0,7.0,1.0,3.0,4066.0,0.0,508.25,0.875,7.0,0
+1001,0,55.0,Male,Married,26.0,Human Resources,Manager,5,Yes,35.0,10.0,2.0,3.0,19636.0,1.0,545.4444444444445,0.2777777777777778,9.0,1
+1002,0,29.0,Female,Married,27.0,Research & Development,Healthcare Representative,2,No,11.0,8.0,3.0,2.0,4335.0,1.0,361.25,0.6666666666666666,7.0,0
+1003,0,22.0,Female,Single,15.0,Research & Development,Laboratory Technician,1,No,1.0,0.0,4.0,3.0,2871.0,0.0,1435.5,0.0,0.0,0
+1004,0,38.0,Female,Married,10.0,Research & Development,Healthcare Representative,2,No,18.0,1.0,3.0,3.0,9824.0,0.0,517.0526315789474,0.05263157894736842,1.0,0
+1005,0,33.0,Male,Divorced,1.0,Sales,Sales Executive,2,No,9.0,9.0,1.0,3.0,4037.0,0.0,403.7,0.9,9.0,0
+1006,1,25.0,Male,Single,24.0,Sales,Sales Representative,1,Yes,1.0,1.0,4.0,3.0,1118.0,1.0,559.0,0.5,0.0,1
+1007,0,31.0,Female,Married,7.0,Research & Development,Manufacturing Director,2,No,13.0,13.0,1.0,1.0,4306.0,3.0,307.57142857142856,0.9285714285714286,10.0,0
+1008,0,33.0,Male,Married,8.0,Sales,Sales Executive,2,No,8.0,2.0,1.0,1.0,6392.0,2.0,710.2222222222222,0.2222222222222222,0.0,0
+1009,0,20.0,Male,Single,9.0,Sales,Sales Representative,1,No,2.0,2.0,1.0,3.0,2728.0,0.0,909.3333333333334,0.6666666666666666,2.0,0
+1010,0,29.0,Female,Married,3.0,Sales,Sales Executive,2,No,6.0,6.0,3.0,2.0,5561.0,1.0,794.4285714285714,0.8571428571428571,5.0,0
+1011,0,29.0,Female,Married,20.0,Sales,Sales Representative,1,No,3.0,3.0,4.0,3.0,2157.0,0.0,539.25,0.75,3.0,0
+1012,0,38.0,Male,Married,10.0,Human Resources,Human Resources,2,No,10.0,6.0,3.0,3.0,6077.0,1.0,552.4545454545455,0.5454545454545454,5.0,0
+1013,0,54.0,Female,Single,20.0,Research & Development,Research Scientist,2,No,20.0,4.0,3.0,2.0,4869.0,0.0,231.85714285714286,0.19047619047619047,4.0,0
+1014,0,54.0,Female,Divorced,19.0,Research & Development,Manufacturing Director,2,Yes,9.0,5.0,1.0,3.0,5485.0,1.0,548.5,0.5,4.0,1
+1015,1,31.0,Male,Single,9.0,Research & Development,Research Scientist,1,Yes,4.0,3.0,1.0,3.0,2321.0,1.0,464.2,0.6,2.0,1
+1016,0,53.0,Female,Married,1.0,Research & Development,Manufacturing Director,4,Yes,27.0,3.0,3.0,2.0,12965.0,0.0,463.0357142857143,0.10714285714285714,3.0,1
+1017,0,47.0,Male,Married,1.0,Research & Development,Research Scientist,1,No,17.0,6.0,4.0,2.0,3420.0,1.0,190.0,0.3333333333333333,5.0,0
+1018,0,36.0,Male,Married,27.0,Research & Development,Healthcare Representative,2,No,17.0,7.0,3.0,2.0,5237.0,7.0,290.94444444444446,0.3888888888888889,0.0,0
+1019,0,41.0,Male,Married,5.0,Research & Development,Research Scientist,1,Yes,7.0,4.0,3.0,2.0,2127.0,0.0,265.875,0.5,4.0,1
+1020,1,29.0,Female,Single,13.0,Sales,Sales Executive,2,No,7.0,5.0,2.0,1.0,5765.0,0.0,720.625,0.625,5.0,0
+1021,1,18.0,Male,Single,5.0,Sales,Sales Representative,1,Yes,0.0,0.0,2.0,3.0,1878.0,0.0,1878.0,0.0,0.0,1
+1022,0,32.0,Female,Single,2.0,Research & Development,Research Scientist,2,No,10.0,7.0,4.0,2.0,5055.0,0.0,459.54545454545456,0.6363636363636364,7.0,0
+1023,0,33.0,Male,Single,10.0,Sales,Sales Executive,2,No,10.0,10.0,3.0,2.0,5487.0,0.0,498.8181818181818,0.9090909090909091,10.0,0
+1024,0,42.0,Male,Married,6.0,Research & Development,Research Director,3,No,18.0,13.0,1.0,4.0,13348.0,5.0,702.5263157894736,0.6842105263157895,8.0,0
+1025,0,30.0,Male,Divorced,15.0,Sales,Sales Executive,3,No,12.0,7.0,1.0,3.0,7140.0,1.0,549.2307692307693,0.5384615384615384,6.0,0
+1026,0,54.0,Female,Divorced,11.0,Research & Development,Manager,4,No,26.0,14.0,4.0,3.0,16032.0,1.0,593.7777777777778,0.5185185185185185,13.0,0
+1027,0,49.0,Male,Married,2.0,Research & Development,Research Director,5,No,28.0,5.0,4.0,3.0,19161.0,4.0,660.7241379310345,0.1724137931034483,1.0,0
+1028,0,42.0,Male,Married,4.0,Research & Development,Manager,5,No,22.0,22.0,4.0,3.0,19232.0,11.0,836.1739130434783,0.9565217391304348,11.0,0
+1029,0,58.0,Male,Single,10.0,Sales,Sales Executive,4,No,38.0,37.0,3.0,2.0,13872.0,1.0,355.6923076923077,0.9487179487179487,36.0,0
+1030,0,37.0,Male,Divorced,5.0,Research & Development,Manufacturing Director,2,No,8.0,6.0,4.0,2.0,6347.0,0.0,705.2222222222222,0.6666666666666666,6.0,0
+1031,0,39.0,Female,Single,22.0,Research & Development,Manufacturing Director,3,Yes,21.0,21.0,1.0,3.0,10880.0,2.0,494.54545454545456,0.9545454545454546,19.0,1
+1032,0,26.0,Female,Married,3.0,Research & Development,Research Scientist,1,No,1.0,1.0,4.0,3.0,2061.0,0.0,1030.5,0.5,1.0,0
+1033,0,24.0,Male,Married,10.0,Human Resources,Human Resources,1,No,3.0,2.0,4.0,3.0,2145.0,2.0,536.25,0.5,0.0,0
+1034,0,34.0,Male,Divorced,13.0,Sales,Sales Executive,3,No,9.0,8.0,3.0,2.0,8628.0,1.0,862.8,0.8,7.0,0
+1035,0,31.0,Male,Divorced,7.0,Sales,Sales Executive,2,No,13.0,7.0,4.0,3.0,7547.0,1.0,539.0714285714286,0.5,6.0,0
+1036,0,45.0,Female,Divorced,4.0,Sales,Sales Executive,2,Yes,9.0,5.0,1.0,4.0,5006.0,0.0,500.6,0.5,5.0,1
+1037,0,26.0,Female,Married,25.0,Human Resources,Human Resources,1,No,8.0,8.0,3.0,3.0,2942.0,5.0,326.8888888888889,0.8888888888888888,3.0,0
+1038,1,28.0,Male,Single,5.0,Research & Development,Laboratory Technician,1,Yes,2.0,2.0,3.0,2.0,3441.0,2.0,1147.0,0.6666666666666666,0.0,1
+1039,0,35.0,Female,Single,1.0,Sales,Sales Executive,2,No,5.0,5.0,3.0,3.0,4859.0,0.0,809.8333333333334,0.8333333333333334,5.0,0
+1040,0,30.0,Male,Married,3.0,Research & Development,Laboratory Technician,1,No,9.0,5.0,4.0,1.0,2097.0,1.0,209.7,0.5,4.0,0
+1041,0,34.0,Male,Single,2.0,Research & Development,Manufacturing Director,2,No,5.0,3.0,3.0,2.0,4033.0,0.0,672.1666666666666,0.5,3.0,0
+1042,0,40.0,Male,Divorced,1.0,Research & Development,Manager,4,No,22.0,19.0,1.0,3.0,16823.0,11.0,731.4347826086956,0.8260869565217391,8.0,0
+1043,0,27.0,Male,Married,2.0,Research & Development,Research Scientist,1,No,6.0,5.0,2.0,2.0,2226.0,1.0,318.0,0.7142857142857143,4.0,0
+1044,0,39.0,Male,Married,6.0,Research & Development,Healthcare Representative,3,No,9.0,7.0,1.0,3.0,9991.0,1.0,999.1,0.7,6.0,0
+1045,0,43.0,Male,Divorced,25.0,Sales,Sales Executive,3,No,18.0,1.0,4.0,3.0,10798.0,0.0,568.3157894736842,0.05263157894736842,1.0,0
+1046,0,35.0,Male,Single,9.0,Research & Development,Healthcare Representative,2,No,10.0,1.0,2.0,3.0,6540.0,0.0,594.5454545454545,0.09090909090909091,1.0,0
+1047,0,35.0,Male,Married,17.0,Sales,Sales Executive,2,Yes,15.0,7.0,1.0,3.0,8966.0,1.0,560.375,0.4375,6.0,1
+1048,0,47.0,Male,Single,25.0,Research & Development,Healthcare Representative,3,No,25.0,17.0,3.0,3.0,8633.0,12.0,332.03846153846155,0.6538461538461539,5.0,0
+1049,0,54.0,Female,Single,8.0,Research & Development,Laboratory Technician,2,No,19.0,1.0,3.0,3.0,3780.0,0.0,189.0,0.05,1.0,0
+1050,0,35.0,Male,Divorced,15.0,Sales,Sales Executive,2,Yes,7.0,2.0,4.0,2.0,5440.0,2.0,680.0,0.25,0.0,1
+1051,0,35.0,Male,Married,18.0,Sales,Sales Executive,2,No,6.0,5.0,1.0,1.0,5561.0,0.0,794.4285714285714,0.7142857142857143,5.0,0
+1052,0,20.0,Male,Single,21.0,Sales,Sales Representative,1,No,2.0,2.0,4.0,3.0,2678.0,2.0,892.6666666666666,0.6666666666666666,0.0,0
+1053,1,33.0,Male,Single,1.0,Research & Development,Research Scientist,1,Yes,10.0,10.0,4.0,2.0,2686.0,7.0,244.1818181818182,0.9090909090909091,3.0,1
+1054,0,36.0,Male,Married,6.0,Research & Development,Laboratory Technician,2,Yes,9.0,3.0,1.0,3.0,5562.0,0.0,556.2,0.3,3.0,1
+1055,0,41.0,Male,Divorced,9.0,Research & Development,Research Director,5,No,21.0,18.0,3.0,4.0,19419.0,0.0,882.6818181818181,0.8181818181818182,18.0,0
+1056,0,56.0,Male,Single,8.0,Human Resources,Manager,5,No,36.0,7.0,2.0,3.0,19717.0,7.0,532.8918918918919,0.1891891891891892,0.0,0
+1057,0,36.0,Male,Married,26.0,Research & Development,Healthcare Representative,2,No,10.0,3.0,3.0,2.0,5347.0,0.0,486.09090909090907,0.2727272727272727,3.0,0
+1058,0,27.0,Male,Single,2.0,Sales,Sales Executive,2,Yes,5.0,5.0,3.0,3.0,4478.0,0.0,746.3333333333334,0.8333333333333334,5.0,1
+1059,0,44.0,Male,Single,29.0,Research & Development,Research Scientist,2,No,20.0,20.0,4.0,3.0,4541.0,13.0,216.23809523809524,0.9523809523809523,7.0,0
+1060,0,30.0,Male,Married,1.0,Sales,Sales Executive,2,No,10.0,10.0,1.0,3.0,9714.0,6.0,883.0909090909091,0.9090909090909091,4.0,0
+1061,0,22.0,Male,Single,7.0,Research & Development,Research Scientist,1,Yes,1.0,1.0,2.0,3.0,2472.0,0.0,1236.0,0.5,1.0,1
+1062,0,34.0,Female,Married,20.0,Research & Development,Research Scientist,1,No,2.0,1.0,3.0,2.0,2585.0,0.0,861.6666666666666,0.3333333333333333,1.0,0
+1063,0,34.0,Male,Married,3.0,Human Resources,Human Resources,1,No,4.0,3.0,4.0,1.0,3737.0,0.0,747.4,0.6,3.0,0
+1064,0,45.0,Male,Married,26.0,Sales,Sales Executive,2,No,10.0,10.0,1.0,3.0,4385.0,4.0,398.6363636363636,0.9090909090909091,6.0,0
+1065,0,34.0,Female,Married,4.0,Sales,Sales Executive,2,No,6.0,3.0,3.0,3.0,6538.0,1.0,934.0,0.42857142857142855,2.0,0
+1066,0,18.0,Female,Single,1.0,Research & Development,Laboratory Technician,1,No,0.0,0.0,4.0,4.0,1611.0,0.0,1611.0,0.0,0.0,0
+1067,0,33.0,Female,Married,5.0,Research & Development,Research Scientist,1,No,2.0,2.0,4.0,2.0,2911.0,0.0,970.3333333333334,0.6666666666666666,2.0,0
+1068,1,36.0,Female,Single,16.0,Research & Development,Laboratory Technician,1,No,18.0,17.0,1.0,3.0,2743.0,15.0,144.3684210526316,0.8947368421052632,2.0,0
+1069,0,33.0,Female,Married,15.0,Research & Development,Healthcare Representative,2,Yes,10.0,9.0,4.0,3.0,4878.0,8.0,443.45454545454544,0.8181818181818182,1.0,1
+1070,0,34.0,Female,Single,1.0,Research & Development,Research Scientist,1,No,10.0,4.0,4.0,3.0,3280.0,1.0,298.1818181818182,0.36363636363636365,3.0,0
+1071,0,55.0,Female,Single,2.0,Research & Development,Manager,4,Yes,30.0,5.0,4.0,3.0,16659.0,1.0,537.3870967741935,0.16129032258064516,4.0,1
+1072,0,25.0,Male,Married,19.0,Research & Development,Laboratory Technician,1,No,7.0,3.0,4.0,2.0,3669.0,1.0,458.625,0.375,2.0,0
+1073,0,30.0,Female,Married,22.0,Sales,Sales Executive,3,No,10.0,9.0,1.0,3.0,8412.0,7.0,764.7272727272727,0.8181818181818182,2.0,0
+1074,0,28.0,Male,Divorced,17.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,1.0,3.0,4558.0,1.0,414.3636363636364,0.9090909090909091,9.0,0
+1075,0,42.0,Male,Married,5.0,Sales,Manager,5,No,21.0,1.0,3.0,4.0,18303.0,0.0,831.9545454545455,0.045454545454545456,1.0,0
+1076,1,48.0,Male,Single,1.0,Research & Development,Laboratory Technician,3,Yes,23.0,1.0,3.0,3.0,5381.0,0.0,224.20833333333334,0.041666666666666664,1.0,1
+1077,0,35.0,Female,Single,26.0,Human Resources,Human Resources,3,Yes,9.0,9.0,4.0,3.0,8837.0,1.0,883.7,0.9,8.0,1
+1078,0,41.0,Male,Married,12.0,Research & Development,Laboratory Technician,1,Yes,6.0,1.0,4.0,3.0,4766.0,0.0,680.8571428571429,0.14285714285714285,1.0,1
+1079,0,28.0,Male,Single,5.0,Sales,Sales Executive,2,No,4.0,4.0,4.0,3.0,4908.0,0.0,981.6,0.8,4.0,0
+1080,0,36.0,Male,Divorced,13.0,Sales,Sales Executive,2,Yes,16.0,2.0,1.0,3.0,6134.0,2.0,360.8235294117647,0.11764705882352941,0.0,1
+1081,0,34.0,Male,Single,1.0,Sales,Sales Executive,3,No,14.0,14.0,4.0,2.0,9888.0,2.0,659.2,0.9333333333333333,12.0,0
+1082,0,35.0,Male,Divorced,10.0,Research & Development,Laboratory Technician,1,No,3.0,3.0,4.0,2.0,3917.0,1.0,979.25,0.75,2.0,0
+1083,0,37.0,Female,Single,1.0,Research & Development,Research Scientist,1,No,17.0,17.0,4.0,3.0,2115.0,5.0,117.5,0.9444444444444444,12.0,0
+1084,0,42.0,Male,Divorced,12.0,Research & Development,Laboratory Technician,1,No,7.0,5.0,2.0,2.0,2766.0,0.0,345.75,0.625,5.0,0
+1085,0,40.0,Female,Married,2.0,Research & Development,Laboratory Technician,2,No,20.0,1.0,3.0,3.0,3448.0,0.0,164.1904761904762,0.047619047619047616,1.0,0
+1086,0,41.0,Female,Divorced,7.0,Research & Development,Research Director,5,No,21.0,21.0,3.0,3.0,19973.0,5.0,907.8636363636364,0.9545454545454546,16.0,0
+1087,0,24.0,Female,Divorced,10.0,Sales,Sales Executive,2,Yes,5.0,5.0,3.0,4.0,4260.0,0.0,710.0,0.8333333333333334,5.0,1
+1088,0,30.0,Female,Single,1.0,Research & Development,Laboratory Technician,2,No,12.0,12.0,4.0,3.0,4011.0,3.0,308.53846153846155,0.9230769230769231,9.0,0
+1089,0,36.0,Female,Single,2.0,Sales,Sales Representative,2,No,17.0,13.0,4.0,2.0,4502.0,6.0,250.11111111111111,0.7222222222222222,7.0,0
+1090,0,36.0,Male,Married,2.0,Sales,Sales Executive,3,No,10.0,10.0,3.0,3.0,7596.0,9.0,690.5454545454545,0.9090909090909091,1.0,0
+1091,0,53.0,Female,Divorced,7.0,Research & Development,Manager,5,No,26.0,7.0,3.0,3.0,18606.0,4.0,689.1111111111111,0.25925925925925924,3.0,0
+1092,0,26.0,Male,Single,2.0,Research & Development,Research Scientist,1,No,5.0,4.0,4.0,3.0,3904.0,1.0,650.6666666666666,0.6666666666666666,3.0,0
+1093,0,30.0,Male,Married,29.0,Sales,Sales Executive,3,No,9.0,4.0,2.0,3.0,9250.0,1.0,925.0,0.4,3.0,0
+1094,0,27.0,Male,Married,2.0,Research & Development,Laboratory Technician,1,No,6.0,2.0,2.0,3.0,3468.0,2.0,495.42857142857144,0.2857142857142857,0.0,0
+1095,0,53.0,Female,Married,7.0,Sales,Sales Executive,3,Yes,35.0,5.0,4.0,3.0,10934.0,0.0,303.72222222222223,0.1388888888888889,5.0,1
+1096,0,52.0,Male,Single,7.0,Research & Development,Healthcare Representative,3,No,18.0,8.0,2.0,3.0,10445.0,4.0,549.7368421052631,0.42105263157894735,4.0,0
+1097,0,29.0,Male,Single,24.0,Sales,Sales Representative,1,No,1.0,1.0,1.0,3.0,1091.0,0.0,545.5,0.5,1.0,0
+1098,0,29.0,Male,Divorced,20.0,Sales,Sales Executive,2,No,10.0,3.0,4.0,3.0,6931.0,0.0,630.0909090909091,0.2727272727272727,3.0,0
+1099,0,42.0,Female,Divorced,1.0,Research & Development,Laboratory Technician,1,No,8.0,5.0,1.0,3.0,2576.0,1.0,286.22222222222223,0.5555555555555556,4.0,0
+1100,0,40.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,8.0,1.0,4.0,2.0,2406.0,0.0,267.3333333333333,0.1111111111111111,1.0,0
+1101,0,30.0,Male,Single,7.0,Sales,Sales Representative,1,No,4.0,3.0,2.0,3.0,2983.0,1.0,596.6,0.6,2.0,0
+1102,0,35.0,Male,Married,16.0,Sales,Sales Executive,3,No,12.0,11.0,2.0,2.0,8020.0,6.0,616.9230769230769,0.8461538461538461,5.0,0
+1103,0,46.0,Male,Single,26.0,Sales,Sales Executive,2,No,6.0,2.0,2.0,3.0,7991.0,2.0,1141.5714285714287,0.2857142857142857,0.0,0
+1104,0,22.0,Female,Married,8.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,1.0,3.0,2398.0,0.0,1199.0,0.5,1.0,1
+1105,0,45.0,Male,Married,28.0,Research & Development,Research Scientist,1,No,8.0,5.0,4.0,3.0,2132.0,0.0,236.88888888888889,0.5555555555555556,5.0,0
+1106,1,35.0,Male,Married,23.0,Research & Development,Manufacturing Director,2,Yes,8.0,1.0,3.0,3.0,5916.0,0.0,657.3333333333334,0.1111111111111111,1.0,1
+1107,0,49.0,Male,Divorced,18.0,Research & Development,Manufacturing Director,2,Yes,7.0,7.0,4.0,3.0,6804.0,1.0,850.5,0.875,6.0,1
+1108,1,26.0,Male,Single,8.0,Sales,Sales Executive,2,No,6.0,4.0,1.0,2.0,5326.0,1.0,760.8571428571429,0.5714285714285714,3.0,0
+1109,0,28.0,Male,Single,16.0,Research & Development,Research Scientist,1,No,5.0,5.0,3.0,2.0,2144.0,1.0,357.3333333333333,0.8333333333333334,4.0,0
+1110,0,32.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,8.0,7.0,4.0,2.0,3068.0,3.0,340.8888888888889,0.7777777777777778,4.0,0
+1111,0,30.0,Male,Divorced,23.0,Research & Development,Research Scientist,1,No,10.0,10.0,3.0,2.0,2613.0,0.0,237.54545454545453,0.9090909090909091,10.0,0
+1112,0,53.0,Male,Married,3.0,Research & Development,Research Director,4,Yes,21.0,5.0,3.0,2.0,17584.0,1.0,799.2727272727273,0.22727272727272727,4.0,1
+1113,0,31.0,Male,Married,23.0,Research & Development,Healthcare Representative,2,No,10.0,9.0,4.0,3.0,5582.0,7.0,507.45454545454544,0.8181818181818182,2.0,0
+1114,0,27.0,Male,Married,1.0,Research & Development,Manufacturing Director,2,No,6.0,2.0,1.0,3.0,4298.0,2.0,614.0,0.2857142857142857,0.0,0
+1115,1,46.0,Male,Single,9.0,Sales,Sales Executive,3,No,9.0,9.0,4.0,3.0,9619.0,4.0,961.9,0.9,5.0,0
+1116,0,46.0,Male,Married,2.0,Research & Development,Research Director,4,No,26.0,3.0,3.0,1.0,17861.0,0.0,661.5185185185185,0.1111111111111111,3.0,0
+1117,1,18.0,Male,Single,3.0,Research & Development,Laboratory Technician,1,No,0.0,0.0,3.0,3.0,1420.0,0.0,1420.0,0.0,0.0,0
+1118,1,26.0,Female,Married,5.0,Research & Development,Research Scientist,1,Yes,8.0,8.0,3.0,3.0,2366.0,1.0,262.8888888888889,0.8888888888888888,7.0,1
+1119,0,28.0,Male,Married,1.0,Research & Development,Research Scientist,1,No,5.0,5.0,4.0,4.0,2044.0,0.0,340.6666666666667,0.8333333333333334,5.0,0
+1120,1,25.0,Male,Married,9.0,Sales,Sales Representative,1,No,6.0,3.0,1.0,3.0,4400.0,2.0,628.5714285714286,0.42857142857142855,1.0,0
+1121,0,48.0,Male,Divorced,7.0,Sales,Sales Executive,2,No,15.0,2.0,1.0,3.0,5486.0,2.0,342.875,0.125,0.0,0
+1122,0,39.0,Male,Single,10.0,Research & Development,Research Director,3,No,9.0,4.0,3.0,3.0,13464.0,2.0,1346.4,0.4,2.0,0
+1123,0,44.0,Male,Married,8.0,Research & Development,Laboratory Technician,1,Yes,10.0,3.0,4.0,2.0,2818.0,0.0,256.1818181818182,0.2727272727272727,3.0,1
+1124,0,31.0,Female,Single,8.0,Research & Development,Research Director,4,No,9.0,3.0,2.0,4.0,16422.0,1.0,1642.2,0.3,2.0,0
+1125,0,33.0,Male,Married,5.0,Sales,Sales Executive,2,No,8.0,5.0,4.0,4.0,9998.0,1.0,1110.888888888889,0.5555555555555556,4.0,0
+1126,0,30.0,Female,Married,25.0,Sales,Sales Executive,2,Yes,4.0,2.0,3.0,4.0,4736.0,2.0,947.2,0.4,0.0,1
+1127,0,37.0,Female,Married,1.0,Research & Development,Manufacturing Director,2,No,8.0,6.0,2.0,2.0,6447.0,4.0,716.3333333333334,0.6666666666666666,2.0,0
+1128,0,29.0,Male,Single,15.0,Research & Development,Research Scientist,1,No,6.0,6.0,4.0,3.0,2340.0,1.0,334.2857142857143,0.8571428571428571,5.0,0
+1129,0,32.0,Male,Married,1.0,Research & Development,Research Scientist,2,No,9.0,6.0,1.0,2.0,4087.0,1.0,408.7,0.6,5.0,0
+1130,1,24.0,Female,Married,7.0,Research & Development,Laboratory Technician,1,Yes,6.0,6.0,3.0,3.0,2886.0,1.0,412.2857142857143,0.8571428571428571,5.0,1
+1131,0,51.0,Male,Single,21.0,Sales,Sales Executive,2,Yes,11.0,10.0,4.0,1.0,5441.0,1.0,453.4166666666667,0.8333333333333334,9.0,1
+1132,0,45.0,Female,Married,7.0,Research & Development,Research Scientist,1,Yes,7.0,3.0,3.0,2.0,4477.0,0.0,559.625,0.375,3.0,1
+1133,0,35.0,Male,Married,23.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,3.0,4.0,2705.0,0.0,386.42857142857144,0.7142857142857143,5.0,0
+1134,0,36.0,Male,Married,10.0,Research & Development,Healthcare Representative,3,Yes,15.0,12.0,1.0,3.0,8321.0,5.0,520.0625,0.75,7.0,1
+1135,1,44.0,Female,Married,15.0,Research & Development,Healthcare Representative,3,No,10.0,10.0,4.0,3.0,7978.0,0.0,725.2727272727273,0.9090909090909091,10.0,0
+1136,0,40.0,Female,Married,2.0,Research & Development,Healthcare Representative,2,No,8.0,8.0,2.0,3.0,4244.0,3.0,471.55555555555554,0.8888888888888888,5.0,0
+1137,0,34.0,Male,Married,1.0,Research & Development,Research Scientist,1,No,10.0,10.0,4.0,2.0,2691.0,8.0,244.63636363636363,0.9090909090909091,2.0,0
+1138,0,56.0,Female,Married,1.0,Research & Development,Research Scientist,1,No,5.0,3.0,1.0,4.0,2066.0,1.0,344.3333333333333,0.5,2.0,0
+1139,0,40.0,Male,Single,7.0,Research & Development,Laboratory Technician,1,Yes,10.0,4.0,1.0,1.0,2166.0,0.0,196.9090909090909,0.36363636363636365,4.0,1
+1140,0,33.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,7.0,1.0,4.0,3.0,2496.0,0.0,312.0,0.125,1.0,0
+1141,0,55.0,Male,Divorced,8.0,Research & Development,Healthcare Representative,4,Yes,34.0,33.0,2.0,3.0,13577.0,15.0,387.9142857142857,0.9428571428571428,18.0,1
+1142,0,46.0,Male,Married,3.0,Sales,Manager,4,No,23.0,12.0,3.0,3.0,17465.0,4.0,727.7083333333334,0.5,8.0,0
+1143,0,27.0,Male,Married,1.0,Sales,Sales Executive,2,Yes,6.0,5.0,2.0,3.0,6349.0,1.0,907.0,0.7142857142857143,4.0,1
+1144,0,45.0,Female,Single,25.0,Research & Development,Manager,5,No,22.0,0.0,2.0,3.0,18061.0,0.0,785.2608695652174,0.0,0.0,0
+1145,0,55.0,Male,Divorced,1.0,Research & Development,Research Director,4,No,31.0,7.0,4.0,4.0,14732.0,0.0,460.375,0.21875,7.0,0
+1146,0,27.0,Female,Married,11.0,Sales,Sales Representative,1,No,5.0,1.0,4.0,3.0,2534.0,0.0,422.3333333333333,0.16666666666666666,1.0,0
+1147,0,34.0,Female,Married,3.0,Sales,Sales Executive,2,Yes,9.0,4.0,4.0,2.0,8103.0,0.0,810.3,0.4,4.0,1
+1148,0,28.0,Female,Married,2.0,Sales,Sales Executive,2,Yes,8.0,8.0,2.0,3.0,4779.0,7.0,531.0,0.8888888888888888,1.0,1
+1149,0,42.0,Female,Single,14.0,Sales,Sales Executive,2,No,10.0,5.0,3.0,3.0,6244.0,0.0,567.6363636363636,0.45454545454545453,5.0,0
+1150,0,54.0,Female,Married,9.0,Research & Development,Research Scientist,2,No,9.0,4.0,3.0,2.0,2897.0,2.0,289.7,0.4,2.0,0
+1151,1,29.0,Male,Single,1.0,Research & Development,Research Scientist,1,No,7.0,6.0,3.0,2.0,2058.0,1.0,257.25,0.75,5.0,0
+1152,0,32.0,Female,Single,5.0,Research & Development,Research Scientist,1,Yes,8.0,4.0,3.0,3.0,2432.0,0.0,270.22222222222223,0.4444444444444444,4.0,1
+1153,0,29.0,Female,Married,15.0,Research & Development,Research Scientist,1,Yes,6.0,5.0,4.0,2.0,2168.0,1.0,309.7142857142857,0.7142857142857143,4.0,1
+1154,0,47.0,Male,Single,14.0,Sales,Sales Executive,2,No,20.0,7.0,1.0,3.0,4960.0,1.0,236.1904761904762,0.3333333333333333,6.0,0
+1155,0,32.0,Female,Married,13.0,Research & Development,Laboratory Technician,1,No,2.0,2.0,2.0,3.0,2743.0,2.0,914.3333333333334,0.6666666666666666,0.0,0
+1156,1,24.0,Female,Single,1.0,Sales,Sales Representative,1,Yes,6.0,5.0,2.0,3.0,3202.0,1.0,457.42857142857144,0.7142857142857143,4.0,1
+1157,0,34.0,Female,Single,2.0,Research & Development,Healthcare Representative,2,No,14.0,14.0,4.0,4.0,6687.0,4.0,445.8,0.9333333333333333,10.0,0
+1158,0,37.0,Female,Single,1.0,Research & Development,Manufacturing Director,3,No,12.0,6.0,4.0,4.0,7491.0,1.0,576.2307692307693,0.46153846153846156,5.0,0
+1159,0,32.0,Male,Married,26.0,Sales,Sales Executive,2,No,4.0,3.0,4.0,3.0,4465.0,2.0,893.0,0.6,1.0,0
+1160,0,27.0,Female,Married,8.0,Sales,Sales Executive,2,No,8.0,8.0,2.0,3.0,6214.0,0.0,690.4444444444445,0.8888888888888888,8.0,0
+1161,0,35.0,Male,Single,1.0,Research & Development,Laboratory Technician,1,No,3.0,3.0,1.0,3.0,2450.0,1.0,612.5,0.75,2.0,0
+1162,0,42.0,Female,Divorced,2.0,Research & Development,Laboratory Technician,1,Yes,10.0,9.0,1.0,3.0,2593.0,7.0,235.72727272727272,0.8181818181818182,2.0,1
+1163,0,32.0,Male,Single,10.0,Research & Development,Manager,3,No,10.0,5.0,4.0,4.0,11244.0,0.0,1022.1818181818181,0.45454545454545453,5.0,0
+1164,0,38.0,Female,Single,7.0,Sales,Sales Executive,2,No,8.0,7.0,4.0,3.0,4028.0,0.0,447.55555555555554,0.7777777777777778,7.0,0
+1165,0,35.0,Female,Married,7.0,Sales,Sales Executive,2,Yes,10.0,10.0,4.0,3.0,5204.0,0.0,473.09090909090907,0.9090909090909091,10.0,1
+1166,0,49.0,Female,Single,1.0,Research & Development,Healthcare Representative,4,Yes,25.0,7.0,3.0,3.0,13964.0,0.0,537.0769230769231,0.2692307692307692,7.0,1
+1167,0,43.0,Male,Married,2.0,Sales,Sales Executive,2,Yes,10.0,10.0,4.0,3.0,7847.0,8.0,713.3636363636364,0.9090909090909091,2.0,1
+1168,0,34.0,Male,Divorced,1.0,Sales,Sales Executive,2,No,16.0,15.0,4.0,2.0,9725.0,0.0,572.0588235294117,0.8823529411764706,15.0,0
+1169,0,32.0,Male,Single,5.0,Research & Development,Research Scientist,1,No,12.0,7.0,2.0,3.0,2718.0,0.0,209.07692307692307,0.5384615384615384,7.0,0
+1170,0,40.0,Male,Married,5.0,Sales,Sales Executive,3,Yes,20.0,18.0,1.0,3.0,10475.0,1.0,498.8095238095238,0.8571428571428571,17.0,1
+1171,0,38.0,Male,Married,2.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,4.0,3.0,1702.0,0.0,851.0,0.5,1.0,1
+1172,0,27.0,Male,Married,3.0,Research & Development,Research Scientist,1,No,0.0,0.0,4.0,2.0,1706.0,0.0,1706.0,0.0,0.0,0
+1173,0,31.0,Male,Married,26.0,Sales,Sales Executive,2,Yes,10.0,10.0,4.0,3.0,5617.0,0.0,510.6363636363636,0.9090909090909091,10.0,1
+1174,0,38.0,Male,Married,2.0,Sales,Sales Executive,2,No,13.0,8.0,4.0,3.0,5249.0,7.0,374.92857142857144,0.5714285714285714,1.0,0
+1175,0,47.0,Male,Married,5.0,Research & Development,Research Director,5,No,21.0,3.0,3.0,3.0,18300.0,1.0,831.8181818181819,0.13636363636363635,2.0,0
+1176,0,38.0,Male,Married,29.0,Research & Development,Manufacturing Director,2,No,9.0,7.0,4.0,1.0,6261.0,1.0,626.1,0.7,6.0,0
+1177,0,30.0,Female,Single,18.0,Research & Development,Research Scientist,1,No,5.0,5.0,3.0,2.0,2632.0,0.0,438.6666666666667,0.8333333333333334,5.0,0
+1178,0,28.0,Male,Divorced,6.0,Research & Development,Research Scientist,1,Yes,3.0,3.0,3.0,3.0,2703.0,0.0,675.75,0.75,3.0,1
+1179,0,27.0,Female,Divorced,6.0,Research & Development,Research Scientist,1,No,6.0,5.0,3.0,2.0,2187.0,0.0,312.42857142857144,0.7142857142857143,5.0,0
+1180,0,46.0,Female,Single,1.0,Human Resources,Human Resources,1,No,10.0,7.0,1.0,4.0,3423.0,5.0,311.1818181818182,0.6363636363636364,2.0,0
+1181,1,40.0,Female,Single,24.0,Sales,Sales Executive,4,Yes,22.0,1.0,2.0,2.0,13194.0,0.0,573.6521739130435,0.043478260869565216,1.0,1
+1182,0,55.0,Female,Married,2.0,Research & Development,Manager,5,No,23.0,19.0,3.0,3.0,19187.0,9.0,799.4583333333334,0.7916666666666666,10.0,0
+1183,0,26.0,Female,Divorced,23.0,Research & Development,Research Scientist,1,No,3.0,3.0,4.0,1.0,2886.0,0.0,721.5,0.75,3.0,0
+1184,0,35.0,Male,Married,4.0,Research & Development,Laboratory Technician,1,No,2.0,2.0,4.0,4.0,2376.0,2.0,792.0,0.6666666666666666,0.0,0
+1185,0,42.0,Female,Married,2.0,Research & Development,Healthcare Representative,2,No,10.0,10.0,4.0,3.0,4089.0,2.0,371.72727272727275,0.9090909090909091,8.0,0
+1186,0,40.0,Female,Divorced,10.0,Sales,Sales Executive,2,No,7.0,5.0,2.0,4.0,6852.0,1.0,856.5,0.625,4.0,0
+1187,0,19.0,Female,Single,3.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,2.0,3.0,1483.0,0.0,741.5,0.5,1.0,0
+1188,0,31.0,Female,Married,10.0,Research & Development,Research Director,3,No,13.0,11.0,3.0,4.0,11031.0,4.0,787.9285714285714,0.7857142857142857,7.0,0
+1189,1,39.0,Female,Single,2.0,Research & Development,Laboratory Technician,1,Yes,11.0,1.0,1.0,4.0,3646.0,0.0,303.8333333333333,0.08333333333333333,1.0,1
+1190,0,31.0,Male,Divorced,20.0,Research & Development,Laboratory Technician,2,No,10.0,10.0,3.0,3.0,4197.0,0.0,381.54545454545456,0.9090909090909091,10.0,0
+1191,0,49.0,Male,Divorced,7.0,Research & Development,Healthcare Representative,3,No,29.0,8.0,2.0,3.0,10466.0,0.0,348.8666666666667,0.26666666666666666,8.0,0
+1192,0,20.0,Female,Single,1.0,Research & Development,Research Scientist,1,No,1.0,1.0,2.0,4.0,2836.0,0.0,1418.0,0.5,1.0,0
+1193,0,32.0,Male,Married,7.0,Sales,Sales Executive,2,No,13.0,13.0,3.0,2.0,5484.0,4.0,391.7142857142857,0.9285714285714286,9.0,0
+1194,0,36.0,Male,Single,10.0,Sales,Sales Executive,3,No,10.0,10.0,4.0,2.0,9980.0,9.0,907.2727272727273,0.9090909090909091,1.0,0
+1195,0,43.0,Male,Married,26.0,Sales,Manager,4,Yes,25.0,25.0,4.0,4.0,16959.0,4.0,652.2692307692307,0.9615384615384616,21.0,1
+1196,0,26.0,Female,Divorced,1.0,Research & Development,Laboratory Technician,1,No,5.0,2.0,4.0,3.0,4364.0,2.0,727.3333333333334,0.3333333333333333,0.0,0
+1197,1,27.0,Male,Divorced,2.0,Sales,Sales Representative,1,No,5.0,4.0,1.0,3.0,3041.0,0.0,506.8333333333333,0.6666666666666666,4.0,0
+1198,0,42.0,Male,Married,5.0,Research & Development,Laboratory Technician,1,No,8.0,2.0,3.0,3.0,2093.0,2.0,232.55555555555554,0.2222222222222222,0.0,0
+1199,0,34.0,Male,Single,3.0,Sales,Sales Executive,2,No,15.0,13.0,1.0,3.0,4759.0,3.0,297.4375,0.8125,10.0,0
+1200,1,55.0,Male,Single,13.0,Sales,Sales Executive,4,Yes,24.0,19.0,3.0,2.0,13695.0,3.0,547.8,0.76,16.0,1
+1201,0,42.0,Female,Married,3.0,Research & Development,Laboratory Technician,2,Yes,17.0,5.0,4.0,2.0,5231.0,1.0,290.6111111111111,0.2777777777777778,4.0,1
+1202,0,50.0,Male,Divorced,1.0,Sales,Sales Executive,2,No,12.0,6.0,3.0,3.0,6728.0,0.0,517.5384615384615,0.46153846153846156,6.0,0
+1203,0,33.0,Female,Married,7.0,Sales,Sales Executive,2,No,4.0,3.0,2.0,3.0,4302.0,0.0,860.4,0.6,3.0,0
+1204,0,30.0,Male,Divorced,24.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,3.0,3.0,2693.0,0.0,1346.5,0.5,1.0,0
+1205,0,35.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,10.0,8.0,3.0,3.0,2258.0,1.0,205.27272727272728,0.7272727272727273,7.0,0
+1206,0,42.0,Male,Single,4.0,Sales,Sales Executive,2,No,9.0,6.0,1.0,4.0,5155.0,1.0,515.5,0.6,5.0,0
+1207,0,40.0,Male,Divorced,9.0,Research & Development,Research Scientist,1,Yes,3.0,1.0,2.0,3.0,3617.0,0.0,904.25,0.25,1.0,1
+1208,0,34.0,Male,Single,2.0,Sales,Sales Executive,2,No,6.0,6.0,4.0,3.0,6274.0,1.0,896.2857142857143,0.8571428571428571,5.0,0
+1209,0,50.0,Male,Married,29.0,Research & Development,Manager,4,No,28.0,27.0,3.0,3.0,17046.0,15.0,587.7931034482758,0.9310344827586207,12.0,0
+1210,0,45.0,Male,Single,29.0,Research & Development,Research Scientist,1,No,9.0,6.0,4.0,2.0,3452.0,0.0,345.2,0.6,6.0,0
+1211,1,21.0,Female,Single,12.0,Sales,Sales Representative,1,No,1.0,1.0,2.0,3.0,2716.0,0.0,1358.0,0.5,1.0,0
+1212,0,37.0,Female,Married,1.0,Research & Development,Research Scientist,1,No,17.0,3.0,1.0,2.0,3920.0,0.0,217.77777777777777,0.16666666666666666,3.0,0
+1213,0,33.0,Male,Single,10.0,Sales,Sales Executive,2,No,9.0,7.0,4.0,2.0,4682.0,0.0,468.2,0.7,7.0,0
+1214,0,31.0,Female,Divorced,2.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,4.0,3.0,1129.0,0.0,564.5,0.5,1.0,1
+1215,0,29.0,Male,Single,24.0,Research & Development,Research Scientist,1,Yes,1.0,1.0,4.0,2.0,2439.0,1.0,1219.5,0.5,0.0,1
+1216,0,47.0,Female,Married,2.0,Research & Development,Manager,4,Yes,26.0,26.0,4.0,2.0,16752.0,3.0,620.4444444444445,0.9629629629629629,23.0,1
+1217,1,30.0,Male,Married,12.0,Sales,Sales Representative,1,No,1.0,1.0,1.0,4.0,2033.0,0.0,1016.5,0.5,1.0,0
+1218,0,27.0,Female,Married,1.0,Research & Development,Manufacturing Director,3,No,9.0,9.0,1.0,3.0,7412.0,0.0,741.2,0.9,9.0,0
+1219,0,54.0,Female,Married,7.0,Research & Development,Research Scientist,2,No,14.0,7.0,4.0,2.0,6854.0,1.0,456.93333333333334,0.4666666666666667,6.0,0
+1220,0,50.0,Male,Divorced,2.0,Research & Development,Manager,4,No,31.0,31.0,1.0,3.0,17924.0,14.0,560.125,0.96875,17.0,0
+1221,1,29.0,Female,Married,1.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,1.0,3.0,2319.0,0.0,1159.5,0.5,1.0,1
+1222,0,36.0,Female,Married,16.0,Sales,Sales Executive,2,No,11.0,3.0,1.0,2.0,5647.0,0.0,470.5833333333333,0.25,3.0,0
+1223,0,45.0,Male,Divorced,7.0,Research & Development,Research Scientist,3,No,25.0,1.0,1.0,3.0,9724.0,0.0,374.0,0.038461538461538464,1.0,0
+1224,1,50.0,Male,Married,8.0,Sales,Sales Executive,2,Yes,18.0,4.0,3.0,3.0,6796.0,1.0,357.6842105263158,0.21052631578947367,3.0,1
+1225,0,39.0,Male,Single,9.0,Research & Development,Manager,5,No,21.0,6.0,4.0,2.0,19431.0,1.0,883.2272727272727,0.2727272727272727,5.0,0
+1226,0,27.0,Male,Single,9.0,Sales,Sales Executive,2,No,7.0,7.0,4.0,3.0,4105.0,0.0,513.125,0.875,7.0,0
+1227,0,33.0,Female,Married,1.0,Research & Development,Healthcare Representative,2,Yes,6.0,6.0,2.0,3.0,5488.0,1.0,784.0,0.8571428571428571,5.0,1
+1228,0,46.0,Male,Divorced,2.0,Research & Development,Manufacturing Director,2,No,12.0,6.0,4.0,2.0,7379.0,1.0,567.6153846153846,0.46153846153846156,5.0,0
+1229,0,27.0,Female,Single,5.0,Research & Development,Laboratory Technician,1,Yes,6.0,5.0,4.0,2.0,2379.0,0.0,339.85714285714283,0.7142857142857143,5.0,1
+1230,0,55.0,Male,Married,2.0,Research & Development,Research Director,5,No,34.0,1.0,1.0,3.0,19038.0,0.0,543.9428571428572,0.02857142857142857,1.0,0
+1231,0,54.0,Male,Married,19.0,Human Resources,Human Resources,3,No,16.0,9.0,2.0,4.0,10725.0,7.0,630.8823529411765,0.5294117647058824,2.0,0
+1232,0,47.0,Female,Married,2.0,Sales,Sales Executive,2,Yes,8.0,7.0,4.0,3.0,4537.0,7.0,504.1111111111111,0.7777777777777778,0.0,1
+1233,0,33.0,Male,Divorced,8.0,Sales,Sales Executive,2,No,6.0,5.0,3.0,3.0,7104.0,1.0,1014.8571428571429,0.7142857142857143,4.0,0
+1234,0,35.0,Female,Married,9.0,Research & Development,Manufacturing Director,3,Yes,17.0,17.0,3.0,3.0,10685.0,5.0,593.6111111111111,0.9444444444444444,12.0,1
+1235,0,39.0,Male,Single,9.0,Research & Development,Laboratory Technician,2,No,9.0,5.0,2.0,2.0,6782.0,0.0,678.2,0.5,5.0,0
+1236,0,38.0,Male,Divorced,23.0,Research & Development,Healthcare Representative,2,No,10.0,2.0,4.0,3.0,5745.0,1.0,522.2727272727273,0.18181818181818182,1.0,0
+1237,0,55.0,Male,Married,26.0,Sales,Manager,5,No,36.0,36.0,4.0,3.0,19586.0,2.0,529.3513513513514,0.972972972972973,34.0,0
+1238,0,54.0,Female,Married,2.0,Sales,Sales Executive,3,No,13.0,9.0,3.0,3.0,10686.0,7.0,763.2857142857143,0.6428571428571429,2.0,0
+1239,0,37.0,Male,Single,10.0,Research & Development,Manufacturing Director,2,Yes,18.0,1.0,2.0,2.0,4197.0,0.0,220.89473684210526,0.05263157894736842,1.0,1
+1240,0,20.0,Male,Single,3.0,Research & Development,Laboratory Technician,1,No,2.0,2.0,3.0,2.0,3033.0,1.0,1011.0,0.6666666666666666,1.0,0
+1241,0,40.0,Male,Single,16.0,Research & Development,Laboratory Technician,2,No,10.0,1.0,3.0,3.0,5094.0,0.0,463.09090909090907,0.09090909090909091,1.0,0
+1242,0,51.0,Male,Divorced,9.0,Sales,Manager,5,Yes,31.0,29.0,2.0,2.0,19847.0,11.0,620.21875,0.90625,18.0,1
+1243,1,34.0,Male,Single,7.0,Research & Development,Laboratory Technician,2,Yes,9.0,9.0,3.0,3.0,6074.0,0.0,607.4,0.9,9.0,1
+1244,0,34.0,Female,Married,1.0,Research & Development,Laboratory Technician,1,No,7.0,5.0,2.0,2.0,3294.0,0.0,411.75,0.625,5.0,0
+1245,0,42.0,Male,Married,24.0,Research & Development,Manufacturing Director,3,Yes,10.0,10.0,1.0,2.0,7406.0,5.0,673.2727272727273,0.9090909090909091,5.0,1
+1246,0,35.0,Male,Divorced,2.0,Research & Development,Manufacturing Director,2,No,15.0,7.0,4.0,3.0,5762.0,1.0,360.125,0.4375,6.0,0
+1247,0,29.0,Female,Single,9.0,Sales,Sales Representative,1,No,2.0,2.0,2.0,3.0,2760.0,2.0,920.0,0.6666666666666666,0.0,0
+1248,0,29.0,Female,Divorced,4.0,Research & Development,Research Scientist,1,No,1.0,1.0,1.0,3.0,2109.0,0.0,1054.5,0.5,1.0,0
+1249,0,30.0,Male,Divorced,7.0,Research & Development,Research Scientist,1,No,1.0,1.0,3.0,2.0,1274.0,0.0,637.0,0.5,1.0,0
+1250,0,43.0,Male,Married,17.0,Research & Development,Research Scientist,1,Yes,6.0,1.0,3.0,3.0,2437.0,0.0,348.14285714285717,0.14285714285714285,1.0,1
+1251,0,50.0,Female,Single,11.0,Research & Development,Manager,5,No,21.0,5.0,2.0,3.0,19926.0,4.0,905.7272727272727,0.22727272727272727,1.0,0
+1252,0,29.0,Male,Single,1.0,Research & Development,Healthcare Representative,2,Yes,10.0,3.0,3.0,4.0,6294.0,0.0,572.1818181818181,0.2727272727272727,3.0,1
+1253,0,31.0,Male,Single,1.0,Research & Development,Research Scientist,1,No,1.0,1.0,2.0,3.0,2501.0,1.0,1250.5,0.5,0.0,0
+1254,0,38.0,Male,Divorced,2.0,Human Resources,Human Resources,1,No,13.0,11.0,2.0,3.0,2592.0,3.0,185.14285714285714,0.7857142857142857,8.0,0
+1255,0,41.0,Female,Divorced,22.0,Research & Development,Research Scientist,2,Yes,12.0,6.0,4.0,2.0,5467.0,3.0,420.53846153846155,0.46153846153846156,3.0,1
+1256,0,36.0,Female,Married,12.0,Research & Development,Manufacturing Director,2,Yes,7.0,3.0,3.0,3.0,4663.0,1.0,582.875,0.375,2.0,1
+1257,0,41.0,Male,Divorced,10.0,Research & Development,Manager,4,No,21.0,7.0,1.0,2.0,17181.0,7.0,780.9545454545455,0.3181818181818182,0.0,0
+1258,0,52.0,Male,Married,1.0,Research & Development,Manager,4,No,26.0,9.0,4.0,2.0,17099.0,7.0,633.2962962962963,0.3333333333333333,2.0,0
+1259,0,40.0,Male,Single,2.0,Research & Development,Research Scientist,2,No,9.0,9.0,4.0,3.0,4661.0,8.0,466.1,0.9,1.0,0
+1260,0,49.0,Female,Single,10.0,Research & Development,Research Director,5,Yes,22.0,3.0,1.0,3.0,18665.0,1.0,811.5217391304348,0.13043478260869565,2.0,1
+1261,0,27.0,Female,Married,10.0,Sales,Sales Executive,2,Yes,6.0,6.0,4.0,3.0,5769.0,4.0,824.1428571428571,0.8571428571428571,2.0,1
+1262,0,38.0,Male,Single,2.0,Research & Development,Research Scientist,1,Yes,6.0,3.0,4.0,3.0,3944.0,1.0,563.4285714285714,0.42857142857142855,2.0,1
+1263,0,51.0,Male,Married,2.0,Sales,Sales Executive,3,No,14.0,4.0,2.0,3.0,10596.0,3.0,706.4,0.26666666666666666,1.0,0
+1264,0,40.0,Male,Divorced,2.0,Research & Development,Research Scientist,1,No,8.0,3.0,3.0,4.0,2345.0,1.0,260.55555555555554,0.3333333333333333,2.0,0
+1265,0,29.0,Female,Married,6.0,Research & Development,Laboratory Technician,1,No,10.0,10.0,4.0,3.0,3131.0,0.0,284.6363636363636,0.9090909090909091,10.0,0
+1266,0,40.0,Male,Divorced,10.0,Sales,Sales Executive,3,No,11.0,1.0,2.0,2.0,9705.0,0.0,808.75,0.08333333333333333,1.0,0
+1267,0,51.0,Female,Married,3.0,Research & Development,Manager,3,No,15.0,2.0,3.0,3.0,13116.0,2.0,819.75,0.125,0.0,0
+1268,0,34.0,Male,Married,10.0,Research & Development,Healthcare Representative,2,No,8.0,8.0,3.0,2.0,5063.0,7.0,562.5555555555555,0.8888888888888888,1.0,0
+1269,0,30.0,Female,Single,2.0,Research & Development,Manufacturing Director,2,No,11.0,5.0,4.0,3.0,6091.0,0.0,507.5833333333333,0.4166666666666667,5.0,0
+1270,0,49.0,Male,Married,2.0,Sales,Sales Executive,2,No,17.0,9.0,2.0,2.0,5390.0,0.0,299.44444444444446,0.5,9.0,0
+1271,0,29.0,Male,Divorced,19.0,Research & Development,Manufacturing Director,2,No,8.0,3.0,4.0,4.0,4262.0,1.0,473.55555555555554,0.3333333333333333,2.0,0
+1272,0,35.0,Male,Married,1.0,Sales,Sales Executive,3,No,10.0,10.0,2.0,3.0,7295.0,0.0,663.1818181818181,0.9090909090909091,10.0,0
+1273,0,45.0,Female,Married,11.0,Sales,Manager,4,No,26.0,9.0,4.0,4.0,17650.0,1.0,653.7037037037037,0.3333333333333333,8.0,0
+1274,0,50.0,Male,Single,22.0,Research & Development,Research Director,4,Yes,32.0,32.0,4.0,3.0,14411.0,13.0,436.6969696969697,0.9696969696969697,19.0,1
+1275,0,43.0,Female,Married,27.0,Research & Development,Manufacturing Director,3,No,18.0,8.0,1.0,3.0,10820.0,0.0,569.4736842105264,0.42105263157894735,8.0,0
+1276,0,32.0,Female,Single,29.0,Research & Development,Laboratory Technician,1,No,6.0,6.0,2.0,3.0,2837.0,4.0,405.2857142857143,0.8571428571428571,2.0,0
+1277,0,47.0,Female,Married,2.0,Research & Development,Research Director,4,No,26.0,20.0,3.0,4.0,17169.0,5.0,635.8888888888889,0.7407407407407407,15.0,0
+1278,0,51.0,Female,Single,11.0,Research & Development,Manufacturing Director,4,No,29.0,5.0,2.0,2.0,13142.0,0.0,438.06666666666666,0.16666666666666666,5.0,0
+1279,0,46.0,Male,Divorced,7.0,Research & Development,Manufacturing Director,3,No,13.0,8.0,3.0,3.0,10845.0,0.0,774.6428571428571,0.5714285714285714,8.0,0
+1280,1,44.0,Male,Married,1.0,Human Resources,Human Resources,3,No,24.0,20.0,1.0,3.0,10482.0,3.0,419.28,0.8,17.0,0
+1281,0,29.0,Female,Divorced,1.0,Research & Development,Research Director,4,No,9.0,7.0,4.0,2.0,16124.0,1.0,1612.4,0.7,6.0,0
+1282,0,46.0,Female,Divorced,1.0,Sales,Sales Executive,3,No,24.0,24.0,1.0,3.0,10453.0,15.0,418.12,0.96,9.0,0
+1283,0,48.0,Male,Married,4.0,Research & Development,Manager,4,No,23.0,2.0,4.0,3.0,15202.0,2.0,633.4166666666666,0.08333333333333333,0.0,0
+1284,0,40.0,Male,Divorced,8.0,Research & Development,Healthcare Representative,2,Yes,8.0,2.0,4.0,3.0,4069.0,2.0,452.1111111111111,0.2222222222222222,0.0,1
+1285,1,29.0,Female,Divorced,1.0,Sales,Sales Representative,1,Yes,5.0,3.0,3.0,3.0,2800.0,0.0,466.6666666666667,0.5,3.0,1
+1286,0,40.0,Female,Divorced,2.0,Sales,Sales Executive,2,No,8.0,5.0,2.0,3.0,5715.0,1.0,635.0,0.5555555555555556,4.0,0
+1287,1,30.0,Female,Single,26.0,Sales,Sales Executive,2,No,9.0,6.0,1.0,2.0,6696.0,0.0,669.6,0.6,6.0,0
+1288,0,42.0,Female,Married,1.0,Research & Development,Manufacturing Director,2,Yes,8.0,4.0,4.0,3.0,6062.0,0.0,673.5555555555555,0.4444444444444444,4.0,1
+1289,0,41.0,Female,Single,2.0,Research & Development,Healthcare Representative,2,Yes,10.0,8.0,3.0,3.0,6811.0,0.0,619.1818181818181,0.7272727272727273,8.0,1
+1290,0,42.0,Male,Single,23.0,Research & Development,Research Scientist,2,No,20.0,20.0,3.0,3.0,4332.0,3.0,206.28571428571428,0.9523809523809523,17.0,0
+1291,0,42.0,Male,Married,2.0,Research & Development,Manager,4,Yes,21.0,20.0,3.0,2.0,17861.0,2.0,811.8636363636364,0.9090909090909091,18.0,1
+1292,0,25.0,Male,Married,13.0,Sales,Sales Representative,1,No,7.0,7.0,3.0,3.0,2096.0,0.0,262.0,0.875,7.0,0
+1293,0,32.0,Male,Married,10.0,Research & Development,Research Scientist,1,No,10.0,5.0,3.0,2.0,3433.0,1.0,312.09090909090907,0.45454545454545453,4.0,0
+1294,0,43.0,Male,Married,2.0,Sales,Sales Executive,2,No,7.0,7.0,4.0,3.0,5675.0,7.0,709.375,0.875,0.0,0
+1295,0,26.0,Female,Married,1.0,Research & Development,Research Scientist,1,Yes,1.0,1.0,3.0,2.0,2933.0,1.0,1466.5,0.5,0.0,1
+1296,0,38.0,Male,Married,2.0,Research & Development,Manufacturing Director,2,No,7.0,5.0,2.0,3.0,4855.0,1.0,606.875,0.625,4.0,0
+1297,1,31.0,Male,Divorced,13.0,Sales,Sales Executive,2,No,9.0,3.0,1.0,1.0,4233.0,1.0,423.3,0.3,2.0,0
+1298,0,27.0,Male,Married,4.0,Research & Development,Manufacturing Director,2,Yes,6.0,6.0,2.0,3.0,6142.0,0.0,877.4285714285714,0.8571428571428571,6.0,1
+1299,0,41.0,Male,Single,6.0,Research & Development,Manufacturing Director,2,Yes,8.0,5.0,2.0,3.0,6032.0,1.0,670.2222222222222,0.5555555555555556,4.0,1
+1300,0,36.0,Female,Single,2.0,Research & Development,Manufacturing Director,2,Yes,18.0,16.0,2.0,3.0,5410.0,5.0,284.7368421052632,0.8421052631578947,11.0,1
+1301,0,38.0,Male,Divorced,12.0,Research & Development,Healthcare Representative,2,No,13.0,4.0,1.0,2.0,6288.0,1.0,449.14285714285717,0.2857142857142857,3.0,0
+1302,0,35.0,Female,Single,1.0,Research & Development,Research Scientist,1,No,7.0,2.0,3.0,3.0,2506.0,2.0,313.25,0.25,0.0,0
+1303,0,45.0,Female,Married,9.0,Sales,Sales Executive,2,No,15.0,15.0,3.0,3.0,5593.0,4.0,349.5625,0.9375,11.0,0
+1304,0,47.0,Female,Divorced,3.0,Sales,Sales Executive,4,Yes,28.0,22.0,3.0,2.0,13770.0,11.0,474.82758620689657,0.7586206896551724,11.0,1
+1305,0,56.0,Female,Divorced,4.0,Research & Development,Manager,5,No,28.0,5.0,1.0,3.0,19943.0,4.0,687.6896551724138,0.1724137931034483,1.0,0
+1306,0,32.0,Male,Married,1.0,Sales,Sales Representative,1,No,3.0,2.0,2.0,3.0,2269.0,2.0,567.25,0.5,0.0,0
+1307,0,59.0,Female,Married,2.0,Human Resources,Manager,5,No,30.0,3.0,4.0,3.0,18844.0,2.0,607.8709677419355,0.0967741935483871,1.0,0
+1308,1,28.0,Female,Single,1.0,Research & Development,Research Scientist,1,Yes,10.0,7.0,2.0,3.0,2216.0,3.0,201.45454545454547,0.6363636363636364,4.0,1
+1309,1,50.0,Male,Single,1.0,Sales,Sales Executive,2,Yes,5.0,0.0,3.0,3.0,4728.0,0.0,788.0,0.0,0.0,1
+1310,0,30.0,Female,Single,2.0,Research & Development,Manufacturing Director,2,Yes,12.0,0.0,4.0,2.0,6877.0,0.0,529.0,0.0,0.0,1
+1311,0,30.0,Male,Single,9.0,Research & Development,Laboratory Technician,1,No,10.0,10.0,3.0,3.0,2206.0,1.0,200.54545454545453,0.9090909090909091,9.0,0
+1312,0,30.0,Male,Single,9.0,Sales,Sales Representative,1,No,1.0,1.0,4.0,2.0,1081.0,0.0,540.5,0.5,1.0,0
+1313,0,21.0,Male,Single,9.0,Sales,Sales Representative,1,No,3.0,3.0,4.0,2.0,2610.0,2.0,652.5,0.75,1.0,0
+1314,1,35.0,Male,Divorced,14.0,Research & Development,Laboratory Technician,1,Yes,5.0,4.0,2.0,1.0,3743.0,0.0,623.8333333333334,0.6666666666666666,4.0,1
+1315,0,40.0,Female,Married,10.0,Research & Development,Laboratory Technician,1,Yes,10.0,7.0,3.0,3.0,2213.0,1.0,201.1818181818182,0.6363636363636364,6.0,1
+1316,0,31.0,Female,Married,29.0,Sales,Sales Executive,2,No,13.0,12.0,4.0,3.0,5468.0,5.0,390.57142857142856,0.8571428571428571,7.0,0
+1317,0,56.0,Male,Married,9.0,Research & Development,Healthcare Representative,4,No,30.0,10.0,4.0,2.0,11103.0,1.0,358.16129032258067,0.3225806451612903,9.0,0
+1318,0,44.0,Male,Divorced,1.0,Research & Development,Research Scientist,1,Yes,6.0,5.0,2.0,2.0,2342.0,2.0,334.57142857142856,0.7142857142857143,3.0,1
+1319,0,46.0,Male,Married,15.0,Research & Development,Research Director,5,No,25.0,4.0,2.0,3.0,19081.0,0.0,733.8846153846154,0.15384615384615385,4.0,0
+1320,0,40.0,Male,Married,19.0,Research & Development,Laboratory Technician,2,Yes,15.0,7.0,4.0,4.0,2741.0,3.0,171.3125,0.4375,4.0,1
+1321,0,46.0,Male,Divorced,5.0,Human Resources,Human Resources,2,Yes,16.0,4.0,2.0,3.0,5021.0,0.0,295.3529411764706,0.23529411764705882,4.0,1
+1322,0,35.0,Male,Single,1.0,Sales,Sales Executive,2,No,16.0,15.0,1.0,3.0,4312.0,2.0,253.64705882352942,0.8823529411764706,13.0,0
+1323,0,40.0,Female,Single,9.0,Research & Development,Research Director,3,No,20.0,18.0,3.0,2.0,13499.0,2.0,642.8095238095239,0.8571428571428571,16.0,0
+1324,0,36.0,Female,Married,8.0,Research & Development,Research Director,3,No,10.0,8.0,1.0,3.0,11713.0,0.0,1064.8181818181818,0.7272727272727273,8.0,0
+1325,0,43.0,Female,Single,6.0,Research & Development,Research Scientist,2,Yes,20.0,20.0,3.0,1.0,4081.0,1.0,194.33333333333334,0.9523809523809523,19.0,1
+1326,0,31.0,Female,Divorced,5.0,Sales,Sales Representative,1,No,2.0,2.0,2.0,2.0,2789.0,2.0,929.6666666666666,0.6666666666666666,0.0,0
+1327,0,36.0,Male,Married,13.0,Human Resources,Human Resources,1,No,8.0,5.0,2.0,3.0,2143.0,0.0,238.11111111111111,0.5555555555555556,5.0,0
+1328,0,36.0,Female,Divorced,1.0,Research & Development,Manufacturing Director,3,Yes,17.0,7.0,1.0,3.0,10252.0,7.0,569.5555555555555,0.3888888888888889,0.0,1
+1329,0,45.0,Male,Single,2.0,Sales,Sales Representative,2,No,9.0,8.0,3.0,3.0,6632.0,3.0,663.2,0.8,5.0,0
+1330,0,27.0,Male,Divorced,3.0,Research & Development,Research Scientist,1,Yes,1.0,1.0,3.0,2.0,2566.0,0.0,1283.0,0.5,1.0,1
+1331,0,51.0,Male,Single,6.0,Research & Development,Research Director,5,No,23.0,20.0,3.0,3.0,19537.0,15.0,814.0416666666666,0.8333333333333334,5.0,0
+1332,0,53.0,Female,Married,2.0,Sales,Sales Executive,3,No,30.0,15.0,2.0,3.0,7525.0,6.0,242.74193548387098,0.4838709677419355,9.0,0
+1333,1,31.0,Male,Married,20.0,Research & Development,Healthcare Representative,3,No,12.0,1.0,3.0,3.0,9824.0,0.0,755.6923076923077,0.07692307692307693,1.0,0
+1334,0,35.0,Female,Single,27.0,Research & Development,Research Scientist,1,No,6.0,6.0,1.0,2.0,2559.0,1.0,365.57142857142856,0.8571428571428571,5.0,0
+1335,0,27.0,Male,Married,11.0,Research & Development,Laboratory Technician,1,No,6.0,5.0,1.0,4.0,2099.0,1.0,299.85714285714283,0.7142857142857143,4.0,0
+1336,0,27.0,Male,Divorced,1.0,Research & Development,Laboratory Technician,1,No,5.0,5.0,2.0,3.0,3816.0,0.0,636.0,0.8333333333333334,5.0,0
+1337,0,34.0,Male,Married,2.0,Research & Development,Manufacturing Director,2,No,13.0,11.0,1.0,3.0,5957.0,5.0,425.5,0.7857142857142857,6.0,0
+1338,0,38.0,Male,Married,6.0,Research & Development,Manufacturing Director,2,No,10.0,8.0,3.0,3.0,5321.0,7.0,483.72727272727275,0.7272727272727273,1.0,0
+1339,0,24.0,Female,Married,3.0,Sales,Sales Executive,2,No,4.0,3.0,3.0,2.0,4999.0,0.0,999.8,0.6,3.0,0
+1340,0,44.0,Male,Married,28.0,Research & Development,Research Director,4,No,24.0,20.0,1.0,4.0,16328.0,14.0,653.12,0.8,6.0,0
+1341,0,43.0,Male,Married,15.0,Research & Development,Research Director,4,No,14.0,14.0,3.0,3.0,17603.0,6.0,1173.5333333333333,0.9333333333333333,8.0,0
+1342,0,38.0,Male,Divorced,7.0,Research & Development,Research Scientist,1,No,4.0,4.0,3.0,3.0,2610.0,0.0,522.0,0.8,4.0,0
+1343,0,33.0,Female,Single,16.0,Sales,Sales Executive,3,Yes,11.0,0.0,1.0,2.0,8564.0,0.0,713.6666666666666,0.0,0.0,1
+1344,0,41.0,Male,Single,10.0,Sales,Sales Executive,2,No,19.0,19.0,2.0,3.0,6151.0,11.0,307.55,0.95,8.0,0
+1345,0,46.0,Female,Married,2.0,Sales,Manager,4,Yes,28.0,7.0,2.0,2.0,16872.0,7.0,581.7931034482758,0.2413793103448276,0.0,1
+1346,0,42.0,Male,Married,2.0,Research & Development,Laboratory Technician,1,No,4.0,1.0,2.0,3.0,4841.0,0.0,968.2,0.2,1.0,0
+1347,0,30.0,Female,Single,12.0,Sales,Sales Executive,2,No,6.0,5.0,3.0,3.0,6577.0,4.0,939.5714285714286,0.7142857142857143,1.0,0
+1348,0,46.0,Male,Divorced,1.0,Research & Development,Research Director,5,No,23.0,2.0,4.0,3.0,19627.0,2.0,817.7916666666666,0.08333333333333333,0.0,0
+1349,0,36.0,Female,Married,2.0,Research & Development,Research Scientist,2,Yes,15.0,1.0,2.0,3.0,6962.0,0.0,435.125,0.0625,1.0,1
+1350,0,27.0,Female,Single,7.0,Research & Development,Healthcare Representative,2,No,9.0,7.0,1.0,1.0,6811.0,0.0,681.1,0.7,7.0,0
+1351,0,32.0,Female,Single,2.0,Research & Development,Research Scientist,2,Yes,10.0,8.0,3.0,3.0,4998.0,0.0,454.3636363636364,0.7272727272727273,8.0,1
+1352,0,21.0,Male,Single,5.0,Research & Development,Research Scientist,1,No,3.0,2.0,4.0,3.0,3117.0,2.0,779.25,0.5,0.0,0
+1353,0,41.0,Female,Single,6.0,Sales,Manager,3,Yes,16.0,1.0,4.0,3.0,13591.0,0.0,799.4705882352941,0.058823529411764705,1.0,1
+1354,1,21.0,Female,Single,1.0,Sales,Sales Representative,1,Yes,3.0,3.0,2.0,3.0,2174.0,1.0,543.5,0.75,2.0,1
+1355,0,34.0,Male,Divorced,1.0,Research & Development,Research Scientist,1,No,10.0,4.0,1.0,3.0,2996.0,1.0,272.3636363636364,0.36363636363636365,3.0,0
+1356,0,36.0,Male,Married,18.0,Research & Development,Laboratory Technician,1,No,4.0,1.0,4.0,3.0,3688.0,0.0,737.6,0.2,1.0,0
+1357,0,34.0,Female,Married,2.0,Sales,Sales Representative,1,No,6.0,4.0,3.0,3.0,2231.0,1.0,318.7142857142857,0.5714285714285714,3.0,0
+1358,0,38.0,Male,Married,18.0,Research & Development,Healthcare Representative,2,Yes,15.0,1.0,4.0,3.0,5811.0,1.0,363.1875,0.0625,0.0,1
+1359,1,26.0,Male,Single,25.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,3.0,2.0,2293.0,0.0,1146.5,0.5,1.0,0
+1360,0,38.0,Female,Single,2.0,Research & Development,Laboratory Technician,1,No,4.0,4.0,2.0,3.0,2440.0,3.0,488.0,0.8,1.0,0
+1361,0,48.0,Male,Single,2.0,Research & Development,Laboratory Technician,1,No,7.0,1.0,2.0,2.0,2559.0,0.0,319.875,0.125,1.0,0
+1362,0,53.0,Female,Divorced,13.0,Research & Development,Manufacturing Director,2,No,5.0,4.0,1.0,3.0,4450.0,1.0,741.6666666666666,0.6666666666666666,3.0,0
+1363,0,39.0,Male,Married,21.0,Sales,Sales Executive,2,Yes,8.0,5.0,4.0,4.0,6120.0,1.0,680.0,0.5555555555555556,4.0,1
+1364,0,32.0,Male,Single,2.0,Sales,Sales Executive,2,Yes,7.0,2.0,2.0,2.0,9907.0,2.0,1238.375,0.25,0.0,1
+1365,0,34.0,Male,Married,9.0,Research & Development,Laboratory Technician,2,No,11.0,7.0,1.0,2.0,5346.0,0.0,445.5,0.5833333333333334,7.0,0
+1366,0,38.0,Female,Divorced,8.0,Research & Development,Research Scientist,2,Yes,20.0,20.0,2.0,3.0,2133.0,0.0,101.57142857142857,0.9523809523809523,20.0,1
+1367,0,34.0,Male,Married,1.0,Research & Development,Research Scientist,2,No,9.0,2.0,4.0,2.0,5484.0,2.0,548.4,0.2,0.0,0
+1368,0,31.0,Male,Divorced,8.0,Sales,Sales Executive,3,No,13.0,13.0,4.0,3.0,10793.0,9.0,770.9285714285714,0.9285714285714286,4.0,0
+1369,0,27.0,Male,Single,2.0,Sales,Sales Executive,2,No,8.0,6.0,4.0,3.0,5071.0,0.0,563.4444444444445,0.6666666666666666,6.0,0
+1370,0,45.0,Male,Divorced,9.0,Sales,Sales Executive,3,Yes,18.0,5.0,1.0,3.0,10761.0,0.0,566.3684210526316,0.2631578947368421,5.0,1
+1371,0,32.0,Male,Married,7.0,Research & Development,Laboratory Technician,1,No,5.0,5.0,2.0,1.0,2794.0,0.0,465.6666666666667,0.8333333333333334,5.0,0
+1372,0,56.0,Male,Single,7.0,Research & Development,Manufacturing Director,3,No,37.0,6.0,4.0,2.0,7260.0,0.0,191.05263157894737,0.15789473684210525,6.0,0
+1373,0,51.0,Male,Married,7.0,Research & Development,Manufacturing Director,2,No,10.0,1.0,3.0,3.0,6132.0,0.0,557.4545454545455,0.09090909090909091,1.0,0
+1374,0,50.0,Male,Married,2.0,Research & Development,Research Director,4,No,30.0,4.0,3.0,3.0,17639.0,0.0,569.0,0.12903225806451613,4.0,0
+1375,0,28.0,Female,Divorced,3.0,Research & Development,Manufacturing Director,3,No,10.0,9.0,2.0,2.0,7655.0,1.0,695.9090909090909,0.8181818181818182,8.0,0
+1376,1,33.0,Female,Single,29.0,Research & Development,Research Scientist,2,No,14.0,13.0,3.0,3.0,4508.0,3.0,300.53333333333336,0.8666666666666667,10.0,0
+1377,1,29.0,Female,Single,10.0,Research & Development,Research Scientist,1,Yes,3.0,0.0,1.0,3.0,2404.0,0.0,601.0,0.0,0.0,1
+1378,0,41.0,Female,Single,7.0,Research & Development,Manufacturing Director,2,No,8.0,2.0,3.0,3.0,5003.0,2.0,555.8888888888889,0.2222222222222222,0.0,0
+1379,1,52.0,Male,Married,8.0,Research & Development,Research Scientist,2,No,11.0,8.0,2.0,2.0,4941.0,7.0,411.75,0.6666666666666666,1.0,0
+1380,1,22.0,Male,Married,3.0,Research & Development,Research Scientist,1,Yes,1.0,0.0,4.0,3.0,2853.0,0.0,1426.5,0.0,0.0,1
+1381,0,35.0,Male,Married,27.0,Research & Development,Manufacturing Director,2,No,17.0,7.0,3.0,3.0,6883.0,0.0,382.3888888888889,0.3888888888888889,7.0,0
+1382,0,28.0,Male,Married,19.0,Research & Development,Laboratory Technician,1,No,6.0,6.0,1.0,3.0,3196.0,3.0,456.57142857142856,0.8571428571428571,3.0,0
+1383,0,27.0,Female,Single,2.0,Sales,Sales Executive,2,No,9.0,8.0,3.0,2.0,6500.0,0.0,650.0,0.8,8.0,0
+1384,0,27.0,Male,Single,3.0,Research & Development,Research Scientist,1,No,5.0,4.0,4.0,3.0,2045.0,1.0,340.8333333333333,0.6666666666666666,3.0,0
+1385,0,47.0,Male,Single,4.0,Sales,Sales Representative,2,No,5.0,0.0,3.0,3.0,2976.0,0.0,496.0,0.0,0.0,0
+1386,0,27.0,Female,Married,8.0,Research & Development,Research Scientist,1,No,5.0,3.0,3.0,3.0,3517.0,0.0,586.1666666666666,0.5,3.0,0
+1387,0,44.0,Male,Married,23.0,Research & Development,Laboratory Technician,2,No,17.0,3.0,2.0,4.0,2042.0,1.0,113.44444444444444,0.16666666666666666,2.0,0
+1388,0,33.0,Female,Single,2.0,Sales,Sales Executive,2,No,13.0,11.0,2.0,2.0,5147.0,1.0,367.64285714285717,0.7857142857142857,10.0,0
+1389,0,33.0,Female,Married,14.0,Research & Development,Research Scientist,1,No,8.0,8.0,2.0,3.0,2756.0,1.0,306.22222222222223,0.8888888888888888,7.0,0
+1390,0,28.0,Male,Married,29.0,Research & Development,Manufacturing Director,2,No,8.0,8.0,2.0,2.0,6549.0,1.0,727.6666666666666,0.8888888888888888,7.0,0
+1391,0,35.0,Male,Divorced,2.0,Research & Development,Manufacturing Director,3,No,15.0,7.0,2.0,4.0,10274.0,6.0,642.125,0.4375,1.0,0
+1392,0,35.0,Female,Married,28.0,Sales,Sales Representative,1,No,6.0,5.0,3.0,3.0,2430.0,4.0,347.14285714285717,0.7142857142857143,1.0,0
+1393,0,47.0,Female,Divorced,2.0,Sales,Manager,4,No,29.0,3.0,2.0,3.0,15972.0,1.0,532.4,0.1,2.0,0
+1394,0,45.0,Male,Married,6.0,Research & Development,Research Director,3,Yes,17.0,0.0,1.0,4.0,13245.0,0.0,735.8333333333334,0.0,0.0,1
+1395,0,35.0,Female,Divorced,25.0,Research & Development,Healthcare Representative,3,Yes,16.0,16.0,3.0,2.0,10388.0,10.0,611.0588235294117,0.9411764705882353,6.0,1
+1396,0,34.0,Female,Single,5.0,Research & Development,Manager,3,No,14.0,11.0,1.0,3.0,11631.0,5.0,775.4,0.7333333333333333,6.0,0
+1397,0,36.0,Male,Married,9.0,Research & Development,Laboratory Technician,1,No,5.0,5.0,2.0,3.0,2810.0,0.0,468.3333333333333,0.8333333333333334,5.0,0
+1398,0,24.0,Female,Married,4.0,Sales,Sales Executive,2,Yes,5.0,5.0,3.0,3.0,4162.0,0.0,693.6666666666666,0.8333333333333334,5.0,1
+1399,0,33.0,Male,Married,21.0,Research & Development,Laboratory Technician,1,No,14.0,14.0,2.0,3.0,2028.0,2.0,135.2,0.9333333333333333,12.0,0
+1400,1,26.0,Male,Single,4.0,Sales,Sales Executive,2,Yes,8.0,8.0,4.0,3.0,5828.0,7.0,647.5555555555555,0.8888888888888888,1.0,1
+1401,0,32.0,Male,Married,2.0,Sales,Sales Executive,2,Yes,4.0,3.0,2.0,2.0,4078.0,1.0,815.6,0.6,2.0,1
+1402,0,43.0,Female,Divorced,2.0,Research & Development,Research Scientist,1,No,6.0,5.0,3.0,2.0,2645.0,1.0,377.85714285714283,0.7142857142857143,4.0,0
+1403,0,34.0,Male,Divorced,19.0,Research & Development,Laboratory Technician,1,No,3.0,2.0,4.0,3.0,2661.0,1.0,665.25,0.5,1.0,0
+1404,0,37.0,Female,Single,3.0,Research & Development,Healthcare Representative,2,No,8.0,4.0,2.0,2.0,4107.0,0.0,456.3333333333333,0.4444444444444444,4.0,0
+1405,0,32.0,Female,Married,4.0,Research & Development,Manufacturing Director,2,No,14.0,14.0,3.0,3.0,6162.0,6.0,410.8,0.9333333333333333,8.0,0
+1406,0,31.0,Male,Married,2.0,Human Resources,Human Resources,2,No,9.0,2.0,1.0,3.0,6410.0,1.0,641.0,0.2,1.0,0
+1407,0,33.0,Female,Divorced,16.0,Sales,Sales Executive,2,Yes,7.0,6.0,4.0,3.0,5368.0,1.0,671.0,0.75,5.0,1
+1408,0,39.0,Male,Married,6.0,Sales,Sales Executive,3,No,11.0,7.0,3.0,3.0,8237.0,7.0,686.4166666666666,0.5833333333333334,0.0,0
+1409,0,49.0,Female,Single,11.0,Sales,Sales Executive,2,No,8.0,5.0,4.0,4.0,4507.0,0.0,500.77777777777777,0.5555555555555556,5.0,0
+1410,0,25.0,Male,Divorced,5.0,Research & Development,Healthcare Representative,2,No,6.0,6.0,1.0,3.0,4000.0,1.0,571.4285714285714,0.8571428571428571,5.0,0
+1411,0,30.0,Female,Divorced,4.0,Sales,Sales Executive,2,Yes,11.0,11.0,2.0,2.0,5209.0,2.0,434.0833333333333,0.9166666666666666,9.0,1
+1412,0,34.0,Male,Married,7.0,Sales,Sales Representative,1,Yes,12.0,11.0,3.0,3.0,2308.0,5.0,177.53846153846155,0.8461538461538461,6.0,1
+1413,0,39.0,Male,Married,12.0,Research & Development,Manufacturing Director,2,No,7.0,5.0,2.0,3.0,5295.0,1.0,661.875,0.625,4.0,0
+1414,1,28.0,Male,Divorced,1.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,2.0,3.0,2596.0,0.0,1298.0,0.5,1.0,0
+1415,0,48.0,Male,Married,10.0,Research & Development,Research Director,5,No,29.0,22.0,2.0,3.0,19665.0,12.0,655.5,0.7333333333333333,10.0,0
+1416,0,35.0,Male,Married,25.0,Research & Development,Manufacturing Director,3,No,16.0,13.0,2.0,3.0,10903.0,4.0,641.3529411764706,0.7647058823529411,9.0,0
+1417,0,41.0,Male,Single,6.0,Sales,Sales Executive,3,No,10.0,10.0,3.0,3.0,9241.0,8.0,840.0909090909091,0.9090909090909091,2.0,0
+1418,0,33.0,Male,Divorced,5.0,Research & Development,Healthcare Representative,3,No,9.0,3.0,4.0,3.0,7119.0,1.0,711.9,0.3,2.0,0
+1419,0,30.0,Female,Divorced,5.0,Sales,Sales Executive,2,No,10.0,10.0,3.0,3.0,6118.0,1.0,556.1818181818181,0.9090909090909091,9.0,0
+1420,0,24.0,Male,Divorced,9.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,2.0,3.0,2694.0,0.0,1347.0,0.5,1.0,0
+1421,0,45.0,Male,Married,4.0,Research & Development,Laboratory Technician,2,No,9.0,9.0,2.0,2.0,4447.0,0.0,444.7,0.9,9.0,0
+1422,0,25.0,Male,Married,28.0,Sales,Sales Executive,2,No,6.0,2.0,3.0,3.0,8639.0,2.0,1234.142857142857,0.2857142857142857,0.0,0
+1423,0,35.0,Male,Single,1.0,Research & Development,Research Scientist,1,No,6.0,6.0,3.0,3.0,2859.0,0.0,408.42857142857144,0.8571428571428571,6.0,0
+1424,0,48.0,Male,Married,20.0,Research & Development,Research Scientist,1,No,13.0,0.0,3.0,2.0,2259.0,0.0,161.35714285714286,0.0,0.0,0
+1425,0,40.0,Male,Single,6.0,Human Resources,Manager,4,Yes,21.0,21.0,4.0,3.0,16437.0,7.0,747.1363636363636,0.9545454545454546,14.0,1
+1426,0,53.0,Female,Divorced,5.0,Research & Development,Manager,5,No,26.0,14.0,3.0,2.0,19094.0,4.0,707.1851851851852,0.5185185185185185,10.0,0
+1427,0,31.0,Male,Married,7.0,Sales,Sales Representative,1,No,13.0,7.0,3.0,4.0,2329.0,5.0,166.35714285714286,0.5,2.0,0
+1428,0,35.0,Female,Married,8.0,Research & Development,Healthcare Representative,2,No,15.0,14.0,3.0,3.0,4148.0,2.0,259.25,0.875,12.0,0
+1429,0,58.0,Male,Divorced,23.0,Research & Development,Research Scientist,1,No,2.0,2.0,3.0,3.0,2372.0,2.0,790.6666666666666,0.6666666666666666,0.0,0
+1430,0,38.0,Male,Divorced,9.0,Research & Development,Research Scientist,1,No,10.0,5.0,4.0,4.0,4771.0,0.0,433.72727272727275,0.45454545454545453,5.0,0
+1431,1,31.0,Female,Single,2.0,Sales,Sales Representative,1,No,3.0,1.0,4.0,4.0,2785.0,0.0,696.25,0.25,1.0,0
+1432,0,39.0,Male,Single,2.0,Sales,Sales Executive,3,No,9.0,8.0,3.0,3.0,7880.0,0.0,788.0,0.8,8.0,0
+1433,0,51.0,Male,Married,8.0,Research & Development,Research Director,3,No,16.0,10.0,2.0,1.0,12490.0,4.0,734.7058823529412,0.5882352941176471,6.0,0
+1434,0,41.0,Female,Divorced,1.0,Sales,Sales Executive,2,No,10.0,9.0,1.0,3.0,4103.0,1.0,373.0,0.8181818181818182,8.0,0
+1435,0,29.0,Female,Divorced,10.0,Research & Development,Research Scientist,1,No,8.0,7.0,2.0,2.0,3291.0,1.0,365.6666666666667,0.7777777777777778,6.0,0
+1436,1,58.0,Male,Divorced,2.0,Research & Development,Laboratory Technician,1,Yes,3.0,1.0,4.0,2.0,2380.0,0.0,595.0,0.25,1.0,1
+1437,0,30.0,Male,Married,1.0,Research & Development,Laboratory Technician,1,No,12.0,12.0,2.0,2.0,3748.0,1.0,288.3076923076923,0.9230769230769231,11.0,0
+1438,0,49.0,Male,Married,8.0,Research & Development,Research Scientist,2,No,10.0,10.0,2.0,3.0,5130.0,1.0,466.3636363636364,0.9090909090909091,9.0,0
+1439,0,51.0,Male,Married,1.0,Research & Development,Research Scientist,1,No,1.0,1.0,4.0,2.0,2723.0,0.0,1361.5,0.5,1.0,0
+1440,0,24.0,Male,Married,17.0,Research & Development,Laboratory Technician,1,No,1.0,1.0,2.0,3.0,2127.0,0.0,1063.5,0.5,1.0,0
+1441,1,39.0,Male,Single,23.0,Research & Development,Research Scientist,1,No,6.0,5.0,1.0,3.0,3904.0,0.0,557.7142857142857,0.7142857142857143,5.0,0
+1442,0,52.0,Female,Single,2.0,Research & Development,Laboratory Technician,1,No,6.0,2.0,4.0,2.0,3212.0,2.0,458.85714285714283,0.2857142857142857,0.0,0
+1443,0,35.0,Male,Single,6.0,Research & Development,Research Scientist,2,No,17.0,17.0,4.0,3.0,6646.0,11.0,369.22222222222223,0.9444444444444444,6.0,0
+1444,0,24.0,Female,Single,2.0,Research & Development,Research Scientist,1,Yes,6.0,6.0,4.0,3.0,3760.0,1.0,537.1428571428571,0.8571428571428571,5.0,1
+1445,1,45.0,Female,Single,2.0,Sales,Manager,5,Yes,26.0,24.0,2.0,3.0,18824.0,1.0,697.1851851851852,0.8888888888888888,23.0,1
+1446,0,30.0,Female,Married,8.0,Research & Development,Research Director,3,Yes,9.0,8.0,1.0,2.0,11416.0,1.0,1141.6,0.8,7.0,1
+1447,1,26.0,Male,Single,29.0,Sales,Sales Executive,2,No,7.0,2.0,1.0,3.0,4969.0,2.0,621.125,0.25,0.0,0
+1448,0,42.0,Male,Married,2.0,Research & Development,Healthcare Representative,3,Yes,24.0,20.0,4.0,1.0,10124.0,13.0,404.96,0.8,7.0,1
+1449,0,38.0,Female,Single,16.0,Sales,Sales Executive,2,No,8.0,3.0,2.0,4.0,4198.0,1.0,466.44444444444446,0.3333333333333333,2.0,0
+1450,0,34.0,Female,Single,27.0,Research & Development,Research Scientist,1,No,9.0,3.0,2.0,3.0,2311.0,1.0,231.1,0.3,2.0,0
+1451,0,51.0,Female,Single,6.0,Research & Development,Laboratory Technician,1,No,8.0,7.0,3.0,2.0,2838.0,7.0,315.3333333333333,0.7777777777777778,0.0,0
+1452,0,38.0,Female,Divorced,7.0,Sales,Sales Executive,2,Yes,8.0,8.0,1.0,3.0,5605.0,7.0,622.7777777777778,0.8888888888888888,1.0,1
+1453,0,44.0,Male,Married,9.0,Research & Development,Research Scientist,1,Yes,8.0,8.0,1.0,3.0,2559.0,7.0,284.3333333333333,0.8888888888888888,1.0,1
+1454,0,42.0,Female,Divorced,29.0,Research & Development,Research Scientist,2,No,19.0,5.0,3.0,3.0,4556.0,0.0,227.8,0.25,5.0,0
+1455,0,38.0,Female,Single,1.0,Research & Development,Healthcare Representative,2,No,10.0,9.0,4.0,2.0,7625.0,1.0,693.1818181818181,0.8181818181818182,8.0,0
+1456,1,40.0,Male,Single,25.0,Sales,Sales Executive,3,Yes,9.0,5.0,2.0,3.0,9094.0,1.0,909.4,0.5,4.0,1
+1457,0,34.0,Male,Married,1.0,Research & Development,Manufacturing Director,2,No,5.0,5.0,2.0,3.0,4325.0,1.0,720.8333333333334,0.8333333333333334,4.0,0
+1458,1,29.0,Male,Single,18.0,Research & Development,Research Scientist,1,Yes,4.0,4.0,4.0,2.0,2389.0,0.0,477.8,0.8,4.0,1
+1459,0,27.0,Male,Divorced,4.0,Research & Development,Research Scientist,1,No,5.0,5.0,3.0,3.0,2517.0,0.0,419.5,0.8333333333333334,5.0,0
+1460,0,54.0,Female,Married,2.0,Research & Development,Research Director,3,No,16.0,4.0,3.0,1.0,13549.0,0.0,797.0,0.23529411764705882,4.0,0
+1461,0,48.0,Male,Single,1.0,Research & Development,Manager,4,No,27.0,5.0,4.0,2.0,16885.0,2.0,603.0357142857143,0.17857142857142858,3.0,0
+1462,0,44.0,Male,Single,20.0,Research & Development,Research Scientist,1,No,6.0,5.0,2.0,2.0,3420.0,1.0,488.57142857142856,0.7142857142857143,4.0,0
+1463,0,41.0,Male,Single,23.0,Sales,Sales Executive,3,Yes,21.0,2.0,3.0,3.0,7082.0,0.0,321.90909090909093,0.09090909090909091,2.0,1
+1464,0,53.0,Female,Single,1.0,Sales,Sales Executive,2,No,18.0,14.0,1.0,4.0,8381.0,8.0,441.10526315789474,0.7368421052631579,6.0,0
+1465,1,28.0,Male,Single,24.0,Research & Development,Healthcare Representative,3,No,10.0,10.0,1.0,2.0,8722.0,1.0,792.9090909090909,0.9090909090909091,9.0,0
+1466,0,38.0,Female,Single,1.0,Research & Development,Manufacturing Director,3,Yes,10.0,1.0,3.0,4.0,7861.0,0.0,714.6363636363636,0.09090909090909091,1.0,1
+1467,0,50.0,Female,Divorced,17.0,Research & Development,Research Director,3,No,19.0,14.0,1.0,3.0,13269.0,1.0,663.45,0.7,13.0,0
+1468,1,28.0,Female,Married,12.0,Research & Development,Laboratory Technician,1,Yes,1.0,1.0,4.0,2.0,2515.0,0.0,1257.5,0.5,1.0,1
+1469,0,40.0,Male,Divorced,16.0,Research & Development,Research Scientist,1,No,6.0,4.0,3.0,3.0,3544.0,0.0,506.2857142857143,0.5714285714285714,4.0,0
+1470,1,19.0,Female,Single,1.0,Sales,Sales Representative,1,No,1.0,0.0,1.0,4.0,2325.0,0.0,1162.5,0.0,0.0,0
