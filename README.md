@@ -24,13 +24,13 @@ Cakupan proyek yang dikerjakan dalam analisis ini meliputi:
 1. Pengolahan dan eksplorasi data karyawan, termasuk pembersihan data dan feature engineering.
 
 2. Analisis faktor-faktor yang memengaruhi attrition, seperti:
-  - Department dan Job Role
-  - Job Level
-  - Monthly Income
-  - Job Satisfaction
-  - Work Life Balance
-  - Over Time
-  - Lama bekerja dan promosi
+    - Department dan Job Role
+    - Job Level
+    - Monthly Income
+    - Job Satisfaction
+    - Work Life Balance
+    - Over Time
+    - Lama bekerja dan promosi
 
 3. Pembuatan query SQL untuk mendukung analisis data dan kebutuhan visualisasi.
 
