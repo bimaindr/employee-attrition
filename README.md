@@ -57,21 +57,45 @@ conda activate penerapan-data-science
 pip install numpy pandas scipy matplotlib seaborn jupyter sqlalchemy scikit-learn==1.2.2 joblib==1.3.1
 pip install psycopg2
 docker pull metabase/metabase:v0.46.4
-docker run -p 3000:3000 --name metabase metabase/metabase
 
 ```
-
 ## Business Dashboard
 
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Business dashboard yang dibuat bertujuan untuk membantu manajemen dan departemen HR dalam memahami pola attrition karyawan secara visual dan mudah dipahami, tanpa harus membaca data mentah atau tabel yang kompleks.
+
+Dashboard dikembangkan menggunakan Metabase dan terhubung langsung ke database PostgreSQL yang berisi data karyawan hasil pengolahan dan feature engineering. Visualisasi yang ditampilkan difokuskan pada faktor-faktor utama yang memengaruhi tingginya attrition rate, sehingga dapat digunakan sebagai dasar pengambilan keputusan strategis.
+
+1. Attrition berdasarkan Over Time
+Visualisasi ini menunjukkan bahwa karyawan yang sering lembur (Over Time = Yes) memiliki tingkat attrition yang lebih tinggi dibandingkan karyawan yang tidak lembur. Hal ini mengindikasikan bahwa beban kerja berlebih berpotensi meningkatkan risiko karyawan untuk keluar.
+
+2. Attrition berdasarkan Rata-rata Pendapatan (Average Income)
+Grafik distribusi menunjukkan bahwa attrition lebih banyak terjadi pada kelompok karyawan dengan pendapatan yang relatif lebih rendah. Semakin tinggi pendapatan rata-rata, kecenderungan attrition cenderung menurun.
+
+3. Attrition berdasarkan Job Role
+Visualisasi ini memperlihatkan job role dengan jumlah attrition tertinggi, seperti Sales Executive dan Research Scientist. Informasi ini penting bagi HR untuk memfokuskan kebijakan retensi pada posisi yang paling rentan.
+
+4. Attrition berdasarkan Department
+Departemen Research & Development dan Sales menunjukkan tingkat attrition yang lebih tinggi dibandingkan departemen lainnya, sehingga perlu mendapat perhatian khusus dari manajemen.
+
+5. Perbandingan Total Employee, Total Attrition, dan Attrition Rate per Job Role
+Visualisasi kombinasi ini membantu melihat hubungan antara jumlah karyawan, jumlah attrition, dan tingkat attrition secara bersamaan untuk setiap job role.
 
 ## Conclusion
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+Berdasarkan seluruh tahapan yang telah dilakukan dalam proyek ini, dapat disimpulkan bahwa pendekatan data science mampu memberikan solusi yang efektif untuk membantu perusahaan Edutech dalam menangani permasalahan attrition karyawan.
+
+Melalui proses eksplorasi data dan visualisasi, proyek ini berhasil mengidentifikasi beberapa faktor utama yang berkontribusi terhadap tingginya attrition, seperti overtime, tingkat pendapatan, job role, departemen, kepuasan kerja, dan work-life balance. Temuan ini diperkuat dengan hasil dashboard yang memberikan gambaran kondisi attrition secara komprehensif dan mudah dipahami oleh stakeholder non-teknis.
+
+Selain itu, model machine learning berbasis Logistic Regression yang dikembangkan mampu memprediksi probabilitas attrition karyawan secara individual. Model ini dapat dimanfaatkan oleh departemen HR sebagai early warning system untuk mengidentifikasi karyawan yang berisiko tinggi keluar, sehingga perusahaan dapat mengambil tindakan preventif lebih awal.
 
 ### Rekomendasi Action Items (Optional)
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+- Mengurangi beban lembur (Over Time) dengan melakukan evaluasi distribusi kerja, khususnya pada job role dan departemen dengan tingkat attrition tinggi.
 
-- action item 1
-- action item 2
+- Melakukan evaluasi dan penyesuaian kompensasi bagi karyawan dengan pendapatan rendah yang berada pada posisi berisiko tinggi attrition.
+
+- Menyusun program retensi khusus untuk job role dan departemen dengan tingkat attrition tertinggi, seperti Sales dan Research & Development.
+
+- Meningkatkan job satisfaction dan work-life balance, misalnya melalui fleksibilitas kerja, pelatihan, atau program kesejahteraan karyawan.
+
+- Memanfaatkan model prediksi attrition secara berkala untuk memantau karyawan berisiko dan mendukung pengambilan keputusan HR secara preventif.
