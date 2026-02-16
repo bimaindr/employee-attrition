@@ -47,7 +47,7 @@ Cakupan proyek yang dikerjakan dalam analisis ini meliputi:
 
 ### Persiapan
 
-Sumber data: ....
+Sumber data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
 
 Setup environment:
 
