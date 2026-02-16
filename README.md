@@ -6,8 +6,17 @@ Perusahaan menghadapi tantangan dalam mengelola sumber daya manusia, khususnya t
 Oleh karena itu, perusahaan membutuhkan pendekatan berbasis data untuk memahami pola attrition, mengidentifikasi faktor-faktor yang memengaruhi keputusan karyawan untuk keluar, serta memprediksi potensi attrition di masa depan. Dengan pemanfaatan data historis karyawan dan teknik data science, perusahaan diharapkan dapat mengambil keputusan strategis yang lebih tepat dalam meningkatkan retensi karyawan.
 
 ### Permasalahan Bisnis
+Berdasarkan kondisi tersebut, permasalahan bisnis yang ingin diselesaikan dalam proyek ini antara lain:
 
-Tuliskan seluruh permasalahan bisnis yang akan diselesaikan.
+1. Perusahaan belum mengetahui faktor utama yang memengaruhi tingginya attrition rate.
+
+2. Tidak adanya visualisasi data yang informatif untuk membantu manajemen memahami kondisi attrition berdasarkan departemen, jabatan, kepuasan kerja, dan faktor lainnya.
+
+3. Kesulitan dalam mengidentifikasi karyawan yang berpotensi keluar lebih awal.
+
+4. Belum tersedia model prediksi yang dapat digunakan oleh departemen HR sebagai alat bantu pengambilan keputusan.
+
+5. Pengambilan kebijakan HR masih bersifat reaktif, bukan preventif berbasis data.
 
 ### Cakupan Proyek
 
