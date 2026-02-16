@@ -35,9 +35,9 @@ Cakupan proyek yang dikerjakan dalam analisis ini meliputi:
 3. Pembuatan query SQL untuk mendukung analisis data dan kebutuhan visualisasi.
 
 4. Pembuatan dashboard interaktif menggunakan Metabase yang menampilkan:
-  - Attrition rate
-  - Distribusi attrition berdasarkan faktor-faktor utama
-  - Visualisasi grafik
+    - Attrition rate
+    - Distribusi attrition berdasarkan faktor-faktor utama
+    - Visualisasi grafik
 
 3. Pengembangan model machine learning (Logistic Regression) untuk memprediksi kemungkinan attrition karyawan.
 
