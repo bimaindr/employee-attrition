@@ -25,29 +25,29 @@ Cakupan proyek yang dikerjakan dalam analisis ini meliputi:
 
 2. Analisis faktor-faktor yang memengaruhi attrition, seperti:
 
-- Department dan Job Role
+  - Department dan Job Role
 
-- Job Level
+  - Job Level
 
-- Monthly Income
+  - Monthly Income
 
-- Job Satisfaction
+  - Job Satisfaction
 
-- Work Life Balance
+  - Work Life Balance
 
-- Over Time
+  - Over Time
 
-- Lama bekerja dan promosi
+  - Lama bekerja dan promosi
 
 3. Pembuatan query SQL untuk mendukung analisis data dan kebutuhan visualisasi.
 
 4. Pembuatan dashboard interaktif menggunakan Metabase yang menampilkan:
 
-- Attrition rate
+  - Attrition rate
 
-- Distribusi attrition berdasarkan faktor-faktor utama
+  - Distribusi attrition berdasarkan faktor-faktor utama
 
-- Visualisasi grafik
+  - Visualisasi grafik
 
 3. Pengembangan model machine learning (Logistic Regression) untuk memprediksi kemungkinan attrition karyawan.
 
