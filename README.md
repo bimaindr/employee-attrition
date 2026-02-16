@@ -1,8 +1,9 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ## Business Understanding
+Perusahaan menghadapi tantangan dalam mengelola sumber daya manusia, khususnya terkait tingginya tingkat attrition (keluar masuk karyawan). Tingginya attrition dapat menyebabkan berbagai dampak negatif, seperti meningkatnya biaya rekrutmen dan pelatihan, menurunnya produktivitas tim, serta terganggunya stabilitas operasional dan budaya kerja perusahaan.
 
-Jelaskan latar belakang bisnis dari perushaan tersebut.
+Oleh karena itu, perusahaan membutuhkan pendekatan berbasis data untuk memahami pola attrition, mengidentifikasi faktor-faktor yang memengaruhi keputusan karyawan untuk keluar, serta memprediksi potensi attrition di masa depan. Dengan pemanfaatan data historis karyawan dan teknik data science, perusahaan diharapkan dapat mengambil keputusan strategis yang lebih tepat dalam meningkatkan retensi karyawan.
 
 ### Permasalahan Bisnis
 
