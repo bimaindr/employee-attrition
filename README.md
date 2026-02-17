@@ -57,7 +57,9 @@ conda activate penerapan-data-science
 pip install numpy pandas scipy matplotlib seaborn jupyter sqlalchemy scikit-learn==1.2.2 joblib==1.3.1
 pip install psycopg2
 docker pull metabase/metabase:v0.46.4
-
+metabase alternatif akun:
+root@mail.com
+root123
 ```
 ## Business Dashboard
 
@@ -84,9 +86,17 @@ Visualisasi kombinasi ini membantu melihat hubungan antara jumlah karyawan, juml
 
 Berdasarkan seluruh tahapan yang telah dilakukan dalam proyek ini, dapat disimpulkan bahwa pendekatan data science mampu memberikan solusi yang efektif untuk membantu perusahaan Edutech dalam menangani permasalahan attrition karyawan.
 
-Melalui proses eksplorasi data dan visualisasi, proyek ini berhasil mengidentifikasi beberapa faktor utama yang berkontribusi terhadap tingginya attrition, seperti overtime, tingkat pendapatan, job role, departemen, kepuasan kerja, dan work-life balance. Temuan ini diperkuat dengan hasil dashboard yang memberikan gambaran kondisi attrition secara komprehensif dan mudah dipahami oleh stakeholder non-teknis.
+1. Pendapatan bulanan relatif lebih rendah
+Pegawai dengan Monthly Income yang lebih rendah memiliki kecenderungan lebih tinggi untuk keluar dibandingkan pegawai dengan pendapatan yang lebih tinggi. Hal ini menunjukkan bahwa kompensasi menjadi faktor penting dalam keputusan attrition.
 
-Selain itu, model machine learning berbasis Logistic Regression yang dikembangkan mampu memprediksi probabilitas attrition karyawan secara individual. Model ini dapat dimanfaatkan oleh departemen HR sebagai early warning system untuk mengidentifikasi karyawan yang berisiko tinggi keluar, sehingga perusahaan dapat mengambil tindakan preventif lebih awal.
+2. Sering melakukan lembur (Over Time)
+Attrition lebih banyak terjadi pada pegawai yang sering bekerja lembur, yang menunjukkan potensi kelelahan kerja (burnout) dan beban kerja berlebih.
+
+3. Sering melakukan lembur (Over Time)
+Attrition lebih banyak terjadi pada pegawai yang sering bekerja lembur, yang menunjukkan potensi kelelahan kerja (burnout) dan beban kerja berlebih.
+
+4. Tingkat kepuasan kerja dan work-life balance yang rendah
+Pegawai dengan nilai Job Satisfaction dan Work Life Balance yang rendah lebih sering ditemukan pada kelompok attrition. Kondisi ini mengindikasikan adanya ketidakpuasan terhadap lingkungan kerja dan keseimbangan kehidupan kerja.
 
 ### Rekomendasi Action Items (Optional)
 
